@@ -423,13 +423,32 @@ a:hover {
 
 .link-list a {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.15rem 1rem;
-  align-items: baseline;
-  padding: 1rem 1.1rem;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "icon name handle"
+    "icon use use";
+  gap: 0.15rem 0.9rem;
+  align-items: center;
+  padding: 0.85rem 1rem;
   background: var(--paper-2);
   border: 1px solid var(--line);
   text-decoration: none;
+}
+
+.brand-icon {
+  grid-area: icon;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0.38rem;
+  border-radius: 0.65rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  object-fit: contain;
+}
+
+.brand-badge {
+  padding: 0;
+  object-fit: cover;
 }
 
 .link-list a:hover {
@@ -438,6 +457,7 @@ a:hover {
 }
 
 .link-list strong {
+  grid-area: name;
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -449,12 +469,13 @@ a:hover {
 }
 
 .link-list .handle {
+  grid-area: handle;
   font-family: var(--ui);
   font-size: 0.88rem;
 }
 
 .link-list .use {
-  grid-column: 1 / -1;
+  grid-area: use;
   font-size: 0.98rem;
 }
 
