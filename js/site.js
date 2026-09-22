@@ -1,3 +1,29 @@
+const pageLang = document.documentElement.lang.toLowerCase().startsWith("en") ? "en" : "zh";
+
+function urlFor(lang) {
+  const hash = location.hash || "";
+  if (lang === "en") return pageLang === "en" ? `./${hash}` : `en/${hash}`;
+  return pageLang === "zh" ? `./${hash}` : `../${hash}`;
+}
+
+const savedLang = localStorage.getItem("site-lang");
+const prefersEnglish = (navigator.language || "").toLowerCase().startsWith("en");
+if (savedLang === "en" || savedLang === "zh") {
+  if (savedLang !== pageLang) location.replace(urlFor(savedLang));
+} else if (pageLang === "zh" && prefersEnglish) {
+  localStorage.setItem("site-lang", "en");
+  location.replace(urlFor("en"));
+}
+
+document.querySelectorAll("[data-lang-switch]").forEach((link) => {
+  link.addEventListener("click", () => {
+    const next = link.dataset.langSwitch;
+    localStorage.setItem("site-lang", next);
+    const base = link.getAttribute("href").split("#")[0];
+    link.href = `${base}${location.hash}`;
+  });
+});
+
 const header = document.querySelector(".topbar");
 const toggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".site-nav");
