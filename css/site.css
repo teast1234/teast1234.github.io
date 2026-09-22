@@ -269,6 +269,18 @@ a:hover {
   margin-top: 0.75rem;
 }
 
+.contact {
+  margin: 1.5rem 0 0;
+  font-family: var(--ui);
+  font-size: 1rem;
+  color: rgba(246, 240, 230, 0.62);
+}
+
+.contact a {
+  color: var(--cream);
+  margin-left: 0.45rem;
+}
+
 .cover-meta {
   display: flex;
   flex-wrap: wrap;
