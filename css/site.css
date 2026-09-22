@@ -265,6 +265,10 @@ a:hover {
   color: rgba(246, 240, 230, 0.86);
 }
 
+.lede + .lede {
+  margin-top: 0.75rem;
+}
+
 .cover-meta {
   display: flex;
   flex-wrap: wrap;
@@ -298,9 +302,10 @@ a:hover {
 .portrait img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: auto;
+  aspect-ratio: 1;
   object-fit: cover;
-  object-position: 62% 18%;
+  object-position: center;
   background: #2a211c;
 }
 
