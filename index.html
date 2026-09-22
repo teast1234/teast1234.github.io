@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>abbuibuibui · 工房</title>
-  <meta name="description" content="abbuibuibui 的个人工房。角色 LoRA 放在 Civitai、魔搭和 Hugging Face，AI 绘画投在 Pixiv，教程写在 CSDN 和知乎，开源项目放在 GitHub 和 Gitee。">
+  <title>abbuibuibui</title>
+  <meta name="description" content="abbuibuibui 的个人博客。这里进入各平台账号、技术文章、角色模型和开源项目。">
   <link rel="canonical" href="https://teast1234.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="abbuibuibui · 工房">
-  <meta property="og:description" content="角色 LoRA、AI 绘画、技术文章和开源项目的个人入口。">
+  <meta property="og:title" content="abbuibuibui">
+  <meta property="og:description" content="个人博客：平台链接、技术文章、角色模型和开源项目。">
   <meta property="og:url" content="https://teast1234.github.io/">
   <meta property="og:image" content="https://teast1234.github.io/assets/avatar.jpg">
   <meta name="twitter:card" content="summary">
@@ -22,7 +22,7 @@
     "name": "abbuibuibui",
     "url": "https://teast1234.github.io/",
     "image": "https://teast1234.github.io/assets/avatar.jpg",
-    "description": "训练角色 LoRA，发布 AI 绘画，撰写本地部署教程，并开源自己的工具。",
+    "description": "个人博客，汇总教程、角色模型和开源项目。",
     "sameAs": [
       "https://github.com/teast1234",
       "https://gitee.com/gdouage",
@@ -41,254 +41,231 @@
   <header class="topbar">
     <a class="brand" href="#top">
       <span class="brand-mark">ab</span>
-      <span>工房</span>
+      <span>博客</span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">目录</button>
-    <nav class="site-nav" id="site-nav" aria-label="页内目录">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
+    <nav class="site-nav" id="site-nav" aria-label="页内导航">
+      <a href="#links">链接</a>
+      <a href="#posts">文章</a>
       <a href="#models">模型</a>
-      <a href="#art">绘画</a>
-      <a href="#writing">文章</a>
-      <a href="#code">开源</a>
-      <a href="#places">平台</a>
+      <a href="#projects">项目</a>
     </nav>
   </header>
 
   <main id="content">
     <section class="cover" id="top">
       <div class="cover-copy">
-        <p class="kicker">个人工房</p>
+        <p class="kicker">个人博客</p>
         <h1>abbuibuibui</h1>
-        <p class="motto">otaku sekai wo sukuru</p>
-        <p class="lede">我把自己训练的角色 LoRA 放在 Civitai、魔搭和 Hugging Face，把 AI 绘画投到 Pixiv，把做法写成教程发在 CSDN 和知乎。能让别人直接用的工具，放在 GitHub 和 Gitee。</p>
-        <div class="cover-meta">
-          <a href="https://github.com/teast1234" rel="me"><span>GitHub</span>teast1234</a>
-          <a href="https://gitee.com/gdouage" rel="me"><span>Gitee</span>gdouage</a>
-          <a href="https://huggingface.co/abbuibuibui" rel="me"><span>Hugging Face</span>abbuibuibui</a>
-        </div>
+        <p class="lede">教程、角色模型和开源项目，都从这里进入。</p>
       </div>
       <figure class="portrait">
-        <img src="assets/avatar.jpg" alt="abbuibuibui 的头像，短发红瞳、红蝴蝶结的角色肖像" width="440" height="550">
-        <figcaption>
-          <span>头像</span>
-          <span>GitHub</span>
-        </figcaption>
-        <div class="seal" aria-hidden="true">ab</div>
+        <img src="assets/avatar.jpg" alt="abbuibuibui 的头像" width="440" height="550">
       </figure>
     </section>
 
     <div class="sheet">
-      <nav class="contents" aria-label="册子目录">
-        <a class="content-row" href="#models">
-          <span class="index">01</span>
-          <strong>模型</strong>
-          <em>角色 LoRA，以及一套可以出声的声音模型</em>
-          <b>Civitai · 魔搭 · Hugging Face</b>
-        </a>
-        <a class="content-row" href="#art">
-          <span class="index">02</span>
-          <strong>绘画</strong>
-          <em>画完的 AI 图，都投在 Pixiv</em>
-          <b>Pixiv</b>
-        </a>
-        <a class="content-row" href="#writing">
-          <span class="index">03</span>
-          <strong>文章</strong>
-          <em>本地部署、语音克隆、自己做的项目</em>
-          <b>CSDN · 知乎</b>
-        </a>
-        <a class="content-row" href="#code">
-          <span class="index">04</span>
-          <strong>开源</strong>
-          <em>视觉小说、绘图、配音和财经数据工具</em>
-          <b>GitHub · Gitee</b>
-        </a>
-      </nav>
+      <section class="section" id="links">
+        <header class="section-head">
+          <h2>平台链接</h2>
+        </header>
+
+        <div class="link-group">
+          <h3>模型</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://civitai.com/user/abbuibuibui">
+                <strong>Civitai</strong>
+                <span class="handle">abbuibuibui</span>
+                <span class="use">发布 LoRA</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.modelscope.cn/profile/abbuibuibui">
+                <strong>魔搭</strong>
+                <span class="handle">abbuibuibui</span>
+                <span class="use">发布 LoRA</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://huggingface.co/abbuibuibui">
+                <strong>Hugging Face</strong>
+                <span class="handle">abbuibuibui</span>
+                <span class="use">发布 LoRA 和声音模型</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="link-group">
+          <h3>绘画</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://www.pixiv.net/users/128707099">
+                <strong>Pixiv</strong>
+                <span class="handle">128707099</span>
+                <span class="use">发布 AI 绘画</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="link-group">
+          <h3>文章</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://blog.csdn.net/abbuibuibui">
+                <strong>CSDN</strong>
+                <span class="handle">abbuibuibui</span>
+                <span class="use">技术文章</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.zhihu.com/people/b-36-20-48">
+                <strong>知乎</strong>
+                <span class="handle">b-36-20-48</span>
+                <span class="use">技术文章</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="link-group">
+          <h3>代码</h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://github.com/teast1234">
+                <strong>GitHub</strong>
+                <span class="handle">teast1234</span>
+                <span class="use">开源项目</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://gitee.com/gdouage">
+                <strong>Gitee</strong>
+                <span class="handle">gdouage</span>
+                <span class="use">开源项目</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="posts">
+        <header class="section-head">
+          <h2>文章</h2>
+        </header>
+        <div class="essays">
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/163586979">
+            <span class="date">2026.08</span>
+            <h3>让 AI 写你的视觉小说</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/163472534">
+            <span class="date">2026.08</span>
+            <h3>给 AI 装上财经眼睛</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/163339929">
+            <span class="date">2026.07</span>
+            <h3>没有 GPU，也能玩转 AI 绘图</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/148088261">
+            <span class="date">2025</span>
+            <h3>用 FRP 把本地服务映射到公网</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/148061101">
+            <span class="date">2025.05</span>
+            <h3>用 GPT-SoVITS 克隆一个声音</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/147662442">
+            <span class="date">2025.05</span>
+            <h3>当动漫照进现实</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/147614479">
+            <span class="date">2025.05</span>
+            <h3>手搓一个会回消息的 Amadeus</h3>
+            <span class="arrow" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
 
       <section class="section" id="models">
         <header class="section-head">
-          <p class="index">01</p>
-          <div>
-            <h2>模型架</h2>
-            <p>绘图模型是 Illustrious / SDXL 的角色 LoRA，同一批也会放到魔搭。这些是同人向作品，不是官方发布。声音模型单独放在下面。</p>
-          </div>
+          <h2>角色模型</h2>
         </header>
-        <div class="filters" role="group" aria-label="筛选模型">
-          <button type="button" data-filter="all" aria-pressed="true">全部</button>
-          <button type="button" data-filter="lora" aria-pressed="false">绘图</button>
-          <button type="button" data-filter="voice" aria-pressed="false">声音</button>
-        </div>
         <div class="shelf">
-          <article class="model-card" data-kind="lora">
+          <article class="model-card">
             <p class="eyebrow">Re:Zero · LoRA</p>
             <h3>爱蜜莉雅</h3>
             <p class="latin">Emilia</p>
-            <p class="blurb">Illustrious 角色 LoRA。触发词是 emilia_rezero。</p>
             <div class="card-links">
               <a href="https://civitai.com/models/2948679">Civitai</a>
               <a href="https://huggingface.co/abbuibuibui/emilia-Lora">Hugging Face</a>
             </div>
           </article>
-          <article class="model-card" data-kind="lora">
+          <article class="model-card">
             <p class="eyebrow">Re:Zero · LoRA</p>
             <h3>艾姬多娜</h3>
             <p class="latin">Echidna</p>
-            <p class="blurb">和爱蜜莉雅同一套底模上的角色 LoRA。</p>
             <div class="card-links">
               <a href="https://civitai.com/models/2948655">Civitai</a>
               <a href="https://huggingface.co/abbuibuibui/echidna-Lora">Hugging Face</a>
             </div>
           </article>
-          <article class="model-card" data-kind="lora">
+          <article class="model-card">
             <p class="eyebrow">Roshidere · LoRA</p>
             <h3>艾莉莎·九条</h3>
             <p class="latin">Alya Kujou</p>
-            <p class="blurb">不时轻声地以俄语遮羞的邻座艾莉同学。</p>
             <div class="card-links">
               <a href="https://civitai.com/models/2948616">Civitai</a>
               <a href="https://huggingface.co/abbuibuibui/Alya_Kujou_ariyakojo_v3">Hugging Face</a>
             </div>
           </article>
-          <article class="model-card" data-kind="lora">
+          <article class="model-card">
             <p class="eyebrow">欢迎来到实力至上主义教室 · LoRA</p>
             <h3>栉田桔梗</h3>
             <p class="latin">Kikyo Kushida</p>
-            <p class="blurb">教室里的角色 LoRA，底模同样是 Illustrious。</p>
             <div class="card-links">
               <a href="https://civitai.com/models/2946612">Civitai</a>
               <a href="https://huggingface.co/abbuibuibui/kikyokushida-Lora">Hugging Face</a>
             </div>
           </article>
-          <article class="model-card" data-kind="lora">
+          <article class="model-card">
             <p class="eyebrow">欢迎来到实力至上主义教室 · LoRA</p>
             <h3>堀北铃音</h3>
             <p class="latin">Suzune Horikita</p>
-            <p class="blurb">和栉田桔梗同一部作品里的角色模型。</p>
             <div class="card-links">
               <a href="https://civitai.com/models/2948583">Civitai</a>
               <a href="https://huggingface.co/abbuibuibui/suzunehorikita_v3">Hugging Face</a>
             </div>
           </article>
-        </div>
-        <article class="voice" data-kind="voice">
-          <div>
+          <article class="model-card">
             <p class="eyebrow">咒术回战 · 声音</p>
             <h3>五条悟</h3>
             <p class="latin">Gojo Satoru</p>
-            <p class="blurb">Hugging Face 上是 GPT-SoVITS 音色。Gitee 里还有一套带模型和索引的 RVC 变声包，可以离线配音，也可以接麦克风实时变声。</p>
-          </div>
-          <div class="voice-links">
-            <a href="https://huggingface.co/abbuibuibui/gojosatoru">Hugging Face 音色</a>
-            <a href="https://gitee.com/gdouage/gojosatoru-rvc">Gitee RVC 包</a>
-            <a href="https://github.com/teast1234/model">GitHub 模型仓</a>
-          </div>
-        </article>
-        <p class="note">魔搭上的同一批模型，从个人主页进去：<a href="https://www.modelscope.cn/profile/abbuibuibui">modelscope.cn/abbuibuibui</a></p>
-      </section>
-
-      <section class="section" id="art">
-        <header class="section-head">
-          <p class="index">02</p>
-          <div>
-            <h2>画稿</h2>
-            <p>创作出来的 AI 绘画投在 Pixiv。本地出图用的是 Forge，没有独显的时候用 FastSD 的中文整合包。</p>
-          </div>
-        </header>
-        <div class="panel">
-          <div>
-            <p class="eyebrow">Pixiv</p>
-            <h3>画都放在这里。</h3>
-            <p>账号上的插画、漫画和小说都从这一个主页进去。站点本身不转存图片，原图以 Pixiv 上的发布为准。</p>
-          </div>
-          <div class="panel-side">
-            <a class="button" href="https://www.pixiv.net/users/128707099">打开 Pixiv 主页</a>
-            <a class="ghost" href="https://gitee.com/gdouage/forge-web-ui">出图环境：Forge WebUI</a>
-            <a class="ghost" href="https://gitee.com/gdouage/fast-sd-cpu-zh_cn">无显卡：FastSD 中文版</a>
-          </div>
+            <div class="card-links">
+              <a href="https://huggingface.co/abbuibuibui/gojosatoru">Hugging Face</a>
+              <a href="https://gitee.com/gdouage/gojosatoru-rvc">Gitee</a>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="section" id="writing">
+      <section class="section" id="projects">
         <header class="section-head">
-          <p class="index">03</p>
-          <div>
-            <h2>文章</h2>
-            <p>技术文写在 CSDN，知乎上同样在写。下面这些是已经发出的原文，点进去就是对应的一篇。</p>
-          </div>
-        </header>
-        <div class="essays">
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/147662442">
-            <span class="date">2025.05</span>
-            <span>
-              <h3>当动漫照进现实</h3>
-              <p>在自己的电脑上部署一个能对话、能出声、能出场景图的动漫角色，不走第三方接口。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/148061101">
-            <span class="date">2025.05</span>
-            <span>
-              <h3>用 GPT-SoVITS 克隆一个声音</h3>
-              <p>从一段录音开始，做人声分离、切片、转写和训练。写给第一次做语音模型的人。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/147614479">
-            <span class="date">2025.05</span>
-            <span>
-              <h3>手搓一个会回消息的 Amadeus</h3>
-              <p>从零做一个属于自己的 Amadeus，让它回复 QQ 消息。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/148088261">
-            <span class="date">2025</span>
-            <span>
-              <h3>用 FRP 把本地服务映到公网</h3>
-              <p>本地部署跑起来之后，怎么让外面也能访问。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/163339929">
-            <span class="date">2026.07</span>
-            <span>
-              <h3>没有 GPU，也能玩转 AI 绘图</h3>
-              <p>不靠独显把绘图流程跑起来。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/163586979">
-            <span class="date">2026.08</span>
-            <span>
-              <h3>让 AI 写你的视觉小说</h3>
-              <p>renpy-mcp 的介绍：让 Cursor 这类编辑器直接参与 Ren'Py 的编写、编译和修复。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-          <a class="essay" href="https://blog.csdn.net/abbuibuibui/article/details/163472534">
-            <span class="date">2026.08</span>
-            <span>
-              <h3>给 AI 装上财经眼睛</h3>
-              <p>news-crawler-mcp：把新闻和行情接进编辑器里的 AI。</p>
-            </span>
-            <span class="arrow" aria-hidden="true"></span>
-          </a>
-        </div>
-      </section>
-
-      <section class="section" id="code">
-        <header class="section-head">
-          <p class="index">04</p>
-          <div>
-            <h2>开源项目</h2>
-            <p>仓库分开放。国内镜像和一键包主要在 Gitee，GitHub 上是同一套公开身份下的代码。</p>
-          </div>
+          <h2>开源项目</h2>
         </header>
         <div class="projects">
           <a class="project" href="https://gitee.com/gdouage/renpy-mcp">
             <span class="host">Gitee</span>
             <span>
               <h3>renpy-mcp</h3>
-              <p>15 个工具，让 AI 读 Ren'Py 脚本、改代码、跑编译，并修 return、from 这类常见问题。</p>
+              <p>在编辑器里读写、编译和修复 Ren'Py 工程。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -296,7 +273,7 @@
             <span class="host">Gitee</span>
             <span>
               <h3>CSDN-MCP</h3>
-              <p>把搭骨架、写正文、SEO 自检和存草稿收成一组工具。发布前先留在草稿箱。</p>
+              <p>在编辑器里写 CSDN 文章，先存进草稿箱。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -304,7 +281,7 @@
             <span class="host">Gitee</span>
             <span>
               <h3>NewsCrawler MCP</h3>
-              <p>Yahoo、CNBC、RSS 和行情 K 线，用 stdio 接进 Cursor、Claude 或 Spring AI。</p>
+              <p>查询财经新闻和行情。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -312,7 +289,7 @@
             <span class="host">Gitee</span>
             <span>
               <h3>GPT-SoVITS For AB</h3>
-              <p>Windows 一键包。丢进一段录音，完成分离、切片、转写和训练，然后在网页里出声。</p>
+              <p>在 Windows 上训练并合成角色声音。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -320,7 +297,7 @@
             <span class="host">Gitee</span>
             <span>
               <h3>五条悟 RVC</h3>
-              <p>自带模型和索引。可以离线配音，也可以用麦克风实时变声，再接到语音软件。</p>
+              <p>离线配音，或用麦克风实时变声。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -328,7 +305,7 @@
             <span class="host">Gitee</span>
             <span>
               <h3>FastSD 中文版</h3>
-              <p>补过本地依赖，界面做成中文，给没有独显的机器用来画图。</p>
+              <p>没有独显时使用的绘图环境。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -336,7 +313,7 @@
             <span class="host">Gitee</span>
             <span>
               <h3>Forge WebUI</h3>
-              <p>面向 NVIDIA 显卡的 Stable Diffusion Forge 本地绘图整合。</p>
+              <p>配合 NVIDIA 显卡使用的本地绘图环境。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -344,7 +321,7 @@
             <span class="host">GitHub</span>
             <span>
               <h3>PixelMask</h3>
-              <p>在浏览器里给视频打马赛克。自己画区域、设时间段，文件不上传。</p>
+              <p>在浏览器里给视频打马赛克，文件不上传。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
           </a>
@@ -352,61 +329,9 @@
             <span class="host">GitHub</span>
             <span>
               <h3>Yahoo Finance Python</h3>
-              <p>用 yfinance 抓雅虎财经，旁边配了 FastAPI，方便直接调试接口。</p>
+              <p>抓取雅虎财经，并用 FastAPI 提供接口。</p>
             </span>
             <span class="arrow" aria-hidden="true"></span>
-          </a>
-        </div>
-      </section>
-
-      <section class="section" id="places">
-        <header class="section-head">
-          <p class="index">05</p>
-          <div>
-            <h2>平台名录</h2>
-            <p>八个账号，按我实际拿它们做的事分成四组。名字在各站不完全一样：GitHub 是 teast1234，Gitee 是 gdouage，其余大多是 abbuibuibui。</p>
-          </div>
-        </header>
-        <div class="places">
-          <a class="place" href="https://civitai.com/user/abbuibuibui">
-            <p class="place-kind">模型 · LoRA</p>
-            <h3>Civitai</h3>
-            <p>abbuibuibui。角色 LoRA 的发布页。</p>
-          </a>
-          <a class="place" href="https://www.modelscope.cn/profile/abbuibuibui">
-            <p class="place-kind">模型 · LoRA</p>
-            <h3>魔搭 ModelScope</h3>
-            <p>abbuibuibui。和 Civitai、Hugging Face 同步的模型主页。</p>
-          </a>
-          <a class="place" href="https://huggingface.co/abbuibuibui">
-            <p class="place-kind">模型 · LoRA</p>
-            <h3>Hugging Face</h3>
-            <p>abbuibuibui。角色 LoRA、数据集，以及五条悟的音色。</p>
-          </a>
-          <a class="place" href="https://www.pixiv.net/users/128707099">
-            <p class="place-kind">绘画</p>
-            <h3>Pixiv</h3>
-            <p>AI 绘画的展示页。插画以这里的发布为准。</p>
-          </a>
-          <a class="place" href="https://blog.csdn.net/abbuibuibui">
-            <p class="place-kind">文章</p>
-            <h3>CSDN</h3>
-            <p>abbuibuibui。代码、开源项目和自己做过的东西，原文在这里。</p>
-          </a>
-          <a class="place" href="https://www.zhihu.com/people/b-36-20-48">
-            <p class="place-kind">文章</p>
-            <h3>知乎</h3>
-            <p>和 CSDN 同一类内容：技术文章和项目介绍。</p>
-          </a>
-          <a class="place" href="https://github.com/teast1234">
-            <p class="place-kind">开源</p>
-            <h3>GitHub</h3>
-            <p>teast1234。公开仓库，也包括这个博客。</p>
-          </a>
-          <a class="place" href="https://gitee.com/gdouage">
-            <p class="place-kind">开源</p>
-            <h3>Gitee</h3>
-            <p>gdouage。一键包、MCP 和国内方便拉取的仓库。</p>
           </a>
         </div>
       </section>
@@ -416,9 +341,9 @@
   <footer class="site-footer">
     <div>
       <strong>abbuibuibui</strong>
-      otaku sekai wo sukuru
+      个人博客
     </div>
-    <div>GitHub Pages · teast1234.github.io</div>
+    <div>teast1234.github.io</div>
   </footer>
   <script src="js/site.js"></script>
 </body>

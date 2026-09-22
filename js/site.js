@@ -29,21 +29,6 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-const filters = [...document.querySelectorAll("[data-filter]")];
-const cards = [...document.querySelectorAll("[data-kind]")];
-
-filters.forEach((button) => {
-  button.addEventListener("click", () => {
-    const kind = button.dataset.filter;
-    filters.forEach((item) => {
-      item.setAttribute("aria-pressed", item === button ? "true" : "false");
-    });
-    cards.forEach((card) => {
-      card.hidden = kind !== "all" && card.dataset.kind !== kind;
-    });
-  });
-});
-
 if ("IntersectionObserver" in window) {
   const spy = new IntersectionObserver(
     (entries) => {
