@@ -788,14 +788,19 @@ a.button:hover {
   gap: 0.7rem;
 }
 
-.essay,
-.project {
+.essay {
   display: grid;
   grid-template-columns: 6.2rem 1fr auto;
   gap: 1rem;
   align-items: center;
   padding: 1rem 1.1rem;
   text-decoration: none;
+}
+
+.project {
+  display: grid;
+  gap: 0.55rem;
+  padding: 1.05rem 1.15rem 1.1rem;
 }
 
 .essay:hover,
@@ -817,6 +822,23 @@ a.button:hover {
   margin: 0.25rem 0 0;
   color: var(--muted);
   font-size: 0.98rem;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.project-links {
+  padding-top: 0.55rem;
+}
+
+.project-links a {
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: var(--red);
 }
 
 .arrow {
@@ -896,8 +918,7 @@ a.button:hover {
   .section-head,
   .voice,
   .panel,
-  .essay,
-  .project {
+  .essay {
     grid-template-columns: 1fr;
   }
 
@@ -940,8 +961,7 @@ a.button:hover {
     font-size: clamp(2.7rem, 14vw, 4rem);
   }
 
-  .essay,
-  .project {
+  .essay {
     grid-template-columns: 1fr auto;
   }
 
