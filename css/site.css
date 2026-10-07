@@ -585,10 +585,74 @@ html[lang="en"] .latin {
 }
 
 .model-card {
-  padding: 1.2rem 1.25rem 1.1rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  overflow: hidden;
+}
+
+.model-card[hidden] {
+  display: none;
+}
+
+.model-cover {
+  margin: 0;
+  aspect-ratio: 2 / 3;
+  background: rgba(26, 20, 16, 0.06);
+  overflow: hidden;
+}
+
+.model-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.model-body {
+  padding: 1rem 1.15rem 1.05rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.1rem 0 0;
+}
+
+.pager button {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  color: var(--ink);
+  font-family: var(--ui);
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.95rem;
+  cursor: pointer;
+}
+
+.pager button:hover:not(:disabled) {
+  border-color: rgba(196, 35, 42, 0.45);
+}
+
+.pager button:disabled {
+  opacity: 0.38;
+  cursor: default;
+}
+
+.pager-status {
+  margin: 0;
+  min-width: 3.5rem;
+  text-align: center;
+  font-family: var(--ui);
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .model-card .eyebrow,

@@ -83,3 +83,41 @@ document.querySelectorAll('a[href^="http"]').forEach((link) => {
 
 setHeader();
 window.addEventListener("scroll", setHeader, { passive: true });
+
+document.querySelectorAll("[data-pager]").forEach((group) => {
+  const shelf = group.querySelector(".shelf");
+  const cards = shelf ? [...shelf.children] : [];
+  const prev = group.querySelector("[data-page-prev]");
+  const next = group.querySelector("[data-page-next]");
+  const status = group.querySelector("[data-page-status]");
+  const size = Math.max(1, Number(group.dataset.pageSize) || 4);
+  const pages = Math.max(1, Math.ceil(cards.length / size));
+  let page = 0;
+
+  function render() {
+    cards.forEach((card, index) => {
+      const show = Math.floor(index / size) === page;
+      card.hidden = !show;
+    });
+    if (status) status.textContent = `${page + 1} / ${pages}`;
+    if (prev) prev.disabled = page <= 0;
+    if (next) next.disabled = page >= pages - 1;
+    group.hidden = cards.length === 0;
+    const pager = group.querySelector(".pager");
+    if (pager) pager.hidden = pages <= 1;
+  }
+
+  prev?.addEventListener("click", () => {
+    if (page > 0) {
+      page -= 1;
+      render();
+    }
+  });
+  next?.addEventListener("click", () => {
+    if (page < pages - 1) {
+      page += 1;
+      render();
+    }
+  });
+  render();
+});
