@@ -146,12 +146,12 @@ a:hover {
   gap: 1rem;
   min-height: var(--header);
   padding: 0.75rem 4vw;
-  color: var(--cream);
+  color: var(--ink);
+  background: transparent;
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .topbar.is-solid {
-  color: var(--ink);
   background: rgba(243, 238, 228, 0.92);
   backdrop-filter: blur(14px);
   box-shadow: 0 1px 0 var(--line);
@@ -258,16 +258,60 @@ html[lang="en"] .latin {
 }
 
 .cover {
+  --cover-ink: var(--ink);
+  --cover-mute: var(--muted);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: 100vh;
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.82fr);
   gap: 4rem;
   align-items: center;
   padding: calc(var(--header) + 2rem) 4vw 3.5rem;
+  color: var(--cover-ink);
   background:
-    radial-gradient(520px 380px at 82% 42%, rgba(196, 35, 42, 0.28), transparent 62%),
-    linear-gradient(180deg, #181410 0%, var(--night) 70%);
-  color: var(--cream);
+    radial-gradient(42% 48% at 78% 38%, rgba(196, 35, 42, 0.14), transparent 70%),
+    radial-gradient(36% 40% at 14% 78%, rgba(176, 137, 88, 0.16), transparent 68%),
+    radial-gradient(70% 55% at 50% 0%, #fffdf8 0%, transparent 58%),
+    linear-gradient(168deg, #f8f2e8 0%, #efe6d6 46%, #e7dccb 100%);
+}
+
+.cover::before {
+  content: "ab";
+  position: absolute;
+  left: -1.5vw;
+  top: 22%;
+  z-index: 0;
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(11rem, 26vw, 20rem);
+  line-height: 0.78;
+  letter-spacing: -0.06em;
+  color: rgba(196, 35, 42, 0.055);
+  pointer-events: none;
+  user-select: none;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(26, 20, 16, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 20, 16, 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), transparent 88%);
+  opacity: 0.55;
+}
+
+.cover-copy,
+.portrait {
+  position: relative;
+  z-index: 1;
 }
 
 .kicker,
@@ -284,7 +328,7 @@ html[lang="en"] .latin {
 
 .kicker {
   margin: 0 0 1.2rem;
-  color: var(--gold);
+  color: var(--red-deep);
   font-size: 0.78rem;
 }
 
@@ -295,6 +339,7 @@ html[lang="en"] .latin {
   font-size: clamp(3.4rem, 8vw, 7.1rem);
   line-height: 0.86;
   letter-spacing: -0.045em;
+  color: var(--cover-ink);
 }
 
 .motto {
@@ -303,14 +348,14 @@ html[lang="en"] .latin {
   font-style: italic;
   font-weight: 500;
   font-size: clamp(1.35rem, 2vw, 1.85rem);
-  color: #f0c7c4;
+  color: var(--red-deep);
 }
 
 .lede {
   max-width: 38rem;
   margin: 1.6rem 0 0;
   font-size: 1.12rem;
-  color: rgba(246, 240, 230, 0.86);
+  color: var(--cover-mute);
 }
 
 .lede + .lede {
@@ -321,12 +366,16 @@ html[lang="en"] .latin {
   margin: 1.5rem 0 0;
   font-family: var(--ui);
   font-size: 1rem;
-  color: rgba(246, 240, 230, 0.62);
+  color: var(--cover-mute);
 }
 
 .contact a {
-  color: var(--cream);
+  color: var(--cover-ink);
   margin-left: 0.45rem;
+}
+
+.contact a:hover {
+  color: var(--red-deep);
 }
 
 .cover-meta {
@@ -335,7 +384,7 @@ html[lang="en"] .latin {
   gap: 0.7rem 1.4rem;
   margin-top: 2rem;
   padding-top: 1.2rem;
-  border-top: 1px solid rgba(246, 240, 230, 0.16);
+  border-top: 1px solid var(--line);
   font-family: var(--ui);
   font-size: 0.92rem;
 }
@@ -345,7 +394,7 @@ html[lang="en"] .latin {
 }
 
 .cover-meta span {
-  color: rgba(246, 240, 230, 0.5);
+  color: var(--cover-mute);
   margin-right: 0.35rem;
 }
 
@@ -354,9 +403,25 @@ html[lang="en"] .latin {
   justify-self: end;
   width: min(100%, 440px);
   padding: 0.75rem 0.75rem 0.9rem;
-  background: var(--night-2);
-  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
+  background: rgba(255, 250, 243, 0.92);
+  border: 1px solid rgba(26, 20, 16, 0.1);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.75) inset,
+    0 22px 48px rgba(26, 20, 16, 0.12);
   position: relative;
+}
+
+.portrait::before {
+  content: "";
+  position: absolute;
+  inset: -10% -8% auto auto;
+  width: 58%;
+  height: 48%;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(196, 35, 42, 0.18), transparent 68%);
+  filter: blur(2px);
+  pointer-events: none;
 }
 
 .portrait img {
@@ -366,14 +431,14 @@ html[lang="en"] .latin {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
-  background: #2a211c;
+  background: #efe6d8;
 }
 
 .portrait figcaption {
   display: flex;
   justify-content: space-between;
   margin-top: 0.7rem;
-  color: rgba(246, 240, 230, 0.72);
+  color: var(--muted);
   font-family: var(--ui);
   font-size: 0.78rem;
   letter-spacing: 0.12em;
@@ -391,7 +456,7 @@ html[lang="en"] .latin {
   border: 1.5px solid var(--red);
   border-radius: 50%;
   color: var(--red);
-  background: rgba(18, 15, 13, 0.78);
+  background: rgba(255, 250, 243, 0.92);
   transform: rotate(-12deg);
   font-family: var(--display);
   font-style: italic;
