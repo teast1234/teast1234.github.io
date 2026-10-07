@@ -782,10 +782,15 @@ a.button:hover {
 }
 
 .essays,
-.projects,
 .places {
   display: grid;
   gap: 0.7rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
 }
 
 .essay {
@@ -798,9 +803,25 @@ a.button:hover {
 }
 
 .project {
-  display: grid;
-  gap: 0.55rem;
-  padding: 1.05rem 1.15rem 1.1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  gap: 0;
+  padding: 1.25rem 1.3rem 1.2rem;
+  overflow: hidden;
+  transition: border-color 160ms ease, transform 160ms ease, background-color 160ms ease;
+}
+
+.project::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: transparent;
+  transition: background-color 160ms ease;
 }
 
 .essay:hover,
@@ -810,6 +831,15 @@ a.button:hover {
   color: inherit;
 }
 
+.project:hover {
+  background: #fffdf8;
+  transform: translateY(-2px);
+}
+
+.project:hover::before {
+  background: var(--red);
+}
+
 .date,
 .host {
   color: var(--red);
@@ -817,28 +847,81 @@ a.button:hover {
 }
 
 .essay p,
-.project p,
 .place p {
   margin: 0.25rem 0 0;
   color: var(--muted);
   font-size: 0.98rem;
 }
 
+.project .eyebrow {
+  margin: 0 0 0.55rem;
+  color: #8c4e28;
+  font-size: 0.72rem;
+}
+
 .project h3 {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: clamp(1.45rem, 2.4vw, 1.75rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.project .latin {
+  margin: 0.2rem 0 0;
+  font-size: 0.98rem;
+}
+
+.project-desc {
+  margin: 0.7rem 0 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  flex: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-tags li {
+  margin: 0;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.55);
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
 }
 
 .project-links {
-  padding-top: 0.55rem;
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
 }
 
 .project-links a {
   text-decoration: none;
+  font-weight: 500;
 }
 
 .project-links a:hover {
   color: var(--red);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project {
+    transition: none;
+  }
+
+  .project:hover {
+    transform: none;
+  }
 }
 
 .arrow {
@@ -943,6 +1026,7 @@ a.button:hover {
 
   .shelf,
   .places,
+  .projects,
   .link-list {
     grid-template-columns: 1fr;
   }

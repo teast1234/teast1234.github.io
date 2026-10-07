@@ -429,99 +429,166 @@
       <section class="section" id="projects">
         <header class="section-head">
           <h2>Open source</h2>
-          <p class="section-note">Public repos are mirrored on GitHub and Gitee — pick whichever is easier to reach.</p>
+          <p class="section-note">Tools worth sharing stay public. Repos are mirrored on GitHub and Gitee — pick whichever is easier to reach.</p>
         </header>
-        <div class="projects">
-          <article class="project">
-            <div>
+
+        <div class="link-group">
+          <h3>Agent tools</h3>
+          <div class="projects">
+            <article class="project">
+              <p class="eyebrow">MCP · Ren'Py</p>
               <h3>renpy-mcp</h3>
-              <p>Read, edit, compile, and fix Ren'Py projects from the editor.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/renpy-mcp">GitHub</a>
-              <a href="https://gitee.com/gdouage/renpy-mcp">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">Ren'Py coding assistant</p>
+              <p class="project-desc">Lets Cursor or Claude work inside a Ren'Py project: list labels, trace references, inject script, run compile/lint, and auto-fix common mistakes. Fewer window switches while writing a visual novel.</p>
+              <ul class="project-tags">
+                <li>MCP</li>
+                <li>Ren'Py</li>
+                <li>15 tools</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/renpy-mcp">GitHub</a>
+                <a href="https://gitee.com/gdouage/renpy-mcp">Gitee</a>
+              </div>
+            </article>
+            <article class="project">
+              <p class="eyebrow">MCP · Writing</p>
               <h3>CSDN-MCP</h3>
-              <p>Draft CSDN posts in the editor and leave them in the draft box.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/CSDN-MCP">GitHub</a>
-              <a href="https://gitee.com/gdouage/csdn-mcp">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">CSDN drafting assistant</p>
+              <p class="project-desc">Wraps outline, drafting, SEO checks, login, and publish as MCP tools. Writing stays local; publishing defaults to the draft box so a human can review before anything goes live.</p>
+              <ul class="project-tags">
+                <li>MCP</li>
+                <li>CSDN</li>
+                <li>SEO</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/CSDN-MCP">GitHub</a>
+                <a href="https://gitee.com/gdouage/csdn-mcp">Gitee</a>
+              </div>
+            </article>
+            <article class="project">
+              <p class="eyebrow">MCP · Markets</p>
               <h3>NewsCrawler MCP</h3>
-              <p>Look up financial news and price history.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/NewsCrawlerMcp">GitHub</a>
-              <a href="https://gitee.com/gdouage/news-crawler-mcp">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">Financial data for agents</p>
+              <p class="project-desc">Feeds agents Yahoo, CNBC, RSS, and related news sources, plus Yahoo / Investing OHLCV history over stdio. Handy for research chats, ticker lookup, and candle queries.</p>
+              <ul class="project-tags">
+                <li>MCP</li>
+                <li>News</li>
+                <li>OHLCV</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/NewsCrawlerMcp">GitHub</a>
+                <a href="https://gitee.com/gdouage/news-crawler-mcp">Gitee</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="link-group">
+          <h3>Voice</h3>
+          <div class="projects">
+            <article class="project">
+              <p class="eyebrow">TTS · Windows</p>
               <h3>GPT-SoVITS For AB</h3>
-              <p>Train and synthesize a character voice on Windows.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/GPT-SovitsForAb">GitHub</a>
-              <a href="https://gitee.com/gdouage/gpt-sovits-for-ab">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">Character voice trainer</p>
+              <p class="project-desc">A Windows one-click pack on GPT-SoVITS: install, separate vocals, slice, transcribe, train, and infer from a web wizard. The repo ships scripts only, so it stays small and ready for game dubbing or fan TTS.</p>
+              <ul class="project-tags">
+                <li>GPT-SoVITS</li>
+                <li>One-click</li>
+                <li>Dubbing</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/GPT-SovitsForAb">GitHub</a>
+                <a href="https://gitee.com/gdouage/gpt-sovits-for-ab">Gitee</a>
+              </div>
+            </article>
+            <article class="project">
+              <p class="eyebrow">RVC · Jujutsu Kaisen</p>
               <h3>Gojo Satoru RVC</h3>
-              <p>Dub offline, or change your voice live from a microphone.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/gojosatoru-RVC">GitHub</a>
-              <a href="https://gitee.com/gdouage/gojosatoru-rvc">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">Realtime voice pack</p>
+              <p class="project-desc">An RVC WebUI pack with a Gojo Satoru model and index built in. Dub offline, or change your voice live from a microphone and route it into chat apps through a virtual cable.</p>
+              <ul class="project-tags">
+                <li>RVC</li>
+                <li>Realtime</li>
+                <li>Portable</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/gojosatoru-RVC">GitHub</a>
+                <a href="https://gitee.com/gdouage/gojosatoru-rvc">Gitee</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="link-group">
+          <h3>Local drawing</h3>
+          <div class="projects">
+            <article class="project">
+              <p class="eyebrow">CPU · Chinese UI</p>
               <h3>FastSD, Chinese UI</h3>
-              <p>A drawing setup for machines without a dedicated GPU.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/FastSd-cpu-zh_cn">GitHub</a>
-              <a href="https://gitee.com/shenzhen-minglue/fast-sd-cpu-zh_cn">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">FastSD for CPU</p>
+              <p class="project-desc">For machines without a dedicated GPU: dependency gaps filled in, and the GUIs localized to Chinese. A practical first stop when you want local image gen on a laptop.</p>
+              <ul class="project-tags">
+                <li>Stable Diffusion</li>
+                <li>CPU</li>
+                <li>Chinese UI</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/FastSd-cpu-zh_cn">GitHub</a>
+                <a href="https://gitee.com/shenzhen-minglue/fast-sd-cpu-zh_cn">Gitee</a>
+              </div>
+            </article>
+            <article class="project">
+              <p class="eyebrow">NVIDIA · Forge</p>
               <h3>Forge WebUI</h3>
-              <p>A local drawing setup for NVIDIA cards.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/ForgeWebUI">GitHub</a>
-              <a href="https://gitee.com/gdouage/forge-web-ui">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">SD WebUI Forge</p>
+              <p class="project-desc">A Chinese-oriented Forge setup for NVIDIA cards, with launch examples, folder conventions, and notes for newer RTX stacks. No discrete GPU? Use FastSD instead.</p>
+              <ul class="project-tags">
+                <li>Forge</li>
+                <li>NVIDIA</li>
+                <li>Local SD</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/ForgeWebUI">GitHub</a>
+                <a href="https://gitee.com/gdouage/forge-web-ui">Gitee</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="link-group">
+          <h3>Utilities</h3>
+          <div class="projects">
+            <article class="project">
+              <p class="eyebrow">Browser · Local only</p>
               <h3>PixelMask</h3>
-              <p>Pixelate part of a video in the browser. The file stays on the machine.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/PixelMask">GitHub</a>
-              <a href="https://gitee.com/gdouage/PixelMask">Gitee</a>
-            </div>
-          </article>
-          <article class="project">
-            <div>
+              <p class="latin">Local video mosaic</p>
+              <p class="project-desc">Draw regions, set active time ranges and intensity, then batch-export MP4 / WebM (optional GIF). Everything runs in the browser; the file never leaves the machine.</p>
+              <ul class="project-tags">
+                <li>Video</li>
+                <li>Privacy</li>
+                <li>Batch export</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/PixelMask">GitHub</a>
+                <a href="https://gitee.com/gdouage/PixelMask">Gitee</a>
+              </div>
+            </article>
+            <article class="project">
+              <p class="eyebrow">Python · FastAPI</p>
               <h3>Yahoo Finance Python</h3>
-              <p>Pull Yahoo Finance data and serve it through FastAPI.</p>
-            </div>
-            <div class="card-links project-links">
-              <a href="https://github.com/teast1234/yahoo-python-">GitHub</a>
-              <a href="https://gitee.com/gdouage/yahoo-python">Gitee</a>
-            </div>
-          </article>
+              <p class="latin">Market data API</p>
+              <p class="project-desc">Pulls Yahoo Finance data with yfinance and exposes a FastAPI surface for debugging. A small backend seed for research tools or further customization.</p>
+              <ul class="project-tags">
+                <li>yfinance</li>
+                <li>FastAPI</li>
+                <li>Finance</li>
+              </ul>
+              <div class="card-links project-links">
+                <a href="https://github.com/teast1234/yahoo-python-">GitHub</a>
+                <a href="https://gitee.com/gdouage/yahoo-python">Gitee</a>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
     </div>
