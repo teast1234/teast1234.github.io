@@ -5,34 +5,33 @@
   const ctx = canvas.getContext("2d");
   const calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Keep sprites large enough on wide screens: scale from strip height, not tiny.
-  const H = 40;
+  const H = 42;
   let W = 200;
   let scale = 4;
   let dpr = 1;
 
   const C = {
-    mist: "#f1e8db",
-    sandHi: "#ead7b6",
-    sand: "#e2c79c",
-    sandLo: "#d2b585",
-    wet: "#cbb48a",
-    waterHi: "#c3d6cf",
-    water: "#a8c4bf",
-    waterLo: "#8aada8",
-    foam: "#eef6f2",
+    mist: "#f3ebe0",
+    sandHi: "#efe0c4",
+    sand: "#e6cfa4",
+    sandLo: "#d4b888",
+    wet: "#cdb58c",
+    foam: "#f7f1e6",
     crab: "#e07a55",
     crabLo: "#c45d3c",
     eye: "#3a2c24",
-    fish: "#6aa6c9",
-    fishHi: "#c5e2f0",
-    fishFin: "#e2a86a",
-    star: "#e8a07a",
-    starLo: "#d07b52",
+    fish: "#6eb0d4",
+    fishHi: "#d0ebf7",
+    fishFin: "#f0b46e",
+    // Patrick-ish starfish
+    pat: "#f0a0b4",
+    patLo: "#d97d96",
+    patBelly: "#f6c4d0",
     octo: "#d08a9a",
     octoLo: "#b66b7d",
-    heart: "#e58b8b",
-    shell: "#dcc3a3",
+    heart: "#ff6b7a",
+    heartHi: "#ff9aa5",
+    shell: "#e0c9a8",
   };
 
   function ease(u) {
@@ -44,7 +43,6 @@
     const cssW = Math.max(320, parent ? parent.clientWidth : window.innerWidth);
     const cssH = parent ? parent.clientHeight : 150;
     dpr = Math.min(window.devicePixelRatio || 1, 2);
-    // Prefer chunky pixels: ~4–6x so a 10px crab reads clearly
     scale = Math.max(4, Math.min(6, Math.floor(cssH / H)));
     W = Math.max(140, Math.ceil(cssW / scale));
     canvas.width = Math.floor(W * scale * dpr);
@@ -66,47 +64,34 @@
   }
 
   function drawBackdrop(t) {
-    rect(0, 0, W, 10, C.mist);
-    rect(0, 8, W, 5, C.sandHi);
+    // Soft sky/paper fade into beach — no hard "ocean zone"
+    rect(0, 0, W, 14, C.mist);
+    rect(0, 10, W, 6, C.sandHi);
+    rect(0, 14, W, H - 14, C.sand);
+    rect(0, 14, W, 2, C.wet);
 
-    rect(0, 12, W, 7, C.waterHi);
-    rect(0, 17, W, 5, C.water);
-    rect(0, 21, W, 3, C.waterLo);
-
-    const foam = Math.floor((t * (calm ? 5 : 11)) % 12);
-    for (let x = -foam; x < W + 12; x += 12) {
-      px(x + 2, 12, C.foam);
-      px(x + 5, 13, C.foam);
-      px(x + 8, 12, C.foam);
-      px(x + 10, 14, C.foam);
-    }
-
-    rect(0, 23, W, H - 23, C.sand);
-    rect(0, 23, W, 2, C.wet);
-    for (let x = 0; x < W; x += 11) {
-      px((x + Math.floor(t * 0.5)) % W, 27, C.sandLo);
-      px((x + 5) % W, 33, C.sandLo);
-      px((x + 8) % W, 37, C.shell);
+    // gentle sparkle / shells
+    for (let x = 0; x < W; x += 13) {
+      px((x + Math.floor(t * 0.4)) % W, 18, C.sandLo);
+      px((x + 6) % W, 26, C.shell);
+      px((x + 9) % W, 34, C.sandLo);
+      px((x + 2) % W, 38, C.foam);
     }
   }
 
-  // Larger, cuter sprites
   function drawCrab(x, y, frame) {
     const bob = frame % 2;
     const yy = y + bob;
     rect(x + 1, yy, 8, 4, C.crab);
     rect(x + 2, yy + 1, 6, 3, C.crabLo);
-    // eyes
     px(x + 2, yy - 1, C.eye);
     px(x + 7, yy - 1, C.eye);
     px(x + 2, yy - 2, C.crab);
     px(x + 7, yy - 2, C.crab);
-    // claws
     rect(x - 2, yy + 1, 2, 2, C.crab);
     px(x - 3, yy, C.crab);
     rect(x + 10, yy + 1, 2, 2, C.crab);
     px(x + 12, yy, C.crab);
-    // legs
     const a = bob ? 1 : 0;
     px(x + 1, yy + 4, C.crabLo);
     px(x, yy + 5 - a, C.crabLo);
@@ -118,53 +103,90 @@
 
   function drawFish(x, y, frame) {
     const flap = frame % 2;
-    rect(x, y, 9, 4, C.fish);
-    rect(x + 2, y + 1, 5, 2, C.fishHi);
-    px(x + 2, y, C.eye);
-    px(x + 9, y + 1, C.fishFin);
-    px(x + 10, y + flap, C.fishFin);
-    px(x + 10, y + 3 - flap, C.fishFin);
-    px(x + 11, y + 1 + flap, C.fishFin);
+    const yy = y + (frame % 2);
+    rect(x, yy, 9, 4, C.fish);
+    rect(x + 2, yy + 1, 5, 2, C.fishHi);
+    px(x + 2, yy, C.eye);
+    px(x + 9, yy + 1, C.fishFin);
+    px(x + 10, yy + flap, C.fishFin);
+    px(x + 10, yy + 3 - flap, C.fishFin);
+    px(x + 11, yy + 1 + flap, C.fishFin);
   }
 
-  function drawStar(x, y, frame) {
-    const p = frame % 2;
-    px(x + 3, y - 1 - p, C.star);
-    px(x + 3, y, C.star);
-    rect(x + 2, y + 1, 3, 2, C.starLo);
-    px(x + 3, y + 3, C.star);
-    px(x + 3, y + 4 + p, C.star);
-    rect(x, y + 1, 2, 2, C.star);
-    rect(x + 5, y + 1, 2, 2, C.star);
-    px(x + 1, y, C.star);
-    px(x + 5, y, C.star);
-    px(x + 1, y + 3, C.star);
-    px(x + 5, y + 3, C.star);
+  // Patrick-like five-pointed starfish with a cute face
+  function drawPatrick(x, y, frame) {
+    const bob = frame % 2;
+    const yy = y + bob;
+    // vertical arm
+    rect(x + 3, yy - 2, 3, 3, C.pat);
+    // body
+    rect(x + 2, yy + 1, 5, 4, C.pat);
+    rect(x + 3, yy + 2, 3, 2, C.patBelly);
+    // left / right arms
+    rect(x - 1, yy + 1, 3, 3, C.pat);
+    rect(x + 7, yy + 1, 3, 3, C.pat);
+    // lower left / right legs
+    rect(x, yy + 5, 3, 3, C.patLo);
+    rect(x + 6, yy + 5, 3, 3, C.patLo);
+    // face
+    px(x + 3, yy + 2, C.eye);
+    px(x + 5, yy + 2, C.eye);
+    px(x + 3, yy + 4, C.patLo);
+    px(x + 4, yy + 4, C.patLo);
+    px(x + 5, yy + 4, C.patLo);
   }
 
   function drawOctopus(x, y, frame) {
     const w = frame % 2;
-    rect(x + 1, y, 7, 4, C.octo);
-    rect(x + 2, y + 1, 5, 2, C.octoLo);
-    px(x + 3, y, C.eye);
-    px(x + 6, y, C.eye);
+    const yy = y + (frame % 2);
+    rect(x + 1, yy, 7, 4, C.octo);
+    rect(x + 2, yy + 1, 5, 2, C.octoLo);
+    px(x + 3, yy, C.eye);
+    px(x + 6, yy, C.eye);
     for (let i = 0; i < 5; i += 1) {
       const tx = x + 1 + i + (i > 2 ? 1 : 0);
-      px(tx, y + 4, C.octo);
-      px(tx + (w ? 1 : 0), y + 5, C.octoLo);
-      px(tx + (w ? 0 : 1), y + 6, C.octo);
+      px(tx, yy + 4, C.octo);
+      px(tx + (w ? 1 : 0), yy + 5, C.octoLo);
+      px(tx + (w ? 0 : 1), yy + 6, C.octo);
     }
   }
 
-  function drawHeart(x, y, frame) {
-    const up = frame % 2;
-    px(x, y - up, C.heart);
-    px(x + 2, y - up, C.heart);
-    px(x + 1, y + 1 - up, C.heart);
-    px(x + 1, y - up, C.heart);
+  function drawHeart(x, y, size) {
+    // size 1 = small, 2 = bigger chunky heart
+    if (size >= 2) {
+      px(x, y, C.heartHi);
+      px(x + 1, y, C.heart);
+      px(x + 3, y, C.heart);
+      px(x + 4, y, C.heartHi);
+      rect(x, y + 1, 5, 2, C.heart);
+      px(x + 1, y + 3, C.heart);
+      px(x + 2, y + 3, C.heart);
+      px(x + 3, y + 3, C.heart);
+      px(x + 2, y + 4, C.heart);
+    } else {
+      px(x, y, C.heartHi);
+      px(x + 2, y, C.heartHi);
+      px(x + 1, y, C.heart);
+      px(x, y + 1, C.heart);
+      px(x + 1, y + 1, C.heart);
+      px(x + 2, y + 1, C.heart);
+      px(x + 1, y + 2, C.heart);
+    }
   }
 
-  const LOOP = calm ? 30 : 24;
+  function burstHearts(cx, cy, t, seed) {
+    // denser floating hearts
+    for (let i = 0; i < 5; i += 1) {
+      const phase = t * (1.2 + i * 0.15) + seed + i * 1.7;
+      const rise = ((phase % 2.4) / 2.4) * 10;
+      const sway = Math.sin(phase * 2.2) * (1 + (i % 3));
+      const x = cx + sway + (i - 2) * 3;
+      const y = cy - rise;
+      drawHeart(x, y, i % 2 === 0 ? 2 : 1);
+    }
+  }
+
+  const LOOP = calm ? 32 : 26;
 
   function lerpPath(t, points) {
     if (t <= points[0].t) return points[0].x;
@@ -179,49 +201,69 @@
     return points[points.length - 1].x;
   }
 
-  function meetingAt(t, meets) {
-    for (const m of meets) {
-      if (t >= m.t0 && t < m.t1) return m.kind;
-    }
-    return null;
-  }
-
   function scene(time) {
     const t = ((time % LOOP) + LOOP) % LOOP;
     drawBackdrop(t);
+    const frame = Math.floor(t * (calm ? 3.5 : 6));
 
-    const fishX = Math.floor(W * 0.24);
-    const starX = Math.floor(W * 0.5);
-    const octX = Math.floor(W * 0.76);
-    const frame = Math.floor(t * (calm ? 3 : 5));
+    // Meet points along the beach (all on sand)
+    const meetFish = Math.floor(W * 0.22);
+    const meetStar = Math.floor(W * 0.48);
+    const meetOcto = Math.floor(W * 0.72);
 
-    drawFish(fishX, 14 + (frame % 2), frame);
-    drawStar(starX, 27, frame);
-    drawOctopus(octX, 13, frame);
-
+    // Crab leads the parade
     const crabPoints = [
-      { t: 0, x: -14 },
-      { t: LOOP * 0.14, x: fishX - 12 },
-      { t: LOOP * 0.27, x: fishX - 12 },
-      { t: LOOP * 0.43, x: starX - 10 },
-      { t: LOOP * 0.56, x: starX - 10 },
-      { t: LOOP * 0.73, x: octX - 12 },
-      { t: LOOP * 0.86, x: octX - 12 },
-      { t: LOOP, x: W + 16 },
+      { t: 0, x: -16 },
+      { t: LOOP * 0.12, x: meetFish },
+      { t: LOOP * 0.22, x: meetFish },
+      { t: LOOP * 0.38, x: meetStar },
+      { t: LOOP * 0.48, x: meetStar },
+      { t: LOOP * 0.64, x: meetOcto },
+      { t: LOOP * 0.76, x: meetOcto },
+      { t: LOOP, x: W + 20 },
     ];
-    const meets = [
-      { t0: LOOP * 0.14, t1: LOOP * 0.27, kind: "fish" },
-      { t0: LOOP * 0.43, t1: LOOP * 0.56, kind: "star" },
-      { t0: LOOP * 0.73, t1: LOOP * 0.86, kind: "octopus" },
-    ];
-
     const crabX = lerpPath(t, crabPoints);
-    drawCrab(crabX, 28, frame);
+    const ground = 28;
 
-    const meet = meetingAt(t, meets);
-    if (meet === "fish") drawHeart(fishX + 3, 9, frame);
-    if (meet === "star") drawHeart(starX + 2, 21, frame);
-    if (meet === "octopus") drawHeart(octX + 3, 8, frame);
+    // Join flags
+    const fishJoined = t >= LOOP * 0.12;
+    const starJoined = t >= LOOP * 0.38;
+    const octoJoined = t >= LOOP * 0.64;
+
+    // Waiting friends before joining (idle on beach)
+    if (!fishJoined) drawFish(meetFish + 14, ground - 2, frame);
+    if (!starJoined) drawPatrick(meetStar + 14, ground - 1, frame);
+    if (!octoJoined) drawOctopus(meetOcto + 14, ground - 2, frame);
+
+    // After joining, friends walk behind the crab as a cute parade
+    if (fishJoined) {
+      const follow = Math.min(crabX - 16, meetFish + (crabX - meetFish));
+      drawFish(follow, ground - 2, frame);
+    }
+    if (starJoined) {
+      const follow = Math.min(crabX - 30, meetStar + (crabX - meetStar));
+      drawPatrick(follow, ground - 1, frame);
+    }
+    if (octoJoined) {
+      const follow = Math.min(crabX - 44, meetOcto + (crabX - meetOcto));
+      drawOctopus(follow, ground - 2, frame);
+    }
+
+    drawCrab(crabX, ground, frame);
+
+    // Meeting heart storms + ongoing hearts while parade walks
+    if (t >= LOOP * 0.12 && t < LOOP * 0.24) burstHearts(meetFish + 6, ground - 4, t, 0.2);
+    if (t >= LOOP * 0.38 && t < LOOP * 0.5) burstHearts(meetStar + 6, ground - 4, t, 1.1);
+    if (t >= LOOP * 0.64 && t < LOOP * 0.78) burstHearts(meetOcto + 6, ground - 4, t, 2.0);
+
+    if (fishJoined && t >= LOOP * 0.24) {
+      // soft trail of hearts above the group
+      const hx = crabX - 8;
+      drawHeart(hx + Math.sin(t * 3) * 2, ground - 8 - (frame % 3), 2);
+      drawHeart(hx - 10 + Math.cos(t * 2.4) * 2, ground - 11 - ((frame + 1) % 3), 1);
+      if (starJoined) drawHeart(hx - 20, ground - 9 - ((frame + 2) % 2), 2);
+      if (octoJoined) drawHeart(hx - 32 + Math.sin(t * 2) * 2, ground - 12, 1);
+    }
   }
 
   let start = performance.now();
