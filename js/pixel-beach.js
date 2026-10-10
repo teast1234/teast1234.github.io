@@ -5,18 +5,24 @@
   const ctx = canvas.getContext("2d");
   const calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const H = 42;
+  const H = 44;
   let W = 200;
   let scale = 4;
   let dpr = 1;
 
   const C = {
     mist: "#f3ebe0",
+    sky: "#e8f0ee",
+    waterHi: "#b9d4d6",
+    water: "#8fbfc4",
+    waterLo: "#6ea5ad",
+    waterDeep: "#5a949e",
+    foam: "#eef7f5",
+    foamSoft: "#d9ecea",
     sandHi: "#efe0c4",
     sand: "#e6cfa4",
     sandLo: "#d4b888",
     wet: "#cdb58c",
-    foam: "#f7f1e6",
     crab: "#e07a55",
     crabLo: "#c45d3c",
     eye: "#3a2c24",
@@ -64,18 +70,58 @@
   }
 
   function drawBackdrop(t) {
-    // Soft sky/paper fade into beach — no hard "ocean zone"
-    rect(0, 0, W, 14, C.mist);
-    rect(0, 10, W, 6, C.sandHi);
-    rect(0, 14, W, H - 14, C.sand);
-    rect(0, 14, W, 2, C.wet);
+    const speed = calm ? 0.55 : 1;
+    // Soft paper mist -> pale sky -> sea -> wet sand -> beach
+    rect(0, 0, W, 6, C.mist);
+    rect(0, 5, W, 4, C.sky);
 
-    // gentle sparkle / shells
-    for (let x = 0; x < W; x += 13) {
-      px((x + Math.floor(t * 0.4)) % W, 18, C.sandLo);
-      px((x + 6) % W, 26, C.shell);
-      px((x + 9) % W, 34, C.sandLo);
-      px((x + 2) % W, 38, C.foam);
+    // Sea body
+    rect(0, 8, W, 5, C.waterHi);
+    rect(0, 12, W, 5, C.water);
+    rect(0, 16, W, 4, C.waterLo);
+    rect(0, 19, W, 3, C.waterDeep);
+
+    // Rolling wave crests (two layers, different speeds)
+    const w1 = Math.floor((t * 14 * speed) % 16);
+    const w2 = Math.floor((t * 9 * speed + 7) % 18);
+    for (let x = -w1; x < W + 16; x += 16) {
+      // back swell
+      px(x + 2, 10, C.foamSoft);
+      px(x + 4, 9, C.foam);
+      px(x + 6, 10, C.foamSoft);
+      px(x + 8, 11, C.foam);
+      px(x + 11, 10, C.foamSoft);
+    }
+    for (let x = -w2; x < W + 18; x += 18) {
+      // front breaker + foam lace
+      px(x + 1, 15, C.foam);
+      px(x + 3, 14, C.foam);
+      px(x + 5, 15, C.foam);
+      px(x + 7, 16, C.foamSoft);
+      px(x + 9, 15, C.foam);
+      px(x + 12, 14, C.foam);
+      px(x + 14, 16, C.foamSoft);
+      // little splash dots
+      if (((x + Math.floor(t * 3)) % 36) < 10) {
+        px(x + 6, 13, C.foam);
+        px(x + 10, 12, C.foamSoft);
+      }
+    }
+
+    // Shoreline wash advancing/retreating slightly
+    const wash = Math.floor(Math.sin(t * 1.4 * speed) * 1.5);
+    rect(0, 21 + wash, W, 2, C.foamSoft);
+    rect(0, 22 + wash, W, 2, C.wet);
+
+    // Sand where friends walk
+    const sandTop = 23 + wash;
+    rect(0, sandTop, W, H - sandTop, C.sand);
+    rect(0, sandTop, W, 1, C.sandHi);
+    for (let x = 0; x < W; x += 12) {
+      px((x + Math.floor(t * 0.35)) % W, sandTop + 3, C.sandLo);
+      px((x + 5) % W, sandTop + 8, C.shell);
+      px((x + 9) % W, sandTop + 13, C.sandLo);
+      px((x + 2) % W, sandTop + 17, C.foam);
     }
   }
 
@@ -223,7 +269,9 @@
       { t: LOOP, x: W + 20 },
     ];
     const crabX = lerpPath(t, crabPoints);
-    const ground = 28;
+    // Keep parade on the sand below the animated shoreline
+    const wash = Math.floor(Math.sin(t * 1.4 * (calm ? 0.55 : 1)) * 1.5);
+    const ground = 29 + wash;
 
     // Join flags
     const fishJoined = t >= LOOP * 0.12;
