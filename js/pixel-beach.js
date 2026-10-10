@@ -38,6 +38,12 @@
     heart: "#ff6b7a",
     heartHi: "#ff9aa5",
     shell: "#e0c9a8",
+    orange: "#f0a04a",
+    orangeHi: "#ffc878",
+    orangeLo: "#d87a2e",
+    leaf: "#6aa86a",
+    ink: "#3a2c24",
+    spark: "#ffe8a0",
   };
 
   function ease(u) {
@@ -232,7 +238,64 @@
     }
   }
 
-  const LOOP = calm ? 32 : 26;
+  // Tiny 3x5 "a" / "b" for the orange sticker
+  function drawLetterA(x, y, color) {
+    px(x + 1, y, color);
+    px(x, y + 1, color);
+    px(x + 2, y + 1, color);
+    px(x, y + 2, color);
+    px(x + 1, y + 2, color);
+    px(x + 2, y + 2, color);
+    px(x, y + 3, color);
+    px(x + 2, y + 3, color);
+    px(x, y + 4, color);
+    px(x + 2, y + 4, color);
+  }
+
+  function drawLetterB(x, y, color) {
+    px(x, y, color);
+    px(x + 1, y, color);
+    px(x, y + 1, color);
+    px(x + 2, y + 1, color);
+    px(x, y + 2, color);
+    px(x + 1, y + 2, color);
+    px(x, y + 3, color);
+    px(x + 2, y + 3, color);
+    px(x, y + 4, color);
+    px(x + 1, y + 4, color);
+  }
+
+  function drawOrange(x, y, lift) {
+    const yy = y - lift;
+    // fruit body
+    rect(x + 1, yy + 1, 8, 7, C.orange);
+    rect(x + 2, yy, 6, 1, C.orangeHi);
+    rect(x + 2, yy + 8, 6, 1, C.orangeLo);
+    px(x, yy + 3, C.orange);
+    px(x, yy + 4, C.orange);
+    px(x + 9, yy + 3, C.orange);
+    px(x + 9, yy + 4, C.orangeLo);
+    // leaf + stem
+    px(x + 4, yy - 1, C.leaf);
+    px(x + 5, yy - 1, C.leaf);
+    px(x + 6, yy - 2, C.leaf);
+    // "ab" sticker
+    drawLetterA(x + 2, yy + 2, C.ink);
+    drawLetterB(x + 6, yy + 2, C.ink);
+  }
+
+  function cheerSparkles(cx, cy, t) {
+    for (let i = 0; i < 7; i += 1) {
+      const ang = t * 3.2 + i * 0.95;
+      const r = 6 + (i % 3) * 3 + Math.sin(t * 5 + i) * 2;
+      const x = cx + Math.cos(ang) * r;
+      const y = cy - 4 + Math.sin(ang * 1.3) * (r * 0.45) - ((t * 8 + i * 3) % 10);
+      px(x, y, i % 2 ? C.spark : C.heartHi);
+      if (i % 2 === 0) drawHeart(x - 1, y - 2, 1);
+    }
+  }
+
+  const LOOP = calm ? 38 : 32;
 
   function lerpPath(t, points) {
     if (t <= points[0].t) return points[0].x;
@@ -252,65 +315,134 @@
     drawBackdrop(t);
     const frame = Math.floor(t * (calm ? 3.5 : 6));
 
-    // Meet points along the beach (all on sand)
-    const meetFish = Math.floor(W * 0.22);
-    const meetStar = Math.floor(W * 0.48);
-    const meetOcto = Math.floor(W * 0.72);
+    // Story beats (fractions of LOOP)
+    const T_FISH = 0.1;
+    const T_STAR = 0.28;
+    const T_OCTO = 0.46;
+    const T_GATHER = 0.58; // all walk to center
+    const T_LIFT = 0.68; // raise the ab-orange together
+    const T_CHEER = 0.8; // jump & cheer
+    const T_END = 0.96;
 
-    // Crab leads the parade
+    const meetFish = Math.floor(W * 0.2);
+    const meetStar = Math.floor(W * 0.42);
+    const meetOcto = Math.floor(W * 0.62);
+    const center = Math.floor(W * 0.5);
+
+    // Crab leads parade, then gathers at center for the orange finale
     const crabPoints = [
       { t: 0, x: -16 },
-      { t: LOOP * 0.12, x: meetFish },
-      { t: LOOP * 0.22, x: meetFish },
-      { t: LOOP * 0.38, x: meetStar },
-      { t: LOOP * 0.48, x: meetStar },
-      { t: LOOP * 0.64, x: meetOcto },
-      { t: LOOP * 0.76, x: meetOcto },
-      { t: LOOP, x: W + 20 },
+      { t: LOOP * T_FISH, x: meetFish },
+      { t: LOOP * (T_FISH + 0.08), x: meetFish },
+      { t: LOOP * T_STAR, x: meetStar },
+      { t: LOOP * (T_STAR + 0.08), x: meetStar },
+      { t: LOOP * T_OCTO, x: meetOcto },
+      { t: LOOP * (T_OCTO + 0.08), x: meetOcto },
+      { t: LOOP * T_GATHER, x: center + 6 },
+      { t: LOOP * T_END, x: center + 6 },
+      { t: LOOP, x: W + 24 },
     ];
     const crabX = lerpPath(t, crabPoints);
-    // Keep parade on the sand below the animated shoreline
     const wash = Math.floor(Math.sin(t * 1.4 * (calm ? 0.55 : 1)) * 1.5);
     const ground = 29 + wash;
 
-    // Join flags
-    const fishJoined = t >= LOOP * 0.12;
-    const starJoined = t >= LOOP * 0.38;
-    const octoJoined = t >= LOOP * 0.64;
+    const fishJoined = t >= LOOP * T_FISH;
+    const starJoined = t >= LOOP * T_STAR;
+    const octoJoined = t >= LOOP * T_OCTO;
+    const gathering = t >= LOOP * T_GATHER;
+    const lifting = t >= LOOP * T_LIFT;
+    const cheering = t >= LOOP * T_CHEER && t < LOOP * T_END;
 
-    // Waiting friends before joining (idle on beach)
+    // Jump hop during cheer (shared bounce, slight phase offsets)
+    const cheerPhase = cheering ? (t - LOOP * T_CHEER) / Math.max(0.001, LOOP * (T_END - T_CHEER)) : 0;
+    const hop = (phase) => {
+      if (!cheering) return 0;
+      const u = (cheerPhase * 4 + phase) % 1;
+      return Math.floor(Math.sin(u * Math.PI) * (calm ? 2 : 4));
+    };
+    // Orange lift height: ground → overhead
+    let orangeLift = 0;
+    if (lifting && !cheering) {
+      const u = ease(Math.min(1, (t - LOOP * T_LIFT) / (LOOP * (T_CHEER - T_LIFT))));
+      orangeLift = Math.floor(u * 10);
+    } else if (cheering) {
+      orangeLift = 10 + hop(0);
+    } else if (gathering) {
+      orangeLift = 0;
+    }
+
+    // Friend x positions: follow crab until gather, then fan around center
+    function friendX(slot, meetX, joined) {
+      if (!joined) return meetX + 14;
+      if (gathering) {
+        // slots: fish left, star mid-left, octo right of crab
+        const targets = [center - 22, center - 8, center + 18];
+        const from = Math.min(crabX - (16 + slot * 14), meetX + (crabX - meetX));
+        const u = ease(Math.min(1, (t - LOOP * T_GATHER) / (LOOP * (T_LIFT - T_GATHER))));
+        return from + (targets[slot] - from) * u;
+      }
+      return Math.min(crabX - (16 + slot * 14), meetX + (crabX - meetX));
+    }
+
+    const fishX = friendX(0, meetFish, fishJoined);
+    const starX = friendX(1, meetStar, starJoined);
+    const octoX = friendX(2, meetOcto, octoJoined);
+
+    const crabY = ground - hop(0);
+    const fishY = ground - 2 - hop(0.15);
+    const starY = ground - 1 - hop(0.3);
+    const octoY = ground - 2 - hop(0.45);
+
+    // Waiting friends before joining
     if (!fishJoined) drawFish(meetFish + 14, ground - 2, frame);
     if (!starJoined) drawPatrick(meetStar + 14, ground - 1, frame);
     if (!octoJoined) drawOctopus(meetOcto + 14, ground - 2, frame);
 
-    // After joining, friends walk behind the crab as a cute parade
-    if (fishJoined) {
-      const follow = Math.min(crabX - 16, meetFish + (crabX - meetFish));
-      drawFish(follow, ground - 2, frame);
-    }
-    if (starJoined) {
-      const follow = Math.min(crabX - 30, meetStar + (crabX - meetStar));
-      drawPatrick(follow, ground - 1, frame);
-    }
-    if (octoJoined) {
-      const follow = Math.min(crabX - 44, meetOcto + (crabX - meetOcto));
-      drawOctopus(follow, ground - 2, frame);
+    if (fishJoined) drawFish(fishX, fishY, frame);
+    if (starJoined) drawPatrick(starX, starY, frame);
+    if (octoJoined) drawOctopus(octoX, octoY, frame);
+    drawCrab(crabX, crabY, frame);
+
+    // Orange appears at gather, then rises overhead with everyone
+    if (gathering) {
+      const ox = center - 4;
+      const oy = ground - 2;
+      drawOrange(ox, oy, orangeLift);
+      // tiny arms / reach lines toward the fruit while lifting
+      if (lifting) {
+        px(fishX + 8, fishY - 1 - Math.min(orangeLift, 6), C.fishFin);
+        px(starX + 4, starY - 3 - Math.min(orangeLift, 5), C.pat);
+        px(crabX + 4, crabY - 2 - Math.min(orangeLift, 6), C.crab);
+        px(octoX + 2, octoY - 1 - Math.min(orangeLift, 5), C.octo);
+      }
     }
 
-    drawCrab(crabX, ground, frame);
+    // Meeting heart storms
+    if (t >= LOOP * T_FISH && t < LOOP * (T_FISH + 0.1)) burstHearts(meetFish + 6, ground - 4, t, 0.2);
+    if (t >= LOOP * T_STAR && t < LOOP * (T_STAR + 0.1)) burstHearts(meetStar + 6, ground - 4, t, 1.1);
+    if (t >= LOOP * T_OCTO && t < LOOP * (T_OCTO + 0.1)) burstHearts(meetOcto + 6, ground - 4, t, 2.0);
 
-    // Meeting heart storms + ongoing hearts while parade walks
-    if (t >= LOOP * 0.12 && t < LOOP * 0.24) burstHearts(meetFish + 6, ground - 4, t, 0.2);
-    if (t >= LOOP * 0.38 && t < LOOP * 0.5) burstHearts(meetStar + 6, ground - 4, t, 1.1);
-    if (t >= LOOP * 0.64 && t < LOOP * 0.78) burstHearts(meetOcto + 6, ground - 4, t, 2.0);
-
-    if (fishJoined && t >= LOOP * 0.24) {
-      // soft trail of hearts above the group
+    // Parade heart trail (before finale)
+    if (fishJoined && t >= LOOP * (T_FISH + 0.1) && t < LOOP * T_LIFT) {
       const hx = crabX - 8;
       drawHeart(hx + Math.sin(t * 3) * 2, ground - 8 - (frame % 3), 2);
       drawHeart(hx - 10 + Math.cos(t * 2.4) * 2, ground - 11 - ((frame + 1) % 3), 1);
       if (starJoined) drawHeart(hx - 20, ground - 9 - ((frame + 2) % 2), 2);
       if (octoJoined) drawHeart(hx - 32 + Math.sin(t * 2) * 2, ground - 12, 1);
+    }
+
+    // Cheer finale: sparkles + heart storm around the raised orange
+    if (cheering) {
+      cheerSparkles(center + 1, ground - 12 - hop(0), t);
+      burstHearts(center, ground - 10 - hop(0), t * 1.4, 3.3);
+      // little "!" cheer marks
+      const bangY = ground - 16 - hop(0) - (frame % 2);
+      px(center - 14, bangY, C.ink);
+      px(center - 14, bangY + 1, C.ink);
+      px(center - 14, bangY + 3, C.ink);
+      px(center + 16, bangY + 1, C.ink);
+      px(center + 16, bangY + 2, C.ink);
+      px(center + 16, bangY + 4, C.ink);
     }
   }
 
