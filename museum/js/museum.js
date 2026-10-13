@@ -59,17 +59,27 @@
     });
   }
 
+  function displayArtist(artist) {
+    const name = (artist || "").trim();
+    if (!name || name === "佚名" || name.toLowerCase() === "unknown") return "";
+    return name;
+  }
+
   function card(work) {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "card";
     btn.setAttribute("aria-label", `查看作品：${work.creation_title}`);
+    const artist = displayArtist(work.artist);
+    const footLeft = artist
+      ? `仿 ${work.original_title} · ${artist}`
+      : `仿 ${work.original_title}`;
     btn.innerHTML = `
       <div class="card-frame"><img src="${work.art}" alt="${work.creation_title}" loading="lazy" decoding="async"></div>
       <div class="card-meta"><span>${work.era_label}</span><span>${work.catalog}</span></div>
       <h3 class="card-title">${work.creation_title}</h3>
       <p class="card-sub">${work.original_title}</p>
-      <div class="card-foot"><span>仿 ${work.original_title} · ${work.artist}</span><span>${work.original_date || ""}</span></div>
+      <div class="card-foot"><span>${footLeft}</span><span>${work.original_date || ""}</span></div>
     `;
     btn.addEventListener("click", () => openLightbox(work));
     return btn;
@@ -129,7 +139,7 @@
 
   function setView(mode) {
     viewMode = mode;
-    if (!current) return;
+    if (!current || !lbImg) return;
     const hasOriginal = Boolean(current.original);
     const showOriginal = mode === "original" && hasOriginal;
     lbImg.src = showOriginal ? current.original : current.art;
@@ -137,43 +147,40 @@
       ? `${current.original_title}（原作参考）`
       : current.creation_title;
 
-    viewToggle.querySelectorAll("button").forEach((b) => {
+    viewToggle?.querySelectorAll("button").forEach((b) => {
       b.setAttribute("aria-pressed", b.dataset.mode === viewMode ? "true" : "false");
     });
   }
 
   function openLightbox(work) {
+    if (!lightbox) return;
     current = work;
     viewMode = "art";
-    lbTitle.textContent = work.creation_title;
-    const artist = (work.artist || "").trim();
-    const showArtist = artist && artist !== "佚名" && artist.toLowerCase() !== "unknown";
-    lbMeta.innerHTML =
-      `<li><strong>原作</strong>仿 ${work.original_title}</li>` +
-      (showArtist ? `<li><strong>艺术家</strong>${artist}</li>` : "") +
-      `<li><strong>年代</strong>${work.original_date || "—"}</li>` +
-      `<li><strong>馆藏号</strong>${work.catalog}</li>`;
-    lbStory.textContent = work.background || "";
+    if (lbTitle) lbTitle.textContent = work.creation_title;
+    const artist = displayArtist(work.artist);
+    if (lbMeta) {
+      lbMeta.innerHTML =
+        `<li><strong>原作</strong>仿 ${work.original_title}</li>` +
+        (artist ? `<li><strong>艺术家</strong>${artist}</li>` : "") +
+        `<li><strong>年代</strong>${work.original_date || "—"}</li>` +
+        `<li><strong>馆藏号</strong>${work.catalog}</li>`;
+    }
+    if (lbStory) lbStory.textContent = work.background || "";
 
     const hasOriginal = Boolean(work.original);
-    viewToggle.classList.toggle("is-disabled", !hasOriginal);
-    const origBtn = viewToggle.querySelector('[data-mode="original"]');
+    viewToggle?.classList.toggle("is-disabled", !hasOriginal);
+    const origBtn = viewToggle?.querySelector('[data-mode="original"]');
     if (origBtn) {
       origBtn.disabled = !hasOriginal;
       origBtn.title = hasOriginal ? "切换到原作图片" : "暂无原作图";
     }
 
-    // No external source links in the detail panel.
-    if (lbSources) {
-      lbSources.hidden = true;
-      lbSources.innerHTML = "";
-    }
-
-    setView("art");
+    // Open panel first so the detail view is never lost if image swap hiccups.
     lightbox.classList.add("is-open");
     lightbox.setAttribute("aria-hidden", "false");
     document.body.classList.add("lb-lock");
-    closeBtn.focus();
+    setView("art");
+    closeBtn?.focus();
   }
 
   function closeLightbox() {
