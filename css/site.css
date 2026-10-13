@@ -1256,6 +1256,12 @@ a.button:hover {
     font-size: clamp(2.7rem, 14vw, 4rem);
   }
 
+  .shelf {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin-inline: auto;
+  }
+
   .essay {
     grid-template-columns: 1fr auto;
   }
