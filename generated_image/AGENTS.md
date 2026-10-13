@@ -57,6 +57,7 @@
 ## 馆藏上架（博客奶蛙博物馆）
 
 - `管理创作清单.py complete` 登记完成，**不会**自动出现在博客博物馆。
-- 上架步骤：确认作品已在 `04_名画创作清单/已完成档案.json`，然后于仓库根目录执行 `py -3.12 museum/build_collection.py`，再提交 `museum/assets`、`museum/data`（及如有的页面改动）并推送 Pages。
+- 上架步骤：确认作品已在 `04_名画创作清单/已完成档案.json`，本地 `01_参考资料` 尽量备好原作图，然后于仓库根目录执行 `py -3.12 museum/build_collection.py`，再提交 `museum/assets`、`museum/data`（及如有的页面改动）并推送 Pages。
+- 博物馆灯箱需要可切换的原作图（构建进 `museum/assets/original/`）；缺参考图时由构建脚本 fallback，禁止用外链代替切图。
 - 不要把本目录整棵 `03_艺术方向库` 推上站点；博物馆只使用构建脚本输出的压缩 JPEG。
-- 站点侧规则见仓库根目录 `AGENTS.md`。
+- 站点侧防回归规则（导航/分页/样式隔离等）见仓库根目录 `AGENTS.md`。
