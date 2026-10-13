@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>奶蛙博物馆 · Musée du Naiwa</title>
+  <meta name="description" content="abbuibuibui 的奶蛙博物馆：把奶蛙悄然放进艺术史名作里的常设典藏。">
+  <link rel="canonical" href="https://teast1234.github.io/museum/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="奶蛙博物馆 · Musée du Naiwa">
+  <meta property="og:description" content="从洞窟火光到星月之夜，一只圆润的奶蛙始终在场。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://teast1234.github.io/museum/">
+  <link rel="stylesheet" href="css/museum.css?v=museum1">
+</head>
+<body>
+  <a class="skip" href="#collection">跳到典藏</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="奶蛙博物馆首页">
+      <span class="brand-mark">NMF</span>
+      <span class="brand-title">奶蛙博物馆</span>
+      <span class="brand-sub">Musée du Naiwa</span>
+    </a>
+    <div class="top-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-pressed="false">夜间</button>
+      <a class="text-btn back-link" href="../">返回博客</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">The Permanent Collection</p>
+      <h1 id="hero-title">跨越艺术史的<br>静默凝视</h1>
+      <p class="hero-lede">
+        穿越三万年的凝视，<em>奶蛙</em>栖身于人类最伟大的画布之中。
+        从洞窟的火光到印象派的星空，一个圆润而沉静的身影，始终在场——
+        严肃的美术史，与一点点善意的幽默，并肩而行。
+      </p>
+      <a class="cta" href="#collection">探索典藏</a>
+    </section>
+
+    <section class="collection" id="collection" aria-labelledby="collection-title">
+      <header class="collection-head">
+        <p class="eyebrow">THE PERMANENT COLLECTION</p>
+        <h2 id="collection-title">典藏系列</h2>
+        <p class="hero-lede" style="margin-top:0.8rem;margin-bottom:0">
+          现有 <span data-count>0</span> 件已完成馆藏。点开作品可切换原作参考，对照阅读。
+        </p>
+      </header>
+
+      <div class="filters" data-filters role="toolbar" aria-label="按年代筛选"></div>
+      <div class="grid" data-grid></div>
+      <nav class="pager" data-pager aria-label="作品分页"></nav>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p>奶蛙博物馆 · 仅展出已完成作品 · 原作版权归原作者与馆藏机构</p>
+    <p><a href="../">abbuibuibui 博客</a></p>
+  </footer>
+
+  <div class="lightbox" data-lightbox aria-hidden="true" role="dialog" aria-modal="true" aria-label="作品详情">
+    <button class="lb-close" type="button" data-lb-close aria-label="关闭">×</button>
+    <div class="lightbox-panel">
+      <div class="lightbox-media">
+        <img data-lb-img src="" alt="">
+        <div class="view-toggle" data-view-toggle>
+          <button type="button" data-mode="art" aria-pressed="true">奶蛙改编</button>
+          <button type="button" data-mode="original" aria-pressed="false">原作参考</button>
+        </div>
+      </div>
+      <div class="lightbox-copy">
+        <p class="eyebrow">典藏系列</p>
+        <h3 data-lb-title></h3>
+        <ul class="meta-list" data-lb-meta></ul>
+        <div class="story">
+          <h4>作品故事</h4>
+          <p data-lb-story></p>
+        </div>
+        <p class="sources" data-lb-sources hidden></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/museum.js?v=museum1"></script>
+</body>
+</html>

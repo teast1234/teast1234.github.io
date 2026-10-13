@@ -1,0 +1,1119 @@
+{
+  "generated_from": "generated_image/04_名画创作清单/已完成档案.json",
+  "count": 39,
+  "filters": [
+    {
+      "id": "all",
+      "label": "全部",
+      "label_en": "All"
+    },
+    {
+      "id": "prehistoric",
+      "label": "史前",
+      "label_en": "Prehistoric"
+    },
+    {
+      "id": "egypt",
+      "label": "古埃及",
+      "label_en": "Ancient Egypt"
+    },
+    {
+      "id": "classical",
+      "label": "古典",
+      "label_en": "Classical"
+    },
+    {
+      "id": "medieval",
+      "label": "中世纪",
+      "label_en": "Medieval"
+    },
+    {
+      "id": "renaissance",
+      "label": "文艺复兴",
+      "label_en": "Renaissance"
+    },
+    {
+      "id": "postimpressionism",
+      "label": "后印象",
+      "label_en": "Post-Impressionism"
+    }
+  ],
+  "works": [
+    {
+      "id": "ART-01-001",
+      "catalog": "NMF-ART-01-001",
+      "creation_title": "奶牛开天",
+      "title_en": "奶牛开天",
+      "original_title": "拉斯科洞穴·公牛大厅",
+      "artist": "佚名",
+      "category": "史前艺术",
+      "filter": "prehistoric",
+      "era_label": "史前",
+      "era_label_en": "Prehistoric",
+      "original_date": "旧石器时代晚期；官方首页概述约21000年前",
+      "original_location": "法国拉斯科洞穴",
+      "background": "在拉斯科的岩壁上，公牛比小小的奶蛙大得多，黑色的角仿佛把整座山洞撑开。奶蛙举起一只手，向奔过眼前的群兽打招呼，也像是在试探：一块沉默的石头，究竟能装下多大的世界？赭红的马、深色的鹿与白身的公牛彼此叠映，矿物颜料把脚步留在了时间之外。它没有站在画外欣赏，而是把金黄的身体也交给岩壁，让自己成为这支古老队伍里最小的新成员。当那只手抬起，洞穴里的夜色便有了回应——奶蛙相信，世界也许就是从第一次愿意把所见画下来的时候，慢慢打开的。",
+      "sources": [
+        "https://archeologie.culture.gouv.fr/lascaux/en"
+      ],
+      "art": "assets/art/ART-01-001.jpg",
+      "original": null,
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 405626,
+        "sha256": "191b3e1e2f3d2552cc55779d0cbbc267628dcdb846af6b2293fe8c30a82b06f5"
+      }
+    },
+    {
+      "id": "ART-01-002",
+      "catalog": "NMF-ART-01-002",
+      "creation_title": "奶踏飞黄",
+      "title_en": "奶踏飞黄",
+      "original_title": "拉斯科洞穴·中国马",
+      "artist": "佚名",
+      "category": "史前艺术",
+      "filter": "prehistoric",
+      "era_label": "史前",
+      "era_label_en": "Prehistoric",
+      "original_date": "旧石器时代晚期",
+      "original_location": "法国拉斯科洞穴轴向画廊；选第三匹中国马",
+      "background": "拉斯科的黄色小马从岩壁上飞奔而过，黑色鬃毛带着风，浅色腹部像掠过洞口的一线光。奶蛙赶紧迈开短腿，决定跟它赛一场没有终点的跑步。它的脚步不够长，肚子却很有节奏：马向前跃，它也向前跃；石头上的红色符号，成了这场古老竞赛里无人宣布的路标。黄与黑的色层沿着动物轮廓展开，既轻巧又有力量，奶蛙也把自己变成一块会奔跑的赭黄。这里没有奖牌，甚至没有道路，只有画家留在石壁上的运动与生命。奶蛙想，追不上也没关系，能和几万年前的一阵风并肩跑过，已经足够神气。",
+      "sources": [
+        "https://archeologie.culture.gouv.fr/lascaux/en/media/view/8149"
+      ],
+      "art": "assets/art/ART-01-002.jpg",
+      "original": null,
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 418725,
+        "sha256": "17781bd3f97f100997edf08ef52285369fd17db60030ec3d01d4836550fc72c7"
+      }
+    },
+    {
+      "id": "ART-01-003",
+      "catalog": "NMF-ART-01-003",
+      "creation_title": "奶娃入谜",
+      "title_en": "奶娃入谜",
+      "original_title": "拉斯科洞穴·井穴场景",
+      "artist": "佚名",
+      "category": "史前艺术",
+      "filter": "prehistoric",
+      "era_label": "史前",
+      "era_label_en": "Prehistoric",
+      "original_date": "旧石器时代晚期",
+      "original_location": "法国拉斯科洞穴井穴；画面主题改编",
+      "background": "洞穴深处，犀牛转身离去，野牛低下头，鸟儿停在细长的杆顶，谁也没有解释刚才发生了什么。奶蛙仰躺在它们之间，手脚摊开，仿佛不小心跌进了一个比自己年长许多的谜。拉斯科井穴画面的稀疏线条，把相遇、危险和静止挤在同一瞬间；奶蛙的奶油肚成了这片沉默里最柔软的一块留白。它抬眼望着上方的鸟，想等一句提示，却只等来岩壁上缓慢流过的光。于是它也不急着起身：有些故事被画下来，就是为了让后来者继续猜。至于这位新来的金黄主角，究竟是刚刚跌倒，还是正在装睡，连它自己都准备再想一会儿。",
+      "sources": [
+        "https://archeologie.culture.gouv.fr/lascaux/en/mediatheque"
+      ],
+      "art": "assets/art/ART-01-003.jpg",
+      "original": null,
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 400720,
+        "sha256": "c1b2af2b4df4ff5dfabdd28f56b4c08e1dfe2b5962a0a5147d28c268e52ce838"
+      }
+    },
+    {
+      "id": "ART-01-004",
+      "catalog": "NMF-ART-01-004",
+      "creation_title": "奶与狮行",
+      "title_en": "奶与狮行",
+      "original_title": "肖维洞穴·狮群画面",
+      "artist": "佚名",
+      "category": "史前艺术",
+      "filter": "prehistoric",
+      "era_label": "史前",
+      "era_label_en": "Prehistoric",
+      "original_date": "旧石器时代；肖维官方首页概述约36000年前，非本局部独立测年",
+      "original_location": "法国肖维洞穴深厅；狮群大画面右部主题",
+      "background": "肖维洞穴里的狮群向同一个方向推进，重叠的头部与背线，让炭黑的笔触也有了追逐的呼吸。左边的野牛群紧紧挤在一起，奶蛙则压低身体，悄悄跟在这支队伍的边缘。它努力学着狮子的步态，却怎么也藏不住金黄的身子和圆圆的奶油肚，只好把谨慎写在那双绿色眼睛里。被擦出的浅色岩面托住深黑轮廓，动物一层接一层，仿佛时间也在同时向前奔跑。奶蛙不想抢走狮群的威风，它只是想知道：力量为什么能被几根线条留住，而自己又能否在这场古老的追逐中，找到一小块属于勇气的位置。",
+      "sources": [
+        "https://archeologie.culture.gouv.fr/chauvet/fr/le-grand-panneau-des-lions"
+      ],
+      "art": "assets/art/ART-01-004.jpg",
+      "original": null,
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 779,
+        "bytes": 349581,
+        "sha256": "40af967fcad6168f5dba853795da489eec27a96d93426fd989e67d17e4c08b8b"
+      }
+    },
+    {
+      "id": "ART-01-005",
+      "catalog": "NMF-ART-01-005",
+      "creation_title": "奶望穹牛",
+      "title_en": "奶望穹牛",
+      "original_title": "阿尔塔米拉洞穴·野牛顶棚",
+      "artist": "佚名",
+      "category": "史前艺术",
+      "filter": "prehistoric",
+      "era_label": "史前",
+      "era_label_en": "Prehistoric",
+      "original_date": "旧石器时代；本次不写未经独立核实的局部精确年代",
+      "original_location": "西班牙阿尔塔米拉洞穴；多彩顶棚野牛组选题",
+      "background": "阿尔塔米拉的红色野牛卧在石头起伏之间，炭黑的轮廓收住沉重的身躯，岩壁的隆起又把它们轻轻托起。奶蛙也找了一处舒服的斜坡躺下，圆肚朝向画外，绿色眼睛望着那头几乎占满上方的大野牛。它原本只想歇一会儿，抬头却发现，天空可以不画在天上：赭红、黑色和石头本身，就能织成一座有生命的穹顶。周围的牛有的蜷缩，有的挺立，各自安静，又像随时会一起醒来。奶蛙把手搭在肚边，决定暂时不打扰这场漫长的午睡。它守着自己的小小金黄，也守着一片在黑暗中仍然丰盛的世界。",
+      "sources": [
+        "https://www.cultura.gob.es/en/cultura/areas/museos/mc/ceres/catalogos-tematicos/altamira/arte-rupestre/techo-policromos.html"
+      ],
+      "art": "assets/art/ART-01-005.jpg",
+      "original": null,
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 369633,
+        "sha256": "c5b3586b5d568eebd10d45ed7baa92764dff5fee1249d7dc02b3916f272e480b"
+      }
+    },
+    {
+      "id": "ART-01-006",
+      "catalog": "NMF-ART-01-006",
+      "creation_title": "奶印千年",
+      "title_en": "奶印千年",
+      "original_title": "阿根廷手洞·手印画面",
+      "artist": "佚名",
+      "category": "史前艺术",
+      "filter": "prehistoric",
+      "era_label": "史前",
+      "era_label_en": "Prehistoric",
+      "original_date": "史前至早期历史时期多期叠加；UNESCO页面各段年代口径不同，不把整遗址压成单一精确年份",
+      "original_location": "阿根廷圣克鲁斯省手洞；手印画面主题",
+      "background": "巴塔哥尼亚的岩壁上，一只又一只手留下浅色的轮廓，红、黄、黑与白的颜料在掌边散开，像许多人隔着时间共同说了一声“我来过”。奶蛙走到这片手印前，举起自己的小手，郑重地给古老的问候添上一个金黄的回答。它的掌形和别人不同，圆肚也有些挡路，却并不妨碍它加入这场无声的聚会。远处的原驼仍沿着石壁奔跑，风从峡谷经过，把新的声音吹向旧的痕迹。奶蛙没有留下名字，因为一只手已经足够：它曾在这里停下，见过这面墙，也愿意让很久以后的另一位旅人知道，自己并不是第一个感到惊奇的人。",
+      "sources": [
+        "https://whc.unesco.org/en/list/936"
+      ],
+      "art": "assets/art/ART-01-006.jpg",
+      "original": null,
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 430038,
+        "sha256": "85b69ebd5b4dbc264829a8e8e16236c970a81a0dc8fd41e75202412a0ff55ce1"
+      }
+    },
+    {
+      "id": "ART-02-001",
+      "catalog": "NMF-ART-02-001",
+      "creation_title": "奶渡芦间",
+      "title_en": "奶渡芦间",
+      "original_title": "内巴蒙墓·沼泽狩猎",
+      "artist": "佚名",
+      "category": "古埃及艺术",
+      "filter": "egypt",
+      "era_label": "古埃及",
+      "era_label_en": "Ancient Egypt",
+      "original_date": "约公元前1350年",
+      "original_location": "底比斯内巴蒙墓室壁画残片，大英博物馆EA37977",
+      "background": "尼罗河边，纸莎草撑开蓝绿的叶冠，鸟群从茎叶之间腾起，鱼在小舟下悄悄穿行。奶蛙站稳脚步，举起弯弯的投棒，另一只手握着诱鸟，摆出一副熟练猎人的架势；同行的伙伴抱着莲花，小奶蛙却更关心身旁会不会有一只愿意陪它玩的鸟。内巴蒙墓室里理想而丰盛的生活，就这样变成奶蛙一家永不赶时间的河上清晨。项圈闪着细密的蓝与红，白色亚麻衣贴着圆肚，连芦苇间攀爬的猫也不肯错过这场热闹。奶蛙原想证明自己掌握了整片沼泽，最后才发现，真正值得留住的，是鸟仍在飞、花仍在开，而一家人恰好都在这条小船上。",
+      "sources": [
+        "https://britishmuseum.org.cn/G_61.html",
+        "https://www.britishmuseum.org/collection/object/Y_EA37977"
+      ],
+      "art": "assets/art/ART-02-001.jpg",
+      "original": "assets/original/ART-02-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1060,
+        "height": 1400,
+        "bytes": 491587,
+        "sha256": "a9625c3422d604b23fd4f9521d0c4bfa56240831ee79b2ac6dbcc1bbce0c0f76"
+      }
+    },
+    {
+      "id": "ART-02-002",
+      "catalog": "NMF-ART-02-002",
+      "creation_title": "奶池长夏",
+      "title_en": "奶池长夏",
+      "original_title": "内巴蒙墓·花园池塘",
+      "artist": "佚名",
+      "category": "古埃及艺术",
+      "filter": "egypt",
+      "era_label": "古埃及",
+      "era_label_en": "Ancient Egypt",
+      "original_date": "约公元前1350年",
+      "original_location": "底比斯内巴蒙墓室壁画，大英博物馆EA37983",
+      "background": "奶蛙把花园收拾成一张永远不会过期的夏日地图：池塘铺在中央，鱼和水鸟各有自己的位置，四周的棕榈、果树与花枝则朝着最容易被看见的方向展开。它站在右上方的树荫下，把成熟的果子装进两只篮子，准备招待每一位从远方来到这里的客人。内巴蒙墓室里对丰盛生活的向往，在这方蓝色池水中慢慢舒展；这里不必追逐日落，也不用担心果实下一季是否还会长出。奶蛙认真检查每一片叶子，觉得园丁最了不起的本领，并不是让所有东西同时开花，而是给鱼留下水、给鸟留下风，也给疲倦的旅人留下一处可以坐下来的树荫。",
+      "sources": [
+        "https://www.britishmuseum.org/collection/object/Y_EA37983",
+        "https://britishmuseum.org.cn/G_61.html"
+      ],
+      "art": "assets/art/ART-02-002.jpg",
+      "original": "assets/original/ART-02-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1075,
+        "bytes": 548824,
+        "sha256": "4cefda01fc59f186eea49534ee71dd6cb7462b11586272a923acbe634bcd443c"
+      }
+    },
+    {
+      "id": "ART-02-003",
+      "catalog": "NMF-ART-02-003",
+      "creation_title": "奶舞长欢",
+      "title_en": "奶舞长欢",
+      "original_title": "内巴蒙墓·乐师与舞者",
+      "artist": "佚名",
+      "category": "古埃及艺术",
+      "filter": "egypt",
+      "era_label": "古埃及",
+      "era_label_en": "Ancient Egypt",
+      "original_date": "新王国第十八王朝；馆方合作页标公元前1370年，中文展厅概述约前1350年",
+      "original_location": "内巴蒙墓室宴席壁画EA37984乐师舞者局部；大英博物馆",
+      "background": "宴席还没散，奶蛙乐队已经把下一段旋律吹进了壁画。左边的伙伴认真拍着手，双管的声音从圆肚前升起；两位舞者一只举臂，一只轻抬后脚，把原本安静的横向画面跳成了一条流动的乐句。内巴蒙为永恒生活留下的宴饮愿望，在这里变成奶蛙最朴素的快乐：有人听，有人奏，也有人愿意不顾肚子的分量，努力把舞步跳得轻盈。酒坛上的花环垂下来，珠饰随着动作闪出蓝红的节拍。谁也没有催它们表演结束，因为这一场欢聚不靠钟声计算长短。奶蛙相信，只要还有一双手愿意跟着拍，今天的好心情就能在石膏与颜料之间，多住上许多年。",
+      "sources": [
+        "https://artsandculture.google.com/asset/a-feast-for-nebamun-the-top-half-of-a-scene-from-the-tomb-chapel-of-nebamun/MgGAnWLJymZxMA?hl=en",
+        "https://www.britishmuseum.org/collection/object/Y_EA37984"
+      ],
+      "art": "assets/art/ART-02-003.jpg",
+      "original": "assets/original/ART-02-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 669,
+        "bytes": 318550,
+        "sha256": "0d9e0f2664cd04e4be6396a7e17bc09e3373a40ffc24347c2a174c9603f2ed9b"
+      }
+    },
+    {
+      "id": "ART-02-004",
+      "catalog": "NMF-ART-02-004",
+      "creation_title": "奶宴三弦",
+      "title_en": "奶宴三弦",
+      "original_title": "纳赫特墓·宴饮与乐师壁画",
+      "artist": "佚名",
+      "category": "古埃及艺术",
+      "filter": "egypt",
+      "era_label": "古埃及",
+      "era_label_en": "Ancient Egypt",
+      "original_date": "原壁画约公元前1410—1370年；参考摹本1908—1914年",
+      "original_location": "埃及底比斯TT52礼拜室西墙南侧；参考大都会15.5.19d,j–k摹本",
+      "background": "纳赫特的宴席被奶蛙们安排得井井有条：有人闻着莲花轻声聊天，有人把果子堆成小山，而三位乐师已经在中央找好了各自的位置。弓形竖琴先拨开一线安静，长颈琉特琴接住节奏，笛声再把它送到桌边。白色衣褶裹着金黄的圆肚，珠领与蓝色陶器彼此照应，让一场久远的聚会有了柔和而明亮的温度。奶蛙原本担心自己的手太短、肚子太圆，未必能把这支乐队带好；等第一段旋律响起，才发现伙伴们一直在认真听它。于是它不再惦记谁弹得最响，只让每一种声音都有自己的空隙。宴席最珍贵的丰盛，原来不是桌上装满了什么，而是大家都愿意留下来，再听一曲。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/548576"
+      ],
+      "art": "assets/art/ART-02-004.jpg",
+      "original": "assets/original/ART-02-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 559,
+        "bytes": 203586,
+        "sha256": "818b0b2636682a16766e821cd6e987a56f52184515b1abd965eec5efeee716a2"
+      }
+    },
+    {
+      "id": "ART-02-005",
+      "catalog": "NMF-ART-02-005",
+      "creation_title": "奶耕不辍",
+      "title_en": "奶耕不辍",
+      "original_title": "森尼杰姆墓·芦苇原耕作场景",
+      "artist": "佚名",
+      "category": "古埃及艺术",
+      "filter": "egypt",
+      "era_label": "古埃及",
+      "era_label_en": "Ancient Egypt",
+      "original_date": "原壁画约公元前1300—1224年；参考Charles K. Wilkinson摹本1922年",
+      "original_location": "德尔麦地那森尼杰姆墓TT1东墙；大都会摹本30.4.2",
+      "background": "奶蛙把来世想象成一块总有收成的田。上层的麦穗密密站着，伙伴一手扶住谷束，一手挥起弯镰，另一个已经把篮子接在旁边；下层有人拔起开着蓝花的亚麻，有人扶犁跟着牛走，也有人把种子撒进刚刚翻开的土里。森尼杰姆与妻子在芦苇原中的丰饶愿景，于是有了奶蛙一家朴实的忙碌。果树与棕榈沿着水道展开，金黄的身体和成熟的麦田几乎融在一起。这里的劳动没有被画成苦役，倒像大家熟悉的一场合作：你收割，我接住，你往前走，我把新的希望撒在身后。奶蛙擦了擦手，望着下一行田垄，觉得永恒最好的模样，或许就是今天的付出，始终有明天愿意回应。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/548354"
+      ],
+      "art": "assets/art/ART-02-005.jpg",
+      "original": "assets/original/ART-02-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 913,
+        "bytes": 397475,
+        "sha256": "091b166c45351b23c4b8b59d522011070441c31c9db322b3e9ac12badd880858"
+      }
+    },
+    {
+      "id": "ART-02-006",
+      "catalog": "NMF-ART-02-006",
+      "creation_title": "奶引长安",
+      "title_en": "奶引长安",
+      "original_title": "奈菲尔塔利王后墓·王后与神祇壁画",
+      "artist": "佚名",
+      "category": "古埃及艺术",
+      "filter": "egypt",
+      "era_label": "古埃及",
+      "era_label_en": "Ancient Egypt",
+      "original_date": "原场景属拉美西斯二世时期，馆方约公元前1290—1224年；参考图为Charles K. Wilkinson纸上蛋彩摹本",
+      "original_location": "王后谷QV66；选择伊西斯牵引王后场景，大都会30.4.142摹本",
+      "background": "两位奶蛙向同一个方向走去，一位戴着高高的羽冠，一位顶着红色日轮；白色衣褶与赭红裙纹并肩展开，最醒目的却是它们在中央握住的手。奈菲尔塔利墓室中，王后由伊西斯引领前行的场景，在奶蛙世界里成了一段安静的陪伴。没有队伍，也没有催促，持着纸莎草权杖的伙伴只是把手伸回来，让身后那位知道，前面的路可以慢慢走。金黄的身体从繁密珠领间露出，绿色眼睛望向尚未画出的远方。奶蛙终于明白，冠饰能说明身份，却不能代替安心；真正使它敢于向未知迈步的，是那只不松开的手。于是它把紧张藏进白衣的褶子里，和伙伴一起，把这段旅途走成了长久的安宁。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/557811"
+      ],
+      "art": "assets/art/ART-02-006.jpg",
+      "original": "assets/original/ART-02-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 936,
+        "height": 1400,
+        "bytes": 240078,
+        "sha256": "0913f7b1ffe7458f7890569336dd7224a1a4d94b12b300371159966a85edeff9"
+      }
+    },
+    {
+      "id": "ART-03-001",
+      "catalog": "NMF-ART-03-001",
+      "creation_title": "奶跃彼岸",
+      "title_en": "奶跃彼岸",
+      "original_title": "跳水者之墓·跳水者",
+      "artist": "佚名",
+      "category": "古希腊罗马艺术",
+      "filter": "classical",
+      "era_label": "古典",
+      "era_label_en": "Classical",
+      "original_date": "约公元前480—470年",
+      "original_location": "意大利帕埃斯图姆跳水者之墓墓盖画面",
+      "background": "高台留在身后，水面还没有抵达，奶蛙的身体已经穿过那一小段谁也无法替它走的空白。两侧的细树像静静等待的见证，深色边框把世界收得很安静，只有金黄的圆肚与伸向前方的手，为这块古老的石膏添上一瞬勇气。帕埃斯图姆的跳水者曾把跃起与抵达之间的时刻留在墓盖上，奶蛙也把自己交给同样的停顿：不是为了证明跳得多远，而是相信前方仍有一片可以接住它的水。它没有回头数台阶，也没有急着给未知取名字。等微蓝的波纹终于靠近，那些在高处犹豫过的话，便会随着第一声水响，变成另一段故事的开头。",
+      "sources": [
+        "https://cultura.gov.it/comunicato/la-famosa-tomba-del-tuffatore-di-paestum-non-e-piu-sola-scoperta-archeologica-suggerisce-legami-con-architettura-templare",
+        "https://ancientrome.ru/art/artworken/img.htm?id=6313"
+      ],
+      "art": "assets/art/ART-03-001.jpg",
+      "original": "assets/original/ART-03-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 766,
+        "bytes": 261199,
+        "sha256": "e1752a672212518693f7e0ed424ab6463f2c45079be1cb22a8eb5aca8f29e78e"
+      }
+    },
+    {
+      "id": "ART-03-002",
+      "catalog": "NMF-ART-03-002",
+      "creation_title": "奶读秘卷",
+      "title_en": "奶读秘卷",
+      "original_title": "庞贝神秘别墅·狄俄尼索斯仪式壁画",
+      "artist": "佚名",
+      "category": "古希腊罗马艺术",
+      "filter": "classical",
+      "era_label": "古典",
+      "era_label_en": "Classical",
+      "original_date": "公元前1世纪；此次不将存争议的解释写成确定仪式步骤",
+      "original_location": "意大利庞贝神秘别墅仪式壁画读卷与旁听局部",
+      "background": "朱红的墙面把声音收得很低，小奶蛙却把手中的卷页举得很认真。披着深色外衣的伙伴站在一旁，坐着的长者把手轻轻搭在它肩上，另一只手仍握着尚未展开的卷轴，像在等待它读完今天最重要的一段。庞贝神秘别墅里那些关于仪式、成长与相聚的目光，如今都停在这位金黄的小读者身上。它不急着把每个秘密念得响亮，只把一页纸当成通向新世界的门。红墙、黑色嵌边与浅紫衣褶围成安静的小舞台，圆圆的奶油肚也跟着呼吸。奶蛙终于发现，真正的入门并不总是跨过一座宏大的门槛；有时，是有人愿意站在你身边，耐心听你把第一句话读完。",
+      "sources": [
+        "https://pompeiisites.org/wp-content/uploads/A-Guide-to-the-Pompeii-Excavations-2.pdf",
+        "https://commons.wikimedia.org/wiki/Category:Frescos_of_the_mystery_ritual",
+        "https://www.meisterdrucke.us/fine-art-prints/Roman/1090433/Initiation-rites-of-the-cult-of-Dionysus-fresco-from-the-Villa-Dei-Mysteri.html"
+      ],
+      "art": "assets/art/ART-03-002.jpg",
+      "original": "assets/original/ART-03-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1108,
+        "bytes": 370989,
+        "sha256": "09929b557c7202dbf0de209ab94145bc01d01dbbc0eff1e7281ffeefce54d147"
+      }
+    },
+    {
+      "id": "ART-03-003",
+      "catalog": "NMF-ART-03-003",
+      "creation_title": "奶锋相逢",
+      "title_en": "奶锋相逢",
+      "original_title": "庞贝·亚历山大镶嵌画",
+      "artist": "佚名",
+      "category": "古希腊罗马艺术",
+      "filter": "classical",
+      "era_label": "古典",
+      "era_label_en": "Classical",
+      "original_date": "公元前2世纪末（MANN馆方）",
+      "original_location": "庞贝农牧神之屋exedra地面，现那不勒斯国家考古博物馆Inv10020",
+      "background": "一边是策马向前的奶蛙，一边是战车上回身伸手的奶蛙，斜斜的长矛把两道目光接在同一瞬间。庞贝农牧神之屋曾把亚历山大与大流士的交锋铺进地面，如今金黄的圆肚藏在铠甲与披风之间，也卷进了这场无法轻易回头的奔流。战马奋起，车轮转动，盾牌在脚下闪出碎石般的光；每一枚小镶嵌石都很安静，拼在一起却像有千军的声音。奶蛙原以为勇气只有冲向前方一种样子，直到看见对手在疾驰中仍伸出的手，才懂得一个战场能同时装下决心、惊惧与牵挂。它把目光收得更稳，知道这一幅要留下的，不只是胜负，而是两位主角在命运交错时，谁也无法避开的那次相逢。",
+      "sources": [
+        "https://www.museoarcheologiconapoli.it/portfolio-item/mosaici/",
+        "https://smarthistory.org/alexander-mosaic-from-the-house-of-the-faun-pompeii/"
+      ],
+      "art": "assets/art/ART-03-003.jpg",
+      "original": "assets/original/ART-03-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 787,
+        "bytes": 367952,
+        "sha256": "c6b62b4ae190e46ceecae6be33dd55a86900db05aa4cb8006330ea6b110cb0cf"
+      }
+    },
+    {
+      "id": "ART-03-004",
+      "catalog": "NMF-ART-03-004",
+      "creation_title": "奶栖芳庭",
+      "title_en": "奶栖芳庭",
+      "original_title": "利维娅别墅·花园壁画",
+      "artist": "佚名",
+      "category": "古希腊罗马艺术",
+      "filter": "classical",
+      "era_label": "古典",
+      "era_label_en": "Classical",
+      "original_date": "古罗马奥古斯都时期；本次不写未在馆方页核实的精确年份",
+      "original_location": "Prima Porta利维娅别墅餐室，现罗马国家博物馆Palazzo Massimo",
+      "background": "奶蛙在利维娅的花园里放轻了脚步。蓝绿的远景把树叶托得很轻，石榴在枝间露出温暖的红，鸟儿有的停着，有的正从另一丛叶子间穿过。它站到浅粉色的矮墙旁，举起一颗小果子，认真等待面前那位长着翅膀的客人决定要不要靠近。曾经围绕罗马别墅餐室展开的花园，如今也为这只金黄的旅人留下一处安静角落；亚麻披衣松松搭着，圆肚不必收起，时间也不用走得很快。奶蛙没有试图成为这座花园的主人，它只是想把手伸得稳一点，让小鸟明白自己并无恶意。等那道小小的目光终于与它相遇，满墙的花木便不再只是风景，而成了一段愿意回应的春天。",
+      "sources": [
+        "https://museonazionaleromano.it/en/palazzo-massimo/the-gallery-of-paintings-and-mosaics/",
+        "https://www.rome-passion.com/palais-massimo-terme.html"
+      ],
+      "art": "assets/art/ART-03-004.jpg",
+      "original": "assets/original/ART-03-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 888,
+        "bytes": 350354,
+        "sha256": "28c92101c505c93dfcbb57add4b87b7844fce22509880d89fec76d214ead9646"
+      }
+    },
+    {
+      "id": "ART-03-005",
+      "catalog": "NMF-ART-03-005",
+      "creation_title": "奶伴书香",
+      "title_en": "奶伴书香",
+      "original_title": "庞贝·面包师特伦提乌斯夫妇肖像",
+      "artist": "佚名",
+      "category": "古希腊罗马艺术",
+      "filter": "classical",
+      "era_label": "古典",
+      "era_label_en": "Classical",
+      "original_date": "公元55—79年（MANN合作作品页）",
+      "original_location": "庞贝特伦提乌斯宅双人肖像，现MANN Inv9058；历史曾误称Paquius Proculus",
+      "background": "两只奶蛙肩并肩站好，一只披着红色外衣，把书写笔轻轻停在嘴边，另一只裹着浅色长袍，认真握住一卷尚未展开的纸。面包的香气可以把邻居引进门，文字却能把它们的日子留得更远；来自庞贝的这幅双人肖像，于是成了奶蛙夫妇给未来写下的一次安静问候。蜡板还空着，卷轴也没有替它们说话，绿色眼睛却已经望向画外，像在告诉你：我们有自己的生活，也愿意把它记下来。奶蛙原本想写一份很体面的自我介绍，思考半天，才发现最重要的一句根本不需要落笔——无论今天的事情有多少，只要伙伴还在身旁，这一页就值得好好保存。",
+      "sources": [
+        "https://artsandculture.google.com/asset/terentius-neo-e-la-moglie/5wE6mCTFmiAj0Q?hl=en",
+        "https://commons.wikimedia.org/wiki/Category:Terentius_Neo_and_his_wife,_fresco_(from_Pompeii)"
+      ],
+      "art": "assets/art/ART-03-005.jpg",
+      "original": "assets/original/ART-03-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 399997,
+        "sha256": "c0072f3cc28aa19eac8d9fbed84b0265ec4c7bc86b4f2200596259e283acb651"
+      }
+    },
+    {
+      "id": "ART-03-006",
+      "catalog": "NMF-ART-03-006",
+      "creation_title": "奶思成诗",
+      "title_en": "奶思成诗",
+      "original_title": "庞贝·诗人萨福像（传统称谓）",
+      "artist": "佚名",
+      "category": "古希腊罗马艺术",
+      "filter": "classical",
+      "era_label": "古典",
+      "era_label_en": "Classical",
+      "original_date": "公元55—79年（MANN合作页）",
+      "original_location": "庞贝VI Insula Occidentalis，现MANN Inv9084；萨福为传统称谓，不据此确证人物身份",
+      "background": "奶蛙把笔尖轻轻停在嘴边，另一只手托住蜡板，像是在等一句话从心里慢慢走出来。圆形画框收住了周围的喧闹，只留下紫灰的衣褶、细细的金色网帽，以及那双还没有决定落笔的绿色眼睛。庞贝这幅以“萨福”之名流传的肖像，把书写之前的思索留成了一个手势；奶蛙也把自己的小小迟疑交给了同样的安静。它本想写一首很长的诗，把今天遇见的光、伙伴和微风全都装进去，想了又想，却觉得最好的第一句也许不必太聪明。于是它先停一会儿，让空白继续空白。真正值得写下的东西，不会因为晚一点落笔而消失；当它终于找到自己的声音，连圆肚里那一点温暖，也能成为诗的一部分。",
+      "sources": [
+        "https://artsandculture.google.com/asset/saffo/NQHJ4PX9zPcpzg?hl=it",
+        "https://commons.wikimedia.org/wiki/File:The_so-called_Sappho_portrait,_Pompeii_(AD_45-79).jpg"
+      ],
+      "art": "assets/art/ART-03-006.jpg",
+      "original": "assets/original/ART-03-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 364988,
+        "sha256": "eef63609ddfe651c6ef7de9ed93a875150615cd7c63d144f2ed5a395055d3703"
+      }
+    },
+    {
+      "id": "ART-04-001",
+      "catalog": "NMF-ART-04-001",
+      "creation_title": "奶冠同辉",
+      "title_en": "奶冠同辉",
+      "original_title": "圣维塔莱教堂·查士丁尼及侍从镶嵌画",
+      "artist": "佚名",
+      "category": "拜占庭艺术",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "公元6世纪，约547年；教堂祝圣年不同导览有547/548口径",
+      "original_location": "意大利拉文纳圣维塔莱教堂后殿侧壁查士丁尼队列",
+      "background": "金色背景没有画出远方，奶蛙们却像站在同一束永不熄灭的光里。中央的伙伴戴着珠冠，披紫色长袍，双手稳稳托住金盘；左边是守着长矛和圆盾的护卫，右边是带着十字架、书卷与香炉的同行者。拉文纳圣维塔莱的正面队列，把权力、礼仪和共同的信念安排在一道庄严的秩序中，奶蛙也认真站进了自己的位置。每一块小镶嵌石都只反射一点光，汇在一起，却让最安静的面孔也显得明亮。它原以为王冠会使自己成为全场最重要的一位，托起金盘时才发现，真正需要照顾的是大家共同守住的步调。于是它不再急着向前，只让伙伴们都留在画面里，让这一份光，能够照到每一张金黄的脸。",
+      "sources": [
+        "https://www.turismo.ra.it/en/culture-and-history/religious-buildings/basilica-san-vitale/",
+        "https://commons.wikimedia.org/wiki/File:Ravenna_Basilica_of_San_Vitale_mosaic_Justinian.jpg"
+      ],
+      "art": "assets/art/ART-04-001.jpg",
+      "original": "assets/original/ART-04-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 787,
+        "bytes": 480103,
+        "sha256": "a762d2ab57d9a7969979069d86cb5fef1a463deb5caa1560be40e046520fea8d"
+      }
+    },
+    {
+      "id": "ART-04-002",
+      "catalog": "NMF-ART-04-002",
+      "creation_title": "奶珠奉光",
+      "title_en": "奶珠奉光",
+      "original_title": "圣维塔莱教堂·狄奥多拉及侍从镶嵌画",
+      "artist": "佚名",
+      "category": "拜占庭艺术",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "公元6世纪，查士丁尼时期，约547年",
+      "original_location": "意大利拉文纳圣维塔莱教堂狄奥多拉队列壁面",
+      "background": "珠冠的垂饰在金色背景前安静地亮着，奶蛙双手托住宝石杯，站在队列中央。左边的伙伴掀开帷幕，喷泉在暗处露出一点蓝；右边的侍从披着各色花纹长袍，一同等待前行的时刻。狄奥多拉在拉文纳镶嵌画中的奉献姿态，于是成了奶蛙为同行者守住的一份郑重。华丽的衣料没有把它变得遥远，那条细细的嘴线反而像在提醒大家：慢一点，把杯子拿稳，也把心意拿稳。每一颗珠子、每一枚金色小石都只占很小的位置，却共同织出庄严的光。奶蛙终于发现，最值得被看见的并不总是冠上最大的一颗宝石，而是穿过帷幕后，仍愿意和伙伴们一起送出的那份温柔。",
+      "sources": [
+        "https://panoramadelart.com/analyse/theodora-et-les-dignitaires-de-la-cour",
+        "https://commons.wikimedia.org/wiki/File:Ravenna_Basilica_of_San_Vitale_mosaic_Theodora.jpg"
+      ],
+      "art": "assets/art/ART-04-002.jpg",
+      "original": "assets/original/ART-04-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 700,
+        "bytes": 350121,
+        "sha256": "30c0fc39c921ccff18a7a51fff96c4850569097a255fd8b8156b9093a2f24f96"
+      }
+    },
+    {
+      "id": "ART-04-003",
+      "catalog": "NMF-ART-04-003",
+      "creation_title": "奶愿有应",
+      "title_en": "奶愿有应",
+      "original_title": "圣索菲亚大教堂·祈祷图镶嵌画",
+      "artist": "佚名",
+      "category": "拜占庭艺术",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "13世纪后期；大都会原作定年1261—1300，Smarthistory常用约1261",
+      "original_location": "伊斯坦布尔圣索菲亚南侧楼廊Deesis镶嵌；参考现存原作照片",
+      "background": "两边的奶蛙微微低下头，把双手和未说完的愿望一同递向中央；蓝色披衣中的伙伴没有急着回答，只举起一只手，让这一刻先安静下来。圣索菲亚的《祈祷图》把祈求与慈悲安排在三道相互靠近的目光里，奶蛙也把自己的认真放进了这片金色背景。书册上的宝石很亮，光环却不刺眼，一枚枚细小镶嵌石把衣褶、手势和表情慢慢连成温柔的秩序。它原本以为愿望必须说得足够响，才能被听见，后来才发现，低下头并不总是因为软弱，也可以是信任。于是奶蛙把想求的事情留在掌心，把想给的安慰留在抬起的手里，让这幅画中的等待，不再只是等待。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/467825",
+        "https://smarthistory.org/deesis-christ-with-the-virgin-mary-and-john-the-baptist-hagia-sophia-istanbul/"
+      ],
+      "art": "assets/art/ART-04-003.jpg",
+      "original": "assets/original/ART-04-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 808,
+        "bytes": 482643,
+        "sha256": "675ec5d3e7870efbfc1a90194b10883c3e88d46048d4ebbd94d9db239a6c7a46"
+      }
+    },
+    {
+      "id": "ART-04-004",
+      "catalog": "NMF-ART-04-004",
+      "creation_title": "奶守静光",
+      "title_en": "奶守静光",
+      "original_title": "西奈圣凯瑟琳修道院·全能基督圣像",
+      "artist": "佚名",
+      "category": "拜占庭艺术",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "公元6世纪",
+      "original_location": "埃及西奈圣凯瑟琳修道院，木板蜡画圣像",
+      "background": "奶蛙正面望着画外，手里的书很厚，抬起的手却很轻。深色衣袍托住金黄的身体，古老的光环在身后缓缓展开，像把喧闹隔在了木板之外。西奈蜡画圣像中持书与祝福的姿态，来到奶蛙世界后，也成了一份不急着证明自己的从容。颜料与蜡一层层留下温暖的痕迹，书上的珠石并不比那双绿色眼睛更耀眼；它没有翻开书教训谁，只让你知道，仍有一些话值得保存，也仍有一些人值得温柔相待。奶蛙曾以为守住光，就要把它举得很高，后来才学会把声音放低，把手伸稳。这样，即使远来的旅人只停留片刻，也能在这片安静里，找到一点可以带走的安慰。",
+      "sources": [
+        "https://www.sinaimonastery.com/index.php/en/treasures/icons",
+        "https://commons.wikimedia.org/wiki/File:Christ_Icon_Sinai_6th_century.jpg"
+      ],
+      "art": "assets/art/ART-04-004.jpg",
+      "original": "assets/original/ART-04-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 734,
+        "height": 1400,
+        "bytes": 281920,
+        "sha256": "ef5c24a7c03657c1b516bddac2ade0952509f99a9bc30adcd2e4936dc10e67ad"
+      }
+    },
+    {
+      "id": "ART-04-005",
+      "catalog": "NMF-ART-04-005",
+      "creation_title": "奶席同心",
+      "title_en": "奶席同心",
+      "original_title": "三位一体圣像",
+      "artist": "安德烈·鲁布廖夫",
+      "category": "拜占庭艺术",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "1425—1427（特列季亚科夫合作页；学界另有较早定年）",
+      "original_location": "原为圣谢尔盖三一修道院圣像；使用馆方历史图像版本，不据旧图页断言当前展出位置",
+      "background": "三只奶蛙围着一张小桌坐下，桌中央只有一只杯子，谁也没有急着把话说完。玫瑰色、深蓝与灰绿的衣袍沿着身体轻轻垂落，低下的目光与靠近桌面的手势，把它们连成一个安静的圆。鲁布廖夫的圣像以克制的色彩与彼此呼应的姿态守住和谐，奶蛙也学着让这一席相聚不靠热闹撑起。屋舍、树木和山形在身后各有位置，金色翅膀却没有催它们飞走。它原以为同心意味着大家必须说一样的话，坐久了才发现，真正的默契是给伙伴留下自己的位置，也给尚未开口的想法留下时间。于是奶蛙把手放得更轻，让桌上的杯子继续居中，让这份愿意彼此等待的温柔，成为席间最丰盛的东西。",
+      "sources": [
+        "https://artsandculture.google.com/asset/holy-trinity-troitsa-andrey-rublev/xAHfUdaiKn8EBA",
+        "https://www.tretyakovgallerymagazine.com/articles/3-2005-08/andrei-rublev-image-holy-trinity"
+      ],
+      "art": "assets/art/ART-04-005.jpg",
+      "original": "assets/original/ART-04-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1132,
+        "height": 1390,
+        "bytes": 518928,
+        "sha256": "ad597933a55a59de60e378194896cf7375954f37151910896d7c22bd6d24b8ea"
+      }
+    },
+    {
+      "id": "ART-04-006",
+      "catalog": "NMF-ART-04-006",
+      "creation_title": "奶偎长暖",
+      "title_en": "奶偎长暖",
+      "original_title": "弗拉基米尔圣母圣像",
+      "artist": "佚名",
+      "category": "拜占庭艺术",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "12世纪前期拜占庭原像，后世多次修补；此次使用传统金地原像照片版本",
+      "original_location": "原像来自君士坦丁堡，经基辅、弗拉基米尔至莫斯科；不根据旧图断言当前展出位置",
+      "background": "小奶蛙把脸轻轻贴向怀抱它的伙伴，短短的手臂攀在披衣边缘，像终于找到了不必继续赶路的地方。深色帷衣包住金黄的身体，细金线沿着衣褶铺开，背景的光再亮，也没有这一瞬的靠近更温暖。弗拉基米尔圣像中亲昵相贴的姿态，在奶蛙世界里成了一段无需解释的安心：托住它的手很稳，低下来的目光也很轻。它本来准备把今天的小小委屈一件件说出来，靠近之后，却先忘了开头。因为有时，被理解不靠一句完整的话，而靠对方愿意把你抱得再近一点。奶蛙于是把话留到明天，把此刻留在金色的木板上，让很久以后的旅人也能看见，温柔曾经有过这样具体的形状。",
+      "sources": [
+        "https://www.tretyakovgallery.ru/issues/bogomater-vladimirskaya/",
+        "https://shop.tretyakovgallery.ru/items/16072"
+      ],
+      "art": "assets/art/ART-04-006.jpg",
+      "original": "assets/original/ART-04-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 953,
+        "height": 1400,
+        "bytes": 436184,
+        "sha256": "b03635ccfa1619c7c3daf191e772b335a60cd7b1c126227d9d07bf0a0ad9b9df"
+      }
+    },
+    {
+      "id": "ART-05-001",
+      "catalog": "NMF-ART-05-001",
+      "creation_title": "奶照穹心",
+      "title_en": "奶照穹心",
+      "original_title": "圣克莱门特·德·塔乌尔·全能基督壁画",
+      "artist": "佚名",
+      "category": "中世纪_罗曼式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "约1123年",
+      "original_location": "原Sant Climent de Taüll后殿，现MNAC藏015966-000，壁画转移至画布",
+      "background": "奶蛙端坐在蓝色的杏仁形光环中，一只手抬起，另一只手托住展开的书，仿佛先为远来的旅人留下一处可以安静停望的地方。塔乌尔的罗曼式壁画用清楚的轮廓、鲜明的矿物色与庄严的正面姿态，把一个共同仰望的中心安放在穹顶上；奶蛙也认真守住了这份秩序。两侧的翼与小小象征形象向它靠拢，红褐饰带绕着深蓝展开，奶油色圆肚则给这片宏大的天空添上一点熟悉的温暖。它原以为照亮世界，需要把声音放得很大，坐定之后才明白，也可以先让目光稳定，让手势温柔。于是书页暂且空白，星光仍然明亮，而每一位经过画前的人，都能把自己的问题带进来，再带着一点从容走出去。",
+      "sources": [
+        "https://www.museunacional.cat/en/colleccio/apse-sant-climent-de-taull/master-taull/015966-000"
+      ],
+      "art": "assets/art/ART-05-001.jpg",
+      "original": "assets/original/ART-05-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1013,
+        "height": 1400,
+        "bytes": 449906,
+        "sha256": "5e3ab09b6744a2b60b3bb98eb63c7e3ff4ddbdf8218ee23d18518f9ab8767abc"
+      }
+    },
+    {
+      "id": "ART-05-002",
+      "catalog": "NMF-ART-05-002",
+      "creation_title": "奶怀星礼",
+      "title_en": "奶怀星礼",
+      "original_title": "圣玛丽亚·德·塔乌尔·圣母与圣婴壁画",
+      "artist": "佚名",
+      "category": "中世纪_罗曼式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "约1123年",
+      "original_location": "原Santa Maria de Taüll后殿，现MNAC015863-000，壁画转移至画布",
+      "background": "星光绕着宝座展开，小奶蛙坐在怀中，举起短短的手，像是在认真回应两侧远来的问候。伙伴们戴着冠，捧着小小的礼器，目光一齐朝向中央；深蓝披衣与红褐纹样把每个人的位置连成安稳的秩序。塔乌尔圣玛丽亚壁画中端坐的母子与献礼者，在奶蛙世界里成了一场不喧闹的欢迎。它原本以为最好的礼物总要装得很满，等看见怀抱、等待和彼此靠近的目光，才明白空出一个位置也可以是一种赠予。奶蛙把孩子托得稳一点，把视线放得柔一点，让远行的伙伴不必急着解释来意。于是星星仍在上方亮着，而这份相聚的温暖，已经先落在了每一双捧着礼物的手里。",
+      "sources": [
+        "https://www.museunacional.cat/en/colleccio/apse-santa-maria-de-taull/master-santa-maria-de-taull/015863-000"
+      ],
+      "art": "assets/art/ART-05-002.jpg",
+      "original": "assets/original/ART-05-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 466632,
+        "sha256": "fef8516f28f586795ae51d02ac7266c168c812a854bd957d9e16f8a0d0c04883"
+      }
+    },
+    {
+      "id": "ART-05-003",
+      "catalog": "NMF-ART-05-003",
+      "creation_title": "奶舟共渡",
+      "title_en": "奶舟共渡",
+      "original_title": "圣萨文修道院·诺亚方舟壁画",
+      "artist": "佚名",
+      "category": "中世纪_罗曼式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "罗曼式，约11世纪末至12世纪初；本次不写未经独立核实的具体年",
+      "original_location": "法国Saint-Savin-sur-Gartempe修道院中殿穹顶诺亚方舟场景",
+      "background": "奶蛙把方舟收拾成一座会漂浮的家。上层的伙伴成对望着窗外，中层的鸟儿各有一处可以站稳的拱窗，下层的羊、牛、马和狮子也暂时放下争执，在同一条船里等待水面平静。圣萨文壁画中层层展开的方舟，于是装进了奶蛙最认真的愿望：既然要一起出发，就不能只照顾声音最大的一位。它站在船端，扶住木架，另一端的伙伴也回望过来；红褐船板沿着弧线抬起，青绿色波浪把这份小小秩序托在水上。奶蛙原以为勇敢就是把船开得很快，后来才懂得，更难的是记得每一位乘客都在。于是它把目光放回那些拱窗，决定等所有伙伴都准备好，再一起迎接下一段晴天。",
+      "sources": [
+        "https://www.abbaye-saint-savin.fr/fr/des-peintures-murales-uniques-au-monde",
+        "https://www.persee.fr/doc/ccmed_0007-9731_1997_num_40_158_2679"
+      ],
+      "art": "assets/art/ART-05-003.jpg",
+      "original": "assets/original/ART-05-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 481,
+        "bytes": 246184,
+        "sha256": "71b01e816bae45cd05bfc00968012eef3d0e8f0ef13e0be9b16cbf69754b1882"
+      }
+    },
+    {
+      "id": "ART-05-004",
+      "catalog": "NMF-ART-05-004",
+      "creation_title": "奶塔有言",
+      "title_en": "奶塔有言",
+      "original_title": "圣萨文修道院·巴别塔壁画",
+      "artist": "佚名",
+      "category": "中世纪_罗曼式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "罗曼式，约11世纪末至12世纪初；本次不写未经独立核实的具体年",
+      "original_location": "法国Saint-Savin-sur-Gartempe中殿穹顶巴别塔施工场景",
+      "background": "奶蛙们把石块一层层送上去，木架转动，塔顶的伙伴俯身接住下一份重量，地面上的搬运者也跟着抬起手。圣萨文的《巴别塔》把建造的忙碌留在横向展开的壁画里，如今金黄的身影换上红褐与青绿衣袍，仍在同一座未完成的塔前各司其职。可塔越来越高，话却似乎越来越难听清。奶蛙停下脚步，回头看看同伴，忽然意识到：一块石头需要稳稳交到下一双手里，一句话也一样。它不急着责怪谁，只先把声音放慢，把意思说明白。能到达多高固然令人期待，但愿意在开工之前彼此听懂，也许才是这座塔最牢固、最不该省略的一层地基。",
+      "sources": [
+        "https://www.abbaye-saint-savin.fr/fr/des-peintures-murales-uniques-au-monde"
+      ],
+      "art": "assets/art/ART-05-004.jpg",
+      "original": "assets/original/ART-05-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 466,
+        "bytes": 224662,
+        "sha256": "7f0e597f6c343c0765d880688d5a8c0a25a513abf37124aea7b0c723f3fbf509"
+      }
+    },
+    {
+      "id": "ART-05-005",
+      "catalog": "NMF-ART-05-005",
+      "creation_title": "奶岁成章",
+      "title_en": "奶岁成章",
+      "original_title": "加泰罗尼亚阿维亚祭坛正面画",
+      "artist": "佚名",
+      "category": "中世纪_罗曼式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "约1200年（馆方标题）；13世纪（作品材料说明）",
+      "original_location": "原Santa Maria d'Avià教堂，现MNAC015784-000",
+      "background": "奶蛙把许多日子放进同一块木板里：左上是问候与拥抱，左下的伙伴捧着礼物走来，右上有人守着安睡的小奶蛙，右下则把新的相遇轻轻递过一张铺着白布的桌子。中央的怀抱始终安稳，像替所有片段留住了共同的心意。阿维亚祭坛正面画以分格叙事把不同时间连在一起，奶蛙也发现，成长并不只发生在某一个最耀眼的时刻。红、蓝、金黄的衣褶沿着每一道边框展开，手势与目光又悄悄越过分格，把故事重新接上。它原想为每一天写一个标题，后来却觉得，真正让日子成为一章的，是有人来过、有人等待，也有人始终愿意把你托在怀里。于是它把这些小事认真保存，让岁月有了可以一页页读下去的温度。",
+      "sources": [
+        "https://visitmuseum.gencat.cat/en/museum/mnac-museu-nacional-dart-de-catalunya/object/frontal-d-altar-d-avia-cap-al-1200",
+        "https://commons.wikimedia.org/wiki/File:(Barcelona)_Frontal_d%27altar_d%27Avià_-_Museu_Nacional_d%27Art_de_Catalunya.jpg"
+      ],
+      "art": "assets/art/ART-05-005.jpg",
+      "original": "assets/original/ART-05-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 864,
+        "bytes": 451487,
+        "sha256": "4b96a88b798145d004acc326ff031fdd0aaa7373543e7f4123cc4303ea161e86"
+      }
+    },
+    {
+      "id": "ART-06-001",
+      "catalog": "NMF-ART-06-001",
+      "creation_title": "奶别无声",
+      "title_en": "奶别无声",
+      "original_title": "哀悼基督",
+      "artist": "乔托",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "约1303—1305年（礼拜堂壁画组官方定年）",
+      "original_location": "意大利帕多瓦斯克罗威尼礼拜堂单幅哀悼场景",
+      "background": "奶蛙们围拢过来，没有谁急着说一句安慰的话。蓝色披衣中的伙伴托住静卧者的脸，另一位轻轻扶着脚，前景的背影把悲伤收进衣褶里；连天上的小小翅膀，也不再飞得轻快。乔托的壁画让一道斜坡把所有目光带向同一处相别，奶蛙也把自己的温柔放进了这些靠近的动作。它曾以为陪伴必须做些什么，到了这一刻，才知道，有时只是把手放稳，把位置留在身旁，就已经很重要。枯树仍立在山坡上，蓝天也没有替谁解释失去，画面却并不空，因为伙伴们都没有离开。奶蛙把未说出口的话留给这份围抱，让悲伤不必独自承担，也让记忆中的温暖，在安静里继续被托住。",
+      "sources": [
+        "https://www.cappelladegliscrovegni.it/index.php/en/la-cappella-di-giotto"
+      ],
+      "art": "assets/art/ART-06-001.jpg",
+      "original": "assets/original/ART-06-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1295,
+        "height": 1214,
+        "bytes": 427137,
+        "sha256": "05a2580dc91a2d973511d170c6995409dadecaed2443ad7c8a4ac7617d413488"
+      }
+    },
+    {
+      "id": "ART-06-002",
+      "catalog": "NMF-ART-06-002",
+      "creation_title": "奶吻成隔",
+      "title_en": "奶吻成隔",
+      "original_title": "犹大之吻",
+      "artist": "乔托",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "1303—1305年",
+      "original_location": "意大利帕多瓦斯克罗威尼礼拜堂单幅被捕场景",
+      "background": "两只奶蛙靠得很近，目光之间却像忽然多出一道无法跨过的距离。黄色披衣把拥抱收成画面中央最显眼的一团，四周火炬、长矛和指向的手势不断逼近，蓝色夜空也被搅得不再安静。乔托把背叛发生时的紧张，凝在这样一次面对面的停顿里；奶蛙也在这一刻发现，熟悉的动作未必仍然带着熟悉的心意。它没有急着把脸转开，只稳稳望住来者，仿佛仍想从那双绿色眼睛里找回过去的话。喧闹的人群替故事推着下一步，中央的沉默却让时间慢下来。有些告别没有离开的脚步，只有一场突然变了意义的靠近；奶蛙把这份难以说清的隔阂，留在披衣与夜色之间。",
+      "sources": [
+        "https://www.cappelladegliscrovegni.it/index.php/en/la-cappella-di-giotto",
+        "https://utpictura18.univ-amu.fr/en/notice/4072-the-kiss-of-judas-scrovegni-chapel-giotto"
+      ],
+      "art": "assets/art/ART-06-002.jpg",
+      "original": "assets/original/ART-06-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1020,
+        "bytes": 449378,
+        "sha256": "5428c3a371c2458c8aba098991a7dfdabdb3f5b1c1c8dc7923f99067d306befc"
+      }
+    },
+    {
+      "id": "ART-06-003",
+      "catalog": "NMF-ART-06-003",
+      "creation_title": "奶座群安",
+      "title_en": "奶座群安",
+      "original_title": "圣母荣登宝座（Maestà）",
+      "artist": "杜乔",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "1308—1311年",
+      "original_location": "锡耶纳主教座堂祭坛画，现Museo dell'Opera；使用正面中央主画面",
+      "background": "奶蛙抱着孩子坐在宝座中央，深蓝披衣像一处安稳的夜色，左右伙伴的目光与光环则一层层靠近，织出温暖的金色。杜乔为锡耶纳绘制的《Maestà》曾把庄严的中心与众多相伴者放在同一幅主画面中，奶蛙也把这份群体的守望留了下来。有人跪在前方，有人扶着宝座，有人只静静站着，谁都不必挤到最显眼的位置，才能成为这场相聚的一部分。孩子抬起手时，周围的安静仿佛也跟着有了回应。奶蛙原以为坐得高，就该比伙伴更远一些，后来才发现，真正值得被托起的不是距离，而是大家愿意共同守住的安心。于是它把怀抱放稳，把目光放柔，让宝座前的每一次停留，都能找到自己的位置。",
+      "sources": [
+        "https://operaduomo.siena.it/en/cathedral-museum/",
+        "https://commons.wikimedia.org/wiki/File:Duccio_Maestà.jpg"
+      ],
+      "art": "assets/art/ART-06-003.jpg",
+      "original": "assets/original/ART-06-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 712,
+        "bytes": 319921,
+        "sha256": "9c43e490af70c61d26eb842386c1765f5ea270bd85046c5be0f72af38500f734"
+      }
+    },
+    {
+      "id": "ART-06-004",
+      "catalog": "NMF-ART-06-004",
+      "creation_title": "奶闻花信",
+      "title_en": "奶闻花信",
+      "original_title": "天使报喜",
+      "artist": "西蒙内·马尔蒂尼",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "1333年",
+      "original_location": "原锡耶纳主教座堂圣安萨努斯祭坛，现乌菲齐1890 nos451,452,453",
+      "background": "奶蛙原本正读着书，忽然听见一位带着翅膀的来者轻轻开口。它把披衣收近一些，身子微微向后，目光却没有离开对方；中央的白百合安静站着，像替这份尚未来得及理解的消息留下一点空隙。西蒙内·马尔蒂尼与利波·梅米在金底画面中捕捉了报喜到来时的惊讶，奶蛙也把这段从迟疑走向倾听的瞬间保存下来。羽翼和衣角仍带着来路的风，书却暂时合上了。它原以为好消息总会让人立刻欢呼，后来才知道，有些改变来得太大，需要先安静一会儿，才能慢慢接住。于是奶蛙没有急着答应，也没有转身离开，只让百合继续开着，让第一句话在这片金色里，找到可以停落的位置。",
+      "sources": [
+        "https://www.uffizi.it/en/artworks/annunciation-with-st-margaret-and-st-ansanus"
+      ],
+      "art": "assets/art/ART-06-004.jpg",
+      "original": "assets/original/ART-06-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 953,
+        "height": 1400,
+        "bytes": 430460,
+        "sha256": "7a0f50ce9b7aa9fd6a5b4b378b4ca8e658c39212f0db32eb5db86ce0d46ed64d"
+      }
+    },
+    {
+      "id": "ART-06-005",
+      "catalog": "NMF-ART-06-005",
+      "creation_title": "奶城共好",
+      "title_en": "奶城共好",
+      "original_title": "好政府的寓意与效应",
+      "artist": "洛伦采蒂",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "1338—1339年",
+      "original_location": "锡耶纳市政宫Sala della Pace东墙城市效应片段",
+      "background": "奶蛙们在街心牵起手，旁边的铺子照常开门，驮着货物的动物穿过街道，窗里的伙伴也探出身来看看今天的热闹。洛伦采蒂把良好秩序的效果画进一座忙碌而安稳的城市，奶蛙也发现，大家过得好，并不一定要时时站在同一个地方。有人做衣，有人运货，有人修屋顶，也有人把空出来的一小段路留给音乐和舞步。层层房屋托住这些日常，城门让往来继续流动。它原以为一座好城只需要建得高、排得齐，走进街市才明白，更重要的是每位伙伴都能找到自己的事情，也能安心把明天交给今天。于是奶蛙把手握得轻一点，让舞步给行人留出道路，让共同的欢喜，不妨碍另一位伙伴认真生活。",
+      "sources": [
+        "https://museocivico.comune.siena.it/opere/effetti-del-buon-governo-in-citta",
+        "https://museocivico.comune.siena.it/sale/sala-della-pace"
+      ],
+      "art": "assets/art/ART-06-005.jpg",
+      "original": "assets/original/ART-06-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 674,
+        "bytes": 251828,
+        "sha256": "42bfb098d3bb0ad64125c47be126add84f01058a94db80edf110ddfde4fa024f"
+      }
+    },
+    {
+      "id": "ART-06-006",
+      "catalog": "NMF-ART-06-006",
+      "creation_title": "奶启新岁",
+      "title_en": "奶启新岁",
+      "original_title": "贝里公爵的豪华时祷书·一月",
+      "artist": "林堡兄弟",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "约1411—1416年一月页；手稿整体跨多阶段续绘，不以单页代表整书",
+      "original_location": "尚蒂伊Musée Condé Ms65 fol1v，一月历法宴席页",
+      "background": "新年的第一场宴席，奶蛙把杯盏摆得很亮，也把问候准备得很认真。蓝色礼服中的主人坐在桌后，伙伴们带着礼物与祝愿走近，白色小狗在脚边安静等着，仿佛也知道今天应该慢一点。林堡兄弟的一月页把宫廷的新年赠礼与精细陈设留在小小书页中，奶蛙也学着把心意装进这些细节：一只稳稳端起的杯，一盘愿意分享的食物，一次没有催促的迎接。上方的星象弧带仍在记录时间，桌边的相聚却让岁首有了具体的温度。它原以为新的开始需要一份很宏大的计划，坐到伙伴身边才发现，也可以先从一句欢迎开始。让今天有人来，让明天有人期待，便已经是很好的一页。",
+      "sources": [
+        "https://www.metmuseum.org/essays/patronage-of-jean-de-berry-1340-1416",
+        "https://chateaudechantilly.fr/evenement/les-tres-riches-heures-du-duc-de-berry/"
+      ],
+      "art": "assets/art/ART-06-006.jpg",
+      "original": "assets/original/ART-06-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 870,
+        "height": 1400,
+        "bytes": 330448,
+        "sha256": "d127b19207b19db424486b0c907821db0d7fb681a0ac421ef37b7fa82be62d8a"
+      }
+    },
+    {
+      "id": "ART-06-007",
+      "catalog": "NMF-ART-06-007",
+      "creation_title": "十月种奶",
+      "title_en": "十月种奶",
+      "original_title": "贝里公爵的豪华时祷书·十月",
+      "artist": "林堡兄弟",
+      "category": "中世纪_哥特式",
+      "filter": "medieval",
+      "era_label": "中世纪",
+      "era_label_en": "Medieval",
+      "original_date": "约1411—1416年；约1446年续绘",
+      "original_location": "",
+      "background": "十月的塞纳河畔，奶娃把宫廷的钟声听成了播种的提醒。远处，卢浮宫的塔楼与尖顶仍守着贵族的秩序；近处，蓝衣奶娃挎着白布种袋，将金色谷粒撒进灰褐田垄，红衣伙伴骑着棕马，拖动压着石块的木耙，为种子覆土。乌鸦早已赶来，仿佛比谁都懂得收成的滋味。这一页承接十五世纪时祷书以月份记录劳作的传统：天上蓝金拱环标记星辰运行，地上细小脚步则推动来年的生活。奶娃没有急着走进城堡，它先把希望交给泥土——今天撒下的不是奶糖，却也足够让漫长冬天有一点甜。",
+      "sources": [
+        "https://actu-culture.com/arts-du-livre-et-de-lestampe/le-calendrier-des-tres-riches-heures-du-duc-de-berry-decrypte-mois-par-mois-octobre-les-semailles/",
+        "https://chateaudechantilly.fr/evenement/les-tres-riches-heures-du-duc-de-berry/"
+      ],
+      "art": "assets/art/ART-06-007.jpg",
+      "original": "assets/original/ART-06-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 839,
+        "height": 1400,
+        "bytes": 317335,
+        "sha256": "f00d2bec9f84239261ed76ea3431c5b5e2916607a9011fe1e1c283a8530ca0c8"
+      }
+    },
+    {
+      "id": "ART-07-001",
+      "catalog": "NMF-ART-07-001",
+      "creation_title": "蒙娜丽奶",
+      "title_en": "蒙娜丽奶",
+      "original_title": "蒙娜丽莎",
+      "artist": "列奥纳多·达·芬奇",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1503—1519（卢浮宫作品页）",
+      "original_location": "卢浮宫；达·芬奇《蒙娜丽莎》",
+      "background": "奶蛙在远山与河流之前坐定，把双手轻轻交叠，让深色披衣垂在金黄的身体两侧。文艺复兴的肖像曾让一位佛罗伦萨女子的神情留住无数目光，如今这份从容落到了奶蛙身上：它既不急着微笑，也不急着解释，只用一条细细的嘴线，把答案藏在将笑未笑之间。远景被柔和的烟雾色慢慢推开，岩石、流水与天空仿佛都在等待它开口。奶蛙却知道，最耐看的秘密往往不需要说出来。你望着它的绿色眼睛，以为自己正在欣赏一幅肖像；它也望着你，像早已看穿你今天是不是又想偷懒，却宽容地决定替你保密。",
+      "sources": [
+        "https://collections.louvre.fr/ark:/53355/cl010062370"
+      ],
+      "art": "assets/art/ART-07-001.jpg",
+      "original": "assets/original/ART-07-001.jpg",
+      "original_note": "wikimedia-public-domain",
+      "art_meta": {
+        "width": 933,
+        "height": 1400,
+        "bytes": 251075,
+        "sha256": "f16dcc53f625d7261aab5e7a6f177a59513095b2c962d6c5aeadb09866db8cf0"
+      }
+    },
+    {
+      "id": "ART-07-005",
+      "catalog": "NMF-ART-07-005",
+      "creation_title": "奶蛙学院",
+      "title_en": "奶蛙学院",
+      "original_title": "雅典学院",
+      "artist": "拉斐尔",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "文艺复兴时期；本次背景正文不需要精确年份",
+      "original_location": "梵蒂冈签字厅；拉斐尔《雅典学院》",
+      "background": "在层层拱券与明亮台阶之间，两只奶蛙带着书走进一场从未散席的讨论。穿红衣的奶蛙举手指向天空，认定最好的答案藏在更高的理念中；披蓝衣的伙伴把手平伸，提醒它先看看脚下的世界。周围有人推演几何，有人凝神写作，还有人抱着球体等待自己的发言。拉斐尔笔下汇聚古代思想的殿堂，因此添了一点奶蛙式的认真与可爱：它们可以对真理意见不同，却愿意站在同一级台阶上继续交谈。宏大的透视把所有道路引向中央，而两只圆肚的学者似乎也达成了一项共识——先把问题想明白，至于谁的肚子更像完美的圆，可以下课再辩。",
+      "sources": [
+        "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html"
+      ],
+      "art": "assets/art/ART-07-005.jpg",
+      "original": "assets/original/ART-07-005.jpg",
+      "original_note": "wikimedia-public-domain",
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 312692,
+        "sha256": "5e06752fe390eb468e009be515c9438892d8f6d3b70e3b8985ea7a6a133bec37"
+      }
+    },
+    {
+      "id": "ART-19-001",
+      "catalog": "NMF-ART-19-001",
+      "creation_title": "星月奶",
+      "title_en": "星月奶",
+      "original_title": "星月夜",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1889年6月",
+      "original_location": "纽约现代艺术博物馆；梵高《星月夜》",
+      "background": "圣雷米的夜色被一圈圈蓝色笔触卷起，星星与月亮像温暖的灯，越是深夜，越亮得认真。村庄已经安静下来，柏树仍向上伸展，奶蛙却轻轻飘进了这片流动的天空：一只手护着奶油肚，另一只手伸向近处的星光，仿佛准备接住一颗刚刚滚过来的梦。梵高在1889年画下的夜晚，把所见与想象交织成强烈的节奏；奶蛙也让金黄的身体顺着厚涂笔触舒展开来，成为夜风里一小团不肯熄灭的亮色。它没有把星星摘走，只在天上借住片刻。等你抬头看见它，也许会觉得，白天没能说出的希望，到了夜里依然可以发光。",
+      "sources": [
+        "https://www.moma.org/collection/works/79802"
+      ],
+      "art": "assets/art/ART-19-001.jpg",
+      "original": "assets/original/ART-19-001.jpg",
+      "original_note": "wikimedia-public-domain",
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 470422,
+        "sha256": "4a00cb0cfcc26d9744a4e2561bebd9d9275cd4533d3bec0835497f995bc8e39d"
+      }
+    }
+  ]
+}

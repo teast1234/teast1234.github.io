@@ -498,6 +498,35 @@ html[lang="en"] .latin {
   padding: 4.5rem 0 2rem;
 }
 
+.museum-teaser {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 2.5rem;
+}
+
+.museum-teaser-copy {
+  max-width: 38rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+.museum-teaser-link {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--cn);
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.1rem;
+}
+
+.museum-teaser-link:hover {
+  color: var(--red-deep);
+}
+
 .contents {
   display: grid;
   border-top: 1px solid var(--line);
