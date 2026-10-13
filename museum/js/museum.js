@@ -157,13 +157,18 @@
 
     const hasOriginal = Boolean(work.original);
     viewToggle.classList.toggle("is-disabled", !hasOriginal);
-    viewToggle.querySelector('[data-mode="original"]').disabled = !hasOriginal;
+    const origBtn = viewToggle.querySelector('[data-mode="original"]');
+    if (origBtn) {
+      origBtn.disabled = !hasOriginal;
+      origBtn.title = hasOriginal ? "切换到原作图片" : "暂无原作图";
+    }
 
+    // Sources are footnotes only — never a substitute for image toggle.
     if (work.sources && work.sources.length) {
       lbSources.innerHTML =
-        "<strong>原作资料</strong> · " +
+        "<strong>延伸阅读</strong> · " +
         work.sources
-          .map((s, i) => `<a href="${s}" target="_blank" rel="noopener noreferrer">来源 ${i + 1}</a>`)
+          .map((s, i) => `<a href="${s}" target="_blank" rel="noopener noreferrer">资料 ${i + 1}</a>`)
           .join(" · ");
       lbSources.hidden = false;
     } else {

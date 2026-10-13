@@ -25,8 +25,14 @@ MAX_EDGE = 1400
 JPEG_QUALITY = 82
 
 # Public-domain Wikimedia thumbs for three classics lacking local 原作参考.
-# Use special FilePath redirects (returns an allowed derivative size).
+# Fallback public-domain / Commons derivatives when local 01_参考资料 is missing.
 WIKIMEDIA_ORIGINALS = {
+    "ART-01-001": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux_painting.jpg?width=900",
+    "ART-01-002": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux,_horse.JPG?width=900",
+    "ART-01-003": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux_01.jpg?width=900",
+    "ART-01-004": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions_painting,_Chauvet_Cave_(museum_replica).jpg?width=900",
+    "ART-01-005": "https://commons.wikimedia.org/wiki/Special:FilePath/Altamira_bisons.jpg?width=900",
+    "ART-01-006": "https://commons.wikimedia.org/wiki/Special:FilePath/SantaCruz-CuevaManos-P2210651b.jpg?width=900",
     "ART-07-001": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=800",
     "ART-07-005": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanzio_01.jpg?width=800",
     "ART-19-001": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=800",

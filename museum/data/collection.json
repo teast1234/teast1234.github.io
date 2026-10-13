@@ -1,6 +1,6 @@
 {
   "generated_from": "generated_image/04_名画创作清单/已完成档案.json",
-  "count": 39,
+  "count": 42,
   "filters": [
     {
       "id": "all",
@@ -57,7 +57,7 @@
         "https://archeologie.culture.gouv.fr/lascaux/en"
       ],
       "art": "assets/art/ART-01-001.jpg",
-      "original": null,
+      "original": "assets/original/ART-01-001.jpg",
       "original_note": null,
       "art_meta": {
         "width": 1400,
@@ -84,7 +84,7 @@
         "https://archeologie.culture.gouv.fr/lascaux/en/media/view/8149"
       ],
       "art": "assets/art/ART-01-002.jpg",
-      "original": null,
+      "original": "assets/original/ART-01-002.jpg",
       "original_note": null,
       "art_meta": {
         "width": 1400,
@@ -111,7 +111,7 @@
         "https://archeologie.culture.gouv.fr/lascaux/en/mediatheque"
       ],
       "art": "assets/art/ART-01-003.jpg",
-      "original": null,
+      "original": "assets/original/ART-01-003.jpg",
       "original_note": null,
       "art_meta": {
         "width": 1400,
@@ -138,7 +138,7 @@
         "https://archeologie.culture.gouv.fr/chauvet/fr/le-grand-panneau-des-lions"
       ],
       "art": "assets/art/ART-01-004.jpg",
-      "original": null,
+      "original": "assets/original/ART-01-004.jpg",
       "original_note": null,
       "art_meta": {
         "width": 1400,
@@ -165,7 +165,7 @@
         "https://www.cultura.gob.es/en/cultura/areas/museos/mc/ceres/catalogos-tematicos/altamira/arte-rupestre/techo-policromos.html"
       ],
       "art": "assets/art/ART-01-005.jpg",
-      "original": null,
+      "original": "assets/original/ART-01-005.jpg",
       "original_note": null,
       "art_meta": {
         "width": 1400,
@@ -192,7 +192,7 @@
         "https://whc.unesco.org/en/list/936"
       ],
       "art": "assets/art/ART-01-006.jpg",
-      "original": null,
+      "original": "assets/original/ART-01-006.jpg",
       "original_note": null,
       "art_meta": {
         "width": 1400,
@@ -1059,6 +1059,87 @@
         "height": 1400,
         "bytes": 251075,
         "sha256": "f16dcc53f625d7261aab5e7a6f177a59513095b2c962d6c5aeadb09866db8cf0"
+      }
+    },
+    {
+      "id": "ART-07-002",
+      "catalog": "NMF-ART-07-002",
+      "creation_title": "最后的奶餐",
+      "title_en": "最后的奶餐",
+      "original_title": "最后的晚餐",
+      "artist": "列奥纳多·达·芬奇",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1494年至1498年初（馆方作品页）",
+      "original_location": "",
+      "background": "米兰修道院的长桌前，十三只奶娃突然停止了用餐。中央那位披着蓝袍，双手安静地落在桌边；一句关于背叛的话，却让两侧的伙伴或抬掌追问，或俯身低语，或把疑惑指向天空。达·芬奇在十五世纪末将这一瞬间画进食堂，让日常进餐与信任的危机面对面；奶娃也在这里发现，最难消化的从来不是面包。天花格梁、两壁挂毯与三扇窗把视线引向中央，十二位伙伴分成四组，把情绪一层层传开。杯中的酒尚未喝完，窗外山色仍旧平静，而这顿奶餐的余味，已经从舌尖走到了心里。",
+      "sources": [
+        "https://cenacolovinciano.org/en/museum/the-works/the-last-supper-leonardo-da-vinci-1452-1519/"
+      ],
+      "art": "assets/art/ART-07-002.jpg",
+      "original": "assets/original/ART-07-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 700,
+        "bytes": 183584,
+        "sha256": "e12b7cb0fa4d736e6a069614c1cde188ed0b7871a1bc439bab932969d9ac8444"
+      }
+    },
+    {
+      "id": "ART-07-003",
+      "catalog": "NMF-ART-07-003",
+      "creation_title": "奶抱银貂",
+      "title_en": "奶抱银貂",
+      "original_title": "抱银鼠的女子",
+      "artist": "列奥纳多·达·芬奇",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "约1490年",
+      "original_location": "",
+      "background": "十五世纪末的米兰宫廷，奶娃没有正对画家，而是微微转身，望向画外传来的脚步声。怀里的白貂也循声抬头，两道目光把静止的肖像牵成了一个尚未说完的故事。深红衣袖、蓝色披肩与黑珠串衬出金黄身影，灰褐小手轻轻护住白貂，仿佛怕惊动它，也怕泄露自己的心事。达·芬奇原作中的白貂，曾让人联想到卢多维科公爵的身份与宫廷情感；来到奶娃的怀抱，它又像一位不会开口的知己。暗背景收起了宫廷的喧闹，只留下眼神、柔软皮毛和那一点克制的温暖：有些秘密，不必说出来，也有人陪着听。",
+      "sources": [
+        "https://mnk.pl/en/collections/lady-with-an-ermine/"
+      ],
+      "art": "assets/art/ART-07-003.jpg",
+      "original": "assets/original/ART-07-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1028,
+        "height": 1400,
+        "bytes": 210864,
+        "sha256": "67419531715696435069a690fe5e3b3a933eda737dbb7b958d73e6c0475a48db"
+      }
+    },
+    {
+      "id": "ART-07-004",
+      "catalog": "NMF-ART-07-004",
+      "creation_title": "岩间护奶",
+      "title_en": "岩间护奶",
+      "original_title": "岩间圣母（卢浮宫版本）",
+      "artist": "列奥纳多·达·芬奇",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "约1483—1494年（卢浮宫目录）",
+      "original_location": "",
+      "background": "米兰祭坛的故事来到一座幽暗石窟，奶娃不再面对宫廷与人群，而是俯身守护两个小小的生命。蓝袍下，一只手轻扶跪坐的伙伴，另一只悬在孩子头顶，像替它挡住尚未降临的风雨。右侧天使伸手指向合掌的小奶娃，怀边的孩子则抬手回应，让祈愿、指引与祝福在四个身影之间悄悄流转。达·芬奇为十五世纪的宗教委托构想出这样的岩间相会，把神圣置于水、植物和层叠山石之中。遥远蓝峰透过洞口露出一点天光，近处石缝却已长出细叶。奶娃的庇护没有宏大的声响，只是让柔软的生命在坚硬世界里，暂时有一个可以安心呼吸的地方。",
+      "sources": [
+        "https://collections.louvre.fr/ark:/53355/cl010062373"
+      ],
+      "art": "assets/art/ART-07-004.jpg",
+      "original": "assets/original/ART-07-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 864,
+        "height": 1400,
+        "bytes": 186422,
+        "sha256": "80a1a5deb94ffce48f3a4a182aea58f8bc9c5f50acbedc4a40de2e3a47956d31"
       }
     },
     {
