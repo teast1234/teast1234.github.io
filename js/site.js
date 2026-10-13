@@ -28,8 +28,17 @@ const header = document.querySelector(".topbar");
 const toggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".site-nav");
 const links = [...document.querySelectorAll(".site-nav a")];
+// Only in-page hash links participate in scroll spy (external paths like museum/ are skipped).
 const sections = links
-  .map((link) => document.querySelector(link.getAttribute("href")))
+  .map((link) => {
+    const href = link.getAttribute("href") || "";
+    if (!href.startsWith("#") || href === "#") return null;
+    try {
+      return document.querySelector(href);
+    } catch {
+      return null;
+    }
+  })
   .filter(Boolean);
 
 function setHeader() {
