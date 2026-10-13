@@ -10,7 +10,6 @@
   const lbTitle = document.querySelector("[data-lb-title]");
   const lbMeta = document.querySelector("[data-lb-meta]");
   const lbStory = document.querySelector("[data-lb-story]");
-  const lbSources = document.querySelector("[data-lb-sources]");
   const viewToggle = document.querySelector("[data-view-toggle]");
   const themeBtn = document.querySelector("[data-theme-toggle]");
   const closeBtn = document.querySelector("[data-lb-close]");
@@ -147,12 +146,13 @@
     current = work;
     viewMode = "art";
     lbTitle.textContent = work.creation_title;
-    lbMeta.innerHTML = `
-      <li><strong>原作</strong>仿 ${work.original_title}</li>
-      <li><strong>艺术家</strong>${work.artist}</li>
-      <li><strong>年代</strong>${work.original_date || "—"}</li>
-      <li><strong>馆藏号</strong>${work.catalog}</li>
-    `;
+    const artist = (work.artist || "").trim();
+    const showArtist = artist && artist !== "佚名" && artist.toLowerCase() !== "unknown";
+    lbMeta.innerHTML =
+      `<li><strong>原作</strong>仿 ${work.original_title}</li>` +
+      (showArtist ? `<li><strong>艺术家</strong>${artist}</li>` : "") +
+      `<li><strong>年代</strong>${work.original_date || "—"}</li>` +
+      `<li><strong>馆藏号</strong>${work.catalog}</li>`;
     lbStory.textContent = work.background || "";
 
     const hasOriginal = Boolean(work.original);
@@ -163,15 +163,8 @@
       origBtn.title = hasOriginal ? "切换到原作图片" : "暂无原作图";
     }
 
-    // Sources are footnotes only — never a substitute for image toggle.
-    if (work.sources && work.sources.length) {
-      lbSources.innerHTML =
-        "<strong>延伸阅读</strong> · " +
-        work.sources
-          .map((s, i) => `<a href="${s}" target="_blank" rel="noopener noreferrer">资料 ${i + 1}</a>`)
-          .join(" · ");
-      lbSources.hidden = false;
-    } else {
+    // No external source links in the detail panel.
+    if (lbSources) {
       lbSources.hidden = true;
       lbSources.innerHTML = "";
     }
