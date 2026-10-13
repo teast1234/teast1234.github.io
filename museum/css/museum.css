@@ -434,10 +434,6 @@ img {
 }
 
 .lightbox.is-open {
-  position: fixed;
-}
-
-.lightbox.is-open {
   display: flex;
 }
 
