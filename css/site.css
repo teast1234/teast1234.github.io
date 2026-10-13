@@ -762,8 +762,8 @@ html[lang="en"] .latin {
 
 .shelf {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .model-card,
@@ -784,13 +784,13 @@ html[lang="en"] .latin {
 }
 
 .model-card[hidden] {
-  display: none;
+  display: none !important;
 }
 
 .model-cover {
   margin: 0;
-  aspect-ratio: 3 / 4;
-  max-height: 280px;
+  /* Match LoRA preview portraits (~2:3); width from 3-col grid keeps height comfortable. */
+  aspect-ratio: 2 / 3;
   background: rgba(26, 20, 16, 0.06);
   overflow: hidden;
 }
@@ -799,16 +799,31 @@ html[lang="en"] .latin {
   display: block;
   width: 100%;
   height: 100%;
-  max-height: 280px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 22%;
 }
 
 .model-body {
-  padding: 1rem 1.15rem 1.05rem;
+  padding: 0.85rem 0.95rem 0.95rem;
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 0.15rem;
+}
+
+.model-body h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.model-body .latin {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.model-body .card-links {
+  margin-top: auto;
+  padding-top: 0.65rem;
 }
 
 .pager {
@@ -1217,7 +1232,10 @@ a.button:hover {
     margin-left: 0;
   }
 
-  .shelf,
+  .shelf {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .places,
   .projects,
   .link-list {
