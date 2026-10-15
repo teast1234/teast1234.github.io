@@ -4,7 +4,9 @@
   const grid = document.querySelector("[data-grid]");
   const filtersEl = document.querySelector("[data-filters]");
   const pagerEl = document.querySelector("[data-pager]");
-  const countEl = document.querySelector("[data-count]");
+  const totalCountEl = document.querySelector("[data-total-count]");
+  const filterNoteEl = document.querySelector("[data-filter-note]");
+  let totalCount = 0;
   const lightbox = document.querySelector("[data-lightbox]");
   const lbImg = document.querySelector("[data-lb-img]");
   const lbTitle = document.querySelector("[data-lb-title]");
@@ -146,6 +148,19 @@
     pagerEl.appendChild(next);
   }
 
+  function renderCount() {
+    if (totalCountEl) totalCountEl.textContent = String(totalCount);
+    if (!filterNoteEl) return;
+    if (activeFilter === "all") {
+      filterNoteEl.textContent = "";
+      return;
+    }
+    const active = filters.find((f) => f.id === activeFilter);
+    const label = active?.label || activeFilter;
+    const n = filtered().length;
+    filterNoteEl.textContent = `，当前「${label}」筛选 ${n} 件`;
+  }
+
   function renderGrid() {
     const list = filtered();
     const totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
@@ -154,7 +169,7 @@
     const slice = list.slice(start, start + PAGE_SIZE);
     grid.innerHTML = "";
     slice.forEach((w) => grid.appendChild(card(w)));
-    if (countEl) countEl.textContent = String(list.length);
+    renderCount();
     renderPager(totalPages);
   }
 
@@ -240,6 +255,7 @@
     .then((data) => {
       works = data.works || [];
       filters = data.filters || [];
+      totalCount = Number(data.count) || works.length;
       renderFilters();
       renderGrid();
     })
