@@ -1,6 +1,6 @@
 {
   "generated_from": "generated_image/04_名画创作清单/已完成档案.json",
-  "count": 42,
+  "count": 188,
   "filters": [
     {
       "id": "all",
@@ -33,9 +33,69 @@
       "label_en": "Renaissance"
     },
     {
+      "id": "mannerism",
+      "label": "风格主义",
+      "label_en": "Mannerism"
+    },
+    {
+      "id": "baroque",
+      "label": "巴洛克",
+      "label_en": "Baroque"
+    },
+    {
+      "id": "rococo",
+      "label": "洛可可",
+      "label_en": "Rococo"
+    },
+    {
+      "id": "neoclassicism",
+      "label": "新古典",
+      "label_en": "Neoclassicism"
+    },
+    {
+      "id": "romanticism",
+      "label": "浪漫主义",
+      "label_en": "Romanticism"
+    },
+    {
+      "id": "academic",
+      "label": "学院派",
+      "label_en": "Academic"
+    },
+    {
+      "id": "realism",
+      "label": "现实主义",
+      "label_en": "Realism"
+    },
+    {
+      "id": "barbizon",
+      "label": "巴比松",
+      "label_en": "Barbizon"
+    },
+    {
+      "id": "impressionism",
+      "label": "印象派",
+      "label_en": "Impressionism"
+    },
+    {
+      "id": "neoimpressionism",
+      "label": "新印象",
+      "label_en": "Neo-Impressionism"
+    },
+    {
       "id": "postimpressionism",
       "label": "后印象",
       "label_en": "Post-Impressionism"
+    },
+    {
+      "id": "preraphaelite",
+      "label": "前拉斐尔",
+      "label_en": "Pre-Raphaelite"
+    },
+    {
+      "id": "symbolism",
+      "label": "象征主义",
+      "label_en": "Symbolism"
     }
   ],
   "works": [
@@ -1170,6 +1230,3522 @@
       }
     },
     {
+      "id": "ART-07-006",
+      "catalog": "NMF-ART-07-006",
+      "creation_title": "云端抱奶",
+      "title_en": "云端抱奶",
+      "original_title": "西斯廷圣母",
+      "artist": "拉斐尔",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1512—1513年",
+      "original_location": "德累斯顿古代大师画廊，Gal.-Nr.93",
+      "background": "深绿帷幕缓缓打开，奶蛙抱着小小的伙伴，从明亮的云层中向前迈步。红衣与蓝色披风把这份温柔托在画面中央，左边的奶蛙伸手指向人间，右边的伙伴则低头看向栏杆边的两位小天使。它们一个托着下巴，一个交叠双臂，仿佛正在认真商量：云上的客人，究竟什么时候才会走到身边？拉斐尔为皮亚琴察圣西斯托教堂构想的云端显现，在这里成为一次安静的相迎。奶蛙没有带着威风而来，只把怀里的小生命抱得稳稳的；金色衣纹与柔软云气之间，庄严也可以是一种照顾。两只小天使等得有些出神，却始终没有离开，因为它们知道，最值得等待的光，常常有一个温暖的怀抱。",
+      "sources": [
+        "https://skd-online-collection.skd.museum/DigitaleVorlage/372144",
+        "https://artsandculture.google.com/asset/the-sistine-madonna/CgEiMJRg7ZS6DA?hl=en"
+      ],
+      "art": "assets/art/ART-07-006.jpg",
+      "original": "assets/original/ART-07-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1050,
+        "height": 1400,
+        "bytes": 286547,
+        "sha256": "17ee888776eb186cbd6b393679795afb0bbdae537bb86976d7d9599ed6dfc71c"
+      }
+    },
+    {
+      "id": "ART-07-007",
+      "catalog": "NMF-ART-07-007",
+      "creation_title": "三奶成惠",
+      "title_en": "三奶成惠",
+      "original_title": "美惠三女神",
+      "artist": "拉斐尔",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1504—1505年（尚蒂伊城堡馆方目录）",
+      "original_location": "法国尚蒂伊孔代博物馆",
+      "background": "三只奶蛙在湖光与远山前站成一个小小的圆，肩膀相依，金果却各自托在掌中。中间的伙伴转过身去，把背影留给观者，也把两侧的朋友轻轻连在一起；两块奶油色圆肚于是像温暖的逗号，让这场相聚不急着结束。拉斐尔从古典美惠女神的形象中取来均衡、节奏与赠予的意味，奶蛙则把这些道理讲得更朴素：一枚果子可以自己收好，也可以举起来，让朋友看见。红色珠链在金黄身体上绕出细细的线，脚步轻轻交错，谁也不争着站在最前面。它们还没有决定把果子送给谁，却已经先把肩膀借给了彼此；美好的事，有时就是从愿意靠近一点开始。",
+      "sources": [
+        "https://www.musee-conde.fr/fr/notice/pe-38-les-trois-graces-4e25a0f5-8218-496f-8914-cb45a694aa5b",
+        "https://chateaudechantilly.fr/categ-collection/peintures/les-trois-graces/"
+      ],
+      "art": "assets/art/ART-07-007.jpg",
+      "original": "assets/original/ART-07-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 298124,
+        "sha256": "b5dcb4ead35478212fd3aebd63a6afe2fb0b59d6f596bf8defa6b605ef9d883e"
+      }
+    },
+    {
+      "id": "ART-07-008",
+      "catalog": "NMF-ART-07-008",
+      "creation_title": "一指初奶",
+      "title_en": "一指初奶",
+      "original_title": "创造亚当",
+      "artist": "米开朗基罗",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "西斯廷礼拜堂天顶创作期1508—1512年；本场景独立精确年代未据馆页确认",
+      "original_location": "梵蒂冈西斯廷礼拜堂天顶",
+      "background": "奶蛙倚在安静的山坡上，一只手撑住身体，另一只手越过空旷的天色，伸向迎面而来的伙伴。红色披风像一阵被托住的风，载着穿玫瑰色长袍的奶蛙和它的同伴，缓缓靠近大地。两枚指尖之间，只剩一小段尚未说出口的距离。米开朗基罗在西斯廷天顶上把生命的传递压缩成这一瞬间，奶蛙则觉得，世界的开始未必需要轰鸣，也许只需要有人愿意向你伸出手。它还没有站起来，目光却已经醒了；蓝衣垂在石坡上，远山和湖水静静等着。等那道空隙被温柔跨过，它就会知道，自己不只是躺在风景里的一团金黄，而是可以回应、可以出发，也可以把善意继续传下去的生命。",
+      "sources": [
+        "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/volta/storie-centrali/creazione-di-adamo.html"
+      ],
+      "art": "assets/art/ART-07-008.jpg",
+      "original": "assets/original/ART-07-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 470,
+        "bytes": 133716,
+        "sha256": "14d6530da6a2c20caf238ab118eadcdb0963e197fa536a49d3e240d2bca5a6f9"
+      }
+    },
+    {
+      "id": "ART-07-009",
+      "catalog": "NMF-ART-07-009",
+      "creation_title": "奶判众生",
+      "title_en": "奶判众生",
+      "original_title": "最后的审判",
+      "artist": "米开朗基罗",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1536—1541年",
+      "original_location": "梵蒂冈西斯廷礼拜堂祭坛墙",
+      "background": "蓝色天幕里，奶蛙举起一只手，周围翻涌的队伍便在那一刻屏住了呼吸。十字架与石柱从上方经过，钥匙和轮形器物仍握在见证者掌中；下方的号角吹向大地，一本打开的书安静地等着每一个生命。左边，伙伴们拉住彼此的手，一步一步向亮处攀登；右边，迟疑的身影沿暗云降下，停在渡船旁。米开朗基罗在西斯廷祭坛墙上构想的巨大旋转，在奶蛙世界里成为一次无法替别人回答的抉择。蓝披风的同伴合起双手，没有抢着开口。奶蛙也不急于用威风压住众声，它只是让大家看见：当旅程到了需要回望的地方，最值得带在身边的，或许是曾经向困住的伙伴伸出的那只手。",
+      "sources": [
+        "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/giudizio-universale.html"
+      ],
+      "art": "assets/art/ART-07-009.jpg",
+      "original": "assets/original/ART-07-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1189,
+        "height": 1323,
+        "bytes": 373954,
+        "sha256": "05d1f7517f0fd8f9eff61e5d2d49ee65011fcd3e3f3822314abeb05a2d3de454"
+      }
+    },
+    {
+      "id": "ART-07-010",
+      "catalog": "NMF-ART-07-010",
+      "creation_title": "奶自海来",
+      "title_en": "奶自海来",
+      "original_title": "维纳斯的诞生",
+      "artist": "波提切利",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "约1485年",
+      "original_location": "佛罗伦萨乌菲齐美术馆，1890 n.878",
+      "background": "海面把一只巨大的贝壳轻轻送到岸边，奶蛙站在壳心，脚步还有一点小心，绿色眼睛却已经望见了新世界。两位风中的伙伴带来玫瑰，右边的迎接者在橘树下张开花纹披风，仿佛早就替它留好了春天的位置。波提切利笔下关于美与爱的抵岸，在这里成为奶蛙第一次接受陌生世界善意的时刻。象牙色衣纹绕过圆肚，金色飘带沿着风的方向展开，细小海浪把路一层层推近。它原本以为，来到陆地需要先练好迈步，后来才发现，有人愿意迎接，摇晃也不算丢脸。贝壳里没有珍珠，只有一只认真站稳的奶蛙；而岸上的花、披风和等待，已经把这次到来变得足够珍贵。",
+      "sources": [
+        "https://www.uffizi.it/en/artworks/birth-of-venus"
+      ],
+      "art": "assets/art/ART-07-010.jpg",
+      "original": "assets/original/ART-07-010.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 875,
+        "bytes": 320112,
+        "sha256": "476d13b2dc53f1ec37d0dde720f1ffe9baf650276da6d049eaf9401028b910d9"
+      }
+    },
+    {
+      "id": "ART-07-011",
+      "catalog": "NMF-ART-07-011",
+      "creation_title": "满园奶春",
+      "title_en": "满园奶春",
+      "original_title": "春",
+      "artist": "波提切利",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "约1480年（乌菲齐馆方目录）",
+      "original_location": "佛罗伦萨乌菲齐美术馆，1890 n.8360",
+      "background": "橘树把果实挂在头顶，草地把小花铺到脚边，奶蛙们决定不辜负这一天。左边的信使举起细杖，像替晴空拨开最后一点阴影；三位伙伴牵着手转圈，把白色衣纹跳成了相连的风。花园中央的奶蛙轻轻抬掌，让每个到来者都有自己的位置；右边的花神把花朵从衣褶里送出，风中的伙伴又把新的花信带到它身旁。波提切利让古典神话中的相遇在繁盛林园里展开，奶蛙则把关于爱、和平与丰饶的向往过成一场认真相处的春游。它们不需要把花园的秘密一次说完：只要牵手的人没有落下，散出的花有人看见，春天便已经在这群金黄身影之间，找到可以慢慢停留的地方。",
+      "sources": [
+        "https://www.uffizi.it/en/artworks/botticelli-spring"
+      ],
+      "art": "assets/art/ART-07-011.jpg",
+      "original": "assets/original/ART-07-011.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 902,
+        "bytes": 352429,
+        "sha256": "c4067270871770737404ebee5b4d89ed4587ff891f519f442f5d44c373ebe116"
+      }
+    },
+    {
+      "id": "ART-07-012",
+      "catalog": "NMF-ART-07-012",
+      "creation_title": "奶卧花眠",
+      "title_en": "奶卧花眠",
+      "original_title": "乌尔比诺的维纳斯",
+      "artist": "提香",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1538年",
+      "original_location": "佛罗伦萨乌菲齐美术馆，1890 n.1437",
+      "background": "奶蛙终于在忙碌的家里找到一小段可以慢下来的时间。象牙色长袍铺在白床单上，掌边的玫瑰还没放进花瓶，脚旁的小狗却已经先睡着了。后面的伙伴打开衣箱，认真整理蓝金色礼服；窗台上的小树迎着晚光，房间因等待而显得温暖。提香把玫瑰、睡犬与准备衣饰的家居场景织进关于亲密和长久相伴的图像，奶蛙则把这份心意过成了一场安静的歇息。它没有催伙伴快一点，也没有叫醒占了床角的小狗，只轻轻看着来访的人，仿佛说：这里还有位置。深绿帷幕、红色织物与金黄身影之间，丰盛不必是盛大的宴席；有人替你整理明天的衣服，有个小生命放心睡在身旁，就已经足够让今天圆满。",
+      "sources": [
+        "https://www.uffizi.it/opere/venere-urbino-tiziano"
+      ],
+      "art": "assets/art/ART-07-012.jpg",
+      "original": "assets/original/ART-07-012.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1000,
+        "bytes": 284046,
+        "sha256": "ad9257b718c1b02961415a1712d98772182a6695e8ce045ff02951498541ad61"
+      }
+    },
+    {
+      "id": "ART-07-013",
+      "catalog": "NMF-ART-07-013",
+      "creation_title": "雷前护奶",
+      "title_en": "雷前护奶",
+      "original_title": "暴风雨",
+      "artist": "乔尔乔内",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "馆方讨论约1504年；提出年代范围1503—1509年，非确定单年",
+      "original_location": "威尼斯学院美术馆，目录915",
+      "background": "雷光在青绿色云层里亮起，河面却还保持着片刻安静。持杖的奶蛙站在左边，没有急着喊谁快走；右侧的伙伴把小奶蛙抱在白衣里，让它先躲进一个稳妥的怀抱。木桥连着远处的城屋，废柱旁的树叶还带着暖光，风景像正在等待一声尚未落下的雷。乔尔乔内把难以说尽的关系留在这片河岸上，奶蛙也不打算替每一朵云找到答案。它只知道，天空要变的时候，有些事可以先做好：把小小的生命抱稳，把同行的人留在视线里，再听听水是否仍在缓缓向前。闪电划开了远方，却没有划开它们之间的距离；这一刻的安宁并非没有风雨，而是有人愿意在风雨到来以前，替你守住身旁的一小块天地。",
+      "sources": [
+        "https://www.gallerieaccademia.it/opera/la-tempesta/"
+      ],
+      "art": "assets/art/ART-07-013.jpg",
+      "original": "assets/original/ART-07-013.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1190,
+        "height": 1322,
+        "bytes": 381742,
+        "sha256": "66b178beb151579d80a2d1a47134df907ffe9abae75976940600cc6ea385c204"
+      }
+    },
+    {
+      "id": "ART-07-014",
+      "catalog": "NMF-ART-07-014",
+      "creation_title": "拱下奶祈",
+      "title_en": "拱下奶祈",
+      "original_title": "圣三位一体",
+      "artist": "马萨乔",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1425—1426年（新圣母教堂作品页）",
+      "original_location": "佛罗伦萨新圣母教堂左侧中殿",
+      "background": "奶蛙们在一座看似通向墙后的小礼拜堂前停下脚步。玫瑰色拱券托起层层退远的格状穹顶，中央展开的双臂与身后的支撑，把目光带向白鸽停留的地方。两侧伙伴一个轻指中央，一个合掌静候；更低处，两位披着红蓝衣袍的奶蛙跪在门槛外，把自己的祈愿放进这片安静。马萨乔让绘画借助透视打开墙面，也让有限的生命与永恒的盼望共享同一个空间。下方石墓中的象征性身影提醒奶蛙：再柔软的日子也会过去，因此今天的靠近不能总留到明天。它不急着跨过台阶，只认真看着那些相互支撑的手；或许真正深远的地方，并不在穹顶尽头，而在愿意承接另一份重量的心里。",
+      "sources": [
+        "https://www.smn.it/en/artworks/masaccios-holy-trinity/"
+      ],
+      "art": "assets/art/ART-07-014.jpg",
+      "original": "assets/original/ART-07-014.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 700,
+        "height": 1400,
+        "bytes": 223716,
+        "sha256": "f22dfd18d4a907307f413a1ac3b6319849170dc6034eb60476127c80653dcddf"
+      }
+    },
+    {
+      "id": "ART-07-015",
+      "catalog": "NMF-ART-07-015",
+      "creation_title": "清泉洗奶",
+      "title_en": "清泉洗奶",
+      "original_title": "基督受洗",
+      "artist": "皮耶罗·德拉·弗朗切斯卡",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "可能约1437—1445年（国家美术馆现目录）",
+      "original_location": "伦敦国家美术馆，NG665",
+      "background": "清浅的河水绕过石头，奶蛙站在中央，把双手合在圆肚前。伙伴举起一只陶碗，细细的水线落向它的额头；白鸽展开翅膀，和水碗、合掌连成一条安静的线。胡桃树下，三位见证者轻牵着手，远处的同行者也慢慢停下脚步。皮耶罗以秩序与柔和光色让庄重时刻进入熟悉的山谷，奶蛙则觉得，重新开始未必要走到遥远的地方。它只是把脚放进眼前的清泉，让忙乱的念头跟着水声缓一缓。没有谁急着宣告它已经改变，伙伴们也没有催它把祈愿说出来；在蓝天、树影和浅水之间，它先学会认真承接这份善意，然后准备带着更清醒的心，继续走向河流转弯的地方。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-the-baptism-of-christ"
+      ],
+      "art": "assets/art/ART-07-015.jpg",
+      "original": "assets/original/ART-07-015.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1133,
+        "height": 1388,
+        "bytes": 362482,
+        "sha256": "4a133b9216c9ed67e3bcefad0f80cba9dad46d60de0d20d00d611d84fcd77c2b"
+      }
+    },
+    {
+      "id": "ART-07-016",
+      "catalog": "NMF-ART-07-016",
+      "creation_title": "镜里成双",
+      "title_en": "镜里成双",
+      "original_title": "阿尔诺芬尼夫妇像",
+      "artist": "扬·凡·艾克",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1434年",
+      "original_location": "伦敦国家美术馆 NG186",
+      "background": "窗边的橙子透着暖光，铜吊灯把安静的会客室照得更有分量。戴黑帽的奶蛙举起一只手，像是在迎接门外的客人；另一只手却始终托着伙伴的手，没有因为来客而松开。绿裙层层落在木地板上，小狗守在两者之间，圆镜则把他们的背影与门口的身影一同收藏。凡·艾克在十五世纪用细密油彩让织物、玻璃与皮毛各自发光，奶蛙也认真穿好这身体面的衣裳，却觉得最值得留下的并不是财富。镜子可以照见房间有多华丽，牵着的手才说明这里为什么像一个家。于是它把问候放在掌心，把安心留给身边的人，让这场相伴在温暖的光里慢慢站稳。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait"
+      ],
+      "art": "assets/art/ART-07-016.jpg",
+      "original": "assets/original/ART-07-016.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1023,
+        "height": 1400,
+        "bytes": 200600,
+        "sha256": "d5abfb3f286c1cc7f69de3e32552700fbb4e68007d67e8d14d932952d3b984fd"
+      }
+    },
+    {
+      "id": "ART-07-017",
+      "catalog": "NMF-ART-07-017",
+      "creation_title": "奶间乐园",
+      "title_en": "奶间乐园",
+      "original_title": "人间乐园",
+      "artist": "博斯",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "约1490—1500年（普拉多馆方目录）",
+      "original_location": "马德里普拉多博物馆，P002823",
+      "background": "奶蛙从左侧花园出发，先学会伸手迎接伙伴，再沿着水面走进一场越来越热闹的梦。果实大得可以住进去，鸟儿和坐骑带着队伍绕过池塘，透明的壳把相遇暂时收藏，远处的蓝粉建筑仿佛随时会长出新的枝条。它抱住一颗红果子，觉得快乐终于有了可以握住的形状，却没发现右边的天色已经暗下来：乐器变成高墙，声音像迷路的阶梯，火光把远处的城照成另一种颜色。博斯的三联画把诱惑与后果并排展开，奶蛙就在这条路上慢慢懂得，甜美并不总能带人回家。它仍愿意尝一口果实，也愿意在举手之前看看身边的伙伴，免得把一场共享的欢聚，走成只有自己醒来的长梦。",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
+        "https://www.museodelprado.es/en/resource/the-garden-of-earthly-delights-bosch/c32e04cc-745c-8d42-a6d9-bf24bb93cb06"
+      ],
+      "art": "assets/art/ART-07-017.jpg",
+      "original": "assets/original/ART-07-017.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 777,
+        "bytes": 342895,
+        "sha256": "358df9d858c3fa304d72e498d40a531b278ec15abeecde7678075cc79a072563"
+      }
+    },
+    {
+      "id": "ART-07-018",
+      "catalog": "NMF-ART-07-018",
+      "creation_title": "踏雪归奶",
+      "title_en": "踏雪归奶",
+      "original_title": "雪中猎人",
+      "artist": "老彼得·勃鲁盖尔",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1565年",
+      "original_location": "维也纳艺术史博物馆，绘画馆1838",
+      "background": "奶蛙把长杆搭在肩上，和两位伙伴沿着白色山坡慢慢往村里走。猎犬低头嗅着雪，脚印在树干之间断断续续；屋边的火已经升起，山谷里的冰面却仍很热闹，小小的身影在蓝绿色的池塘上滑来滑去。勃鲁盖尔把冬天画成一个同时忙碌又安静的世界，奶蛙也在这里发现，归途并不一定需要带回多少战利品。它的口袋轻，步子沉，看到远处屋顶与熟悉的炊烟时，圆肚里却慢慢暖起来。黑鸟越过枝头，雪山没有因为谁疲倦就变矮；伙伴仍跟在身边，村里的生活也没有停下。这一日最好的收获，是走了很远之后，还有一条路知道怎样把它们带回家。",
+      "sources": [
+        "https://www.bruegel2018.at/en/the-hunters-in-the-snow/"
+      ],
+      "art": "assets/art/ART-07-018.jpg",
+      "original": "assets/original/ART-07-018.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 998,
+        "bytes": 344391,
+        "sha256": "b9cd2d2eef7d6aa32c41c2ea00b2dc5b600bcedbc7ea13864c7a502488909b8e"
+      }
+    },
+    {
+      "id": "ART-07-019",
+      "catalog": "NMF-ART-07-019",
+      "creation_title": "通天奶塔",
+      "title_en": "通天奶塔",
+      "original_title": "巴别塔（维也纳版本）",
+      "artist": "老彼得·勃鲁盖尔",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1563年",
+      "original_location": "维也纳艺术史博物馆，绘画馆1026",
+      "background": "奶蛙站在石料堆前，抬头望着一层又一层尚未合拢的拱门。塔顶已经碰到云，山岩却还露在砖墙之间；港口的船不停送来材料，脚手架上的小伙伴也各自忙着，把今天的石头往更高处搬。勃鲁盖尔借巴别塔的故事，把雄心放进密密的劳动细节里，奶蛙便也想造一座能让所有人看见远方的楼。可当它转身听石匠讲话，又发现每个人都以为自己明白下一步该怎么做。它低头看着手边这块尚未安放的石料，第一次觉得，向上并不是唯一重要的方向。塔可以慢慢长高，伙伴却需要先听懂彼此；不然再宏大的愿望，也可能只是许多小小的误会，一层层叠到了天上。",
+      "sources": [
+        "https://www.bruegel2018.at/en/the-tower-of-babel/"
+      ],
+      "art": "assets/art/ART-07-019.jpg",
+      "original": "assets/original/ART-07-019.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1040,
+        "bytes": 320541,
+        "sha256": "832c55cfb026b8fa40b8da67b91bb33dfb517272d1c8c618c466a7efd7034540"
+      }
+    },
+    {
+      "id": "ART-07-020",
+      "catalog": "NMF-ART-07-020",
+      "creation_title": "自有奶光",
+      "title_en": "自有奶光",
+      "original_title": "自画像（1500年版本）",
+      "artist": "丢勒",
+      "category": "文艺复兴",
+      "filter": "renaissance",
+      "era_label": "文艺复兴",
+      "era_label_en": "Renaissance",
+      "original_date": "1500年",
+      "original_location": "慕尼黑老绘画陈列馆，巴伐利亚国家绘画收藏，537",
+      "background": "奶蛙把裘衣整理好，轻轻捏住胸前的毛领，然后直视画外。它没有戴上人的长发，也没有借来一张更严肃的脸；金黄的轮廓从深色背景里慢慢亮起，绿色眼睛安静地接住看它的人。丢勒在一五〇〇年的正面自画像中，把观看与创造的力量留给目光和手，奶蛙也决定认真对待自己的模样。卷曲的皮毛替它围出柔软而庄重的边界，细短的嘴线却仍保留着一点不愿逞强的平和。它想，成为画中值得凝视的人，未必要显得比别人更宏大。只要不躲开自己的眼睛，也不忘记这只曾经画过、握过、帮助过伙伴的手，就已经能够在一片深色里，找到属于自己的光。",
+      "sources": [
+        "https://www.sammlung.pinakothek.de/en/artwork/Qlx2QpQ4Xq"
+      ],
+      "art": "assets/art/ART-07-020.jpg",
+      "original": "assets/original/ART-07-020.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1001,
+        "height": 1400,
+        "bytes": 205193,
+        "sha256": "60fa679461dd28b8153b960a7b926eb0dff7367ddb1ead5629b126cd66cce551"
+      }
+    },
+    {
+      "id": "ART-08-001",
+      "catalog": "NMF-ART-08-001",
+      "creation_title": "长襟安梦",
+      "title_en": "长襟安梦",
+      "original_title": "长颈圣母",
+      "artist": "帕尔米贾尼诺",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "约1534—1540年",
+      "original_location": "佛罗伦萨乌菲齐美术馆，Palatina清单230",
+      "background": "奶蛙把蓝色披衣铺在膝上，让熟睡的小伙伴斜斜地躺进怀里。一只手轻搭胸前，另一只手托住它的背，绸缎便沿着这场安静的拥抱，流成细长而温柔的波纹。左边的伙伴挤在一起，连捧着银器的那位也忘了往前走；右边的柱子却把空旷的天空留给远处持卷的人。帕尔米贾尼诺在十六世纪用不寻常的比例与空间，让熟悉的主题变得优雅而难以捉摸，奶蛙则把这份延展交给衣裳与等待。它不急着叫醒怀里的小家伙，也不急着填满每一处空白。只要双手仍稳稳托着，时间就可以在一襟绸缎之间慢下来，让一个短短的梦，拥有比身量更长的安宁。",
+      "sources": [
+        "https://www.uffizi.it/en/artworks/parmigianino-madonna-long-neck",
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900287693"
+      ],
+      "art": "assets/art/ART-08-001.jpg",
+      "original": "assets/original/ART-08-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 870,
+        "height": 1400,
+        "bytes": 215054,
+        "sha256": "31f40a7df7bde3eb056bebbada9e8b405f02d8411095381b8b18a8b21a56ee6e"
+      }
+    },
+    {
+      "id": "ART-08-002",
+      "catalog": "NMF-ART-08-002",
+      "creation_title": "众手承悲",
+      "title_en": "众手承悲",
+      "original_title": "卸下圣体",
+      "artist": "蓬托尔莫",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "约1525—1528年（修复机构项目页）",
+      "original_location": "佛罗伦萨圣费利奇塔教堂，卡波尼礼拜堂",
+      "background": "两只奶蛙一前一后，把失去力气的伙伴轻轻托起。前面的跪在地上，后面的稳住肩背，周围的手也慢慢伸来，像每个人都想替这份沉重分担一点。蓝衣的奶蛙抬起手，却一时找不到可以说出的句子；粉色的伙伴背对画外，仍攥着那块准备递过去的白布。蓬托尔莫让粉红、浅蓝与柔绿在狭浅空间里相互缠绕，悲伤因此没有压成一片黑，而是悬在明亮的衣褶之间。奶蛙们也不急着把这一刻解释清楚：有人承托身体，有人安慰留下的人，有人只是站近一些。它们能做的事情并不一样，却都把自己的位置让给了同一份关切。于是这场无声的聚拢，成为许多只小手共同接住的一次告别。",
+      "sources": [
+        "https://www.friendsofflorence.org/projects/pontormo-deposition-cross-1525-8-capponi-chapel-church-santa-felicita-florence/",
+        "https://www.feelflorence.it/en/points-interest/chiesa-di-santa-felicita"
+      ],
+      "art": "assets/art/ART-08-002.jpg",
+      "original": "assets/original/ART-08-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 841,
+        "height": 1400,
+        "bytes": 234995,
+        "sha256": "b8f152fd72e6a985c43440089fa37bd4533706c4e22fdaa4234498d39c0076d8"
+      }
+    },
+    {
+      "id": "ART-08-003",
+      "catalog": "NMF-ART-08-003",
+      "creation_title": "甜意有时",
+      "title_en": "甜意有时",
+      "original_title": "维纳斯、丘比特、愚行与时间",
+      "artist": "布龙齐诺",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "约1545年",
+      "original_location": "伦敦国家美术馆，NG651",
+      "background": "奶蛙捧着一颗金苹果，把细箭举到蓝幕前，想看看甜美的愿望究竟会把自己带向哪里。左边的伙伴望着它，右边有人洒下玫瑰花瓣，也有人端来蜂蜜；美好的东西一齐出现，反倒让抱着头的那位不知该先相信谁。布龙齐诺的寓言常把欢愉、欺瞒与时间交缠成一道难题，奶蛙于是把这场相遇摆成一座安静的小舞台。脚边的面具已经摘下，沙漏却仍在高处流动，拉幕的伙伴也没有决定要把故事遮住还是打开。它最后没有急着放箭，只把苹果稳稳留在掌心。甜意可以慢慢尝，选择也可以慢慢想；最怕的不是错过眼前的花，而是在花瓣落尽之后，忘了自己为什么伸出这只手。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/bronzino-an-allegory-with-venus-and-cupid"
+      ],
+      "art": "assets/art/ART-08-003.jpg",
+      "original": "assets/original/ART-08-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1120,
+        "height": 1400,
+        "bytes": 333375,
+        "sha256": "31a246d28afd44d3dc0db433e5562fa8ff1ceda15afe07356907507e742b76a4"
+      }
+    },
+    {
+      "id": "ART-08-004",
+      "catalog": "NMF-ART-08-004",
+      "creation_title": "梯间相托",
+      "title_en": "梯间相托",
+      "original_title": "卸下圣体（沃尔泰拉版本）",
+      "artist": "罗索·菲奥伦蒂诺",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "1521年",
+      "original_location": "沃尔泰拉市立绘画与城市博物馆",
+      "background": "高处的奶蛙伏在横木上，攥住白布的一角；右侧的伙伴站稳梯级，左下那位也伸手托住布兜，不肯让怀里的重量只落在一个人身上。地面上的奶蛙彼此靠近，红衣的跪下来扶向蓝灰衣伙伴，另一位则把脸藏进双手。罗索在一五二一年的沃尔泰拉画面中，以陡直的木架和棱角分明的衣褶，把协力与悲恸推到同一个瞬间。奶蛙也在这里学会，最难的事情并不只是往上爬，而是在想要赶紧结束的时候，仍愿意一点点把手稳住。红、蓝、赭黄在冷色天空前互相牵住，像谁都不敢松开的回答。它们没有让哀伤变轻，却用许多只小手，替它找到了一条可以慢慢落地的路。",
+      "sources": [
+        "https://www.visittuscany.com/it/attrazioni/la-deposizione-di-volterra-di-rosso-fiorentino/"
+      ],
+      "art": "assets/art/ART-08-004.jpg",
+      "original": "assets/original/ART-08-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 727,
+        "height": 1400,
+        "bytes": 185604,
+        "sha256": "4cefa384bb17c283de6deffce4b6235767ce049cc209c646afca9aec8e023bca"
+      }
+    },
+    {
+      "id": "ART-08-005",
+      "catalog": "NMF-ART-08-005",
+      "creation_title": "斜席有光",
+      "title_en": "斜席有光",
+      "original_title": "最后的晚餐（圣乔治马焦雷版本）",
+      "artist": "丁托列托",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "约1592—1594年",
+      "original_location": "威尼斯圣乔治马焦雷大教堂",
+      "background": "长桌斜斜地伸进暗处，奶蛙们围着白桌布低声交谈，杯盏和果盘把灯火一小点一小点接住。中央的奶蛙把面包递向伙伴，右边的侍者仍在接过盘子，篮旁的小动物也悄悄凑近，谁都没有因为光突然明亮就忘记手边的事情。丁托列托在圣乔治的画面里，让日常劳作与庄重时刻共享同一个空间，奶蛙便也觉得，善意未必总在所有人坐定之后才来。它可能随着递出的面包、接稳的碗，或替别人让开的一小步进入这里。上方的烟光里，轻盈的身影像正在听这场尚未结束的交谈；脚下的方砖则把每个人稳稳留在人间。夜色很深，这张斜席却因彼此照应，慢慢有了可以相认的光。",
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0500123375",
+        "https://www.italia.it/it/veneto/venezia/cosa-fare/venezia-tintoretto-tour-3-giorni-5-tappe"
+      ],
+      "art": "assets/art/ART-08-005.jpg",
+      "original": "assets/original/ART-08-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 891,
+        "bytes": 305064,
+        "sha256": "8982643625098268abfefdd2593510076d3dad13a1a0ee323bf634fe0765d49f"
+      }
+    },
+    {
+      "id": "ART-08-006",
+      "catalog": "NMF-ART-08-006",
+      "creation_title": "云上归途",
+      "title_en": "云上归途",
+      "original_title": "奥尔加斯伯爵的葬礼",
+      "artist": "埃尔·格列柯",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "1586—1588年",
+      "original_location": "西班牙托莱多圣多美教堂",
+      "background": "两位披着金红衣袍的奶蛙，把身穿黑色铠甲的伙伴稳稳托住。身后的队伍没有散，白色领圈在深衣之间连成安静的一线，火炬也替每张低声相望的脸留下一点温度。上方的云却正慢慢打开，羽翼托起一枚金黄的小小光影，向更高处伸去；蓝红衣的伙伴和白衣身影都转向它，像是在为一条看不见的路让出位置。格列柯将托莱多的葬礼写成地上与云上相接的画面，奶蛙也在这场告别里，想起逝去伙伴曾经给人的照顾。它们不需要马上停止悲伤，只愿意把那些好意继续接在手里。铠甲留在人间，温柔却还能够被传递，于是离去不再只是消失，也成为许多人记得怎样回家的开始。",
+      "sources": [
+        "https://santotome.org/el-greco/"
+      ],
+      "art": "assets/art/ART-08-006.jpg",
+      "original": "assets/original/ART-08-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1051,
+        "height": 1400,
+        "bytes": 355874,
+        "sha256": "b5e9576ecc78e629cab85c717d2f0db35f0cbb26774d8467a81479a02956ecee"
+      }
+    },
+    {
+      "id": "ART-08-007",
+      "catalog": "NMF-ART-08-007",
+      "creation_title": "奶望风城",
+      "title_en": "奶望风城",
+      "original_title": "托莱多风景",
+      "artist": "埃尔·格列柯",
+      "category": "风格主义",
+      "filter": "mannerism",
+      "era_label": "风格主义",
+      "era_label_en": "Mannerism",
+      "original_date": "约1599—1600年",
+      "original_location": "纽约大都会艺术博物馆，29.100.6",
+      "background": "奶蛙在河岸的草坡上停下，把披衣拢到圆肚前，抬头望着风云压过来的城。灰白的桥跨在山谷里，尖塔与高处的宫堡从深色天空下慢慢亮起，绿色的坡地却像被另一阵看不见的风推着，一直伸向远方。格列柯画的托莱多并不急着把每栋房子放回地图上的位置，而是让云、建筑与山丘共同说出一座城的心情。奶蛙也不急着进去：它想先在这里听一听，听河水怎样绕过石头，听衣角怎样替风回答。天空没有因为它来到就放晴，城也没有因为被望见就变得容易理解；但金黄的小身影已经找到一处可以站稳的地方。它把惊惧慢慢换成凝视，准备带着这片风声，继续向桥那边走去。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/436575"
+      ],
+      "art": "assets/art/ART-08-007.jpg",
+      "original": "assets/original/ART-08-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1182,
+        "height": 1330,
+        "bytes": 330413,
+        "sha256": "2d9607e3e2c04aaf2f73ec67e3f22ccaaffe80c623077245e782f30fdf37452b"
+      }
+    },
+    {
+      "id": "ART-09-001",
+      "catalog": "NMF-ART-09-001",
+      "creation_title": "一束光叫住奶",
+      "title_en": "一束光叫住奶",
+      "original_title": "圣马太蒙召",
+      "artist": "卡拉瓦乔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1599—1600年",
+      "original_location": "罗马圣路易法兰西教堂，孔塔雷利礼拜堂",
+      "background": "奶蛙本来只顾着桌上的钱币，直到右侧伸来的手，与斜穿暗墙的一束光，把它从熟悉的忙碌里叫住。伙伴转过头，戴羽帽的那位也停下了动作；有人仍低头计算，有人已经在心里问，眼前这次邀请究竟指向谁。卡拉瓦乔把蒙召放进日常人物与深色室内，让一个选择发生在几乎来不及准备的瞬间，奶蛙于是也不再等到自己把所有事情算清，才愿意回应陌生的善意。它伸出手指向身边，像是在确认，又像是在给自己一点时间。窗框还安静地立在墙上，硬币也没有凭空消失；但当目光与那只手接上，原本只有账目的桌边，便多出了一条可以走向别处的路。光没有替它作决定，只让它看见，自己还能够选择。",
+      "sources": [
+        "https://turismoroma.it/en/node/18610",
+        "https://turismoroma.it/en/places/san-luigi-dei-francesi-st-louis-french"
+      ],
+      "art": "assets/art/ART-09-001.jpg",
+      "original": "assets/original/ART-09-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1278,
+        "height": 1230,
+        "bytes": 241044,
+        "sha256": "b8ae8a507b781a9d25f13d0dfff1df7fb378c9795f79d286a9b15e62be2b5b83"
+      }
+    },
+    {
+      "id": "ART-09-002",
+      "catalog": "NMF-ART-09-002",
+      "creation_title": "一席认奶",
+      "title_en": "一席认奶",
+      "original_title": "以马忤斯的晚餐（伦敦版本）",
+      "artist": "卡拉瓦乔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1601年",
+      "original_location": "伦敦国家美术馆，NG172",
+      "background": "面包刚放到白桌布上，右边的奶蛙忽然展开双臂，左边的伙伴也抓住椅背，像一句迟来的认出终于推着它站了起来。中央那位却仍把手安静地举在食物上方，身后的店主只低头看着，不明白一顿普通的晚餐为什么突然有了这样的分量。卡拉瓦乔在伦敦版本里，把惊觉压进伸出的手与前倾的身体，奶蛙也在这张桌边，重新认识了同行了一路的伙伴。果篮的叶子垂到桌沿，杯里的光没有变，变的是它们看彼此的方式。原来熟悉不只来自名字，也来自一个递面包的动作、一种被记住的温柔。它们还没来得及把话说完，惊喜已经越过桌布和杯盏，让这一席相遇，比满桌丰盛更值得留下。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus"
+      ],
+      "art": "assets/art/ART-09-002.jpg",
+      "original": "assets/original/ART-09-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 991,
+        "bytes": 205062,
+        "sha256": "1f9a92d6996b8e848a560f861cd3865a4b28ac225e827adc34e7e32a0e9d6e38"
+      }
+    },
+    {
+      "id": "ART-09-003",
+      "catalog": "NMF-ART-09-003",
+      "creation_title": "奶酿秋光",
+      "title_en": "奶酿秋光",
+      "original_title": "酒神巴克斯",
+      "artist": "卡拉瓦乔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1595—1597年（意大利国家文物目录口径）",
+      "original_location": "佛罗伦萨乌菲齐美术馆，1890清单5312",
+      "background": "奶蛙戴上葡萄叶编成的冠，把浅浅的酒杯递向画外。另一只手停在黑色缎带旁，白色亚麻衣随着圆肚落下，桌上的葡萄、无花果、苹果与梨，则各自带着成熟的亮光和一点不那么完美的痕迹。卡拉瓦乔在罗马早年的酒神形象里，让神话靠近一个可以被邀请入席的日常人物，奶蛙也不打算摆出多么遥远的神气。它只是想请来客坐下，看看玻璃怎样留住红酒，看看枯黄的叶边怎样仍然美丽。果实不会一直停在最好的时候，杯中这点光也会随着谈话慢慢移动；正因为如此，眼前的相聚才值得认真承接。奶蛙把杯子举得稳稳的，相信丰盛不只在盘子里，也在愿意向别人递出的一只手上。",
+      "sources": [
+        "https://www.uffizi.it/en/artworks/caravaggio-bacchus",
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900289176"
+      ],
+      "art": "assets/art/ART-09-003.jpg",
+      "original": "assets/original/ART-09-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1154,
+        "height": 1363,
+        "bytes": 320551,
+        "sha256": "1db5d58c32c8300ca6120ad31abe52055c99784f50af5cbb202cbf79565ca85a"
+      }
+    },
+    {
+      "id": "ART-09-004",
+      "catalog": "NMF-ART-09-004",
+      "creation_title": "奶破长夜",
+      "title_en": "奶破长夜",
+      "original_title": "朱迪思斩杀赫罗弗尼斯（乌菲齐版本）",
+      "artist": "阿尔特米西娅·真蒂莱斯基",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1620年",
+      "original_location": "佛罗伦萨乌菲齐美术馆，1890清单1567",
+      "background": "军营的夜里，奶蛙把剑握稳，另一只手攥住床边的白布；蓝衣伙伴也俯下身，抓住对方抬起的手臂，不肯让它独自承担这一刻的危险。金黄的衣袖与暗红的被褥在光里绷紧，深色背景却把所有退路暂时收了起来。阿尔特米西娅在十七世纪的朱迪思主题中，让女性的决断与协力拥有沉重而清楚的力量，奶蛙也在这里学会，勇敢不只是忽然不害怕，而是在害怕的时候，仍能看见身旁那只没有松开的手。它们曾经把希望寄托在别人会改变，如今终于决定，不能再让威胁替所有人安排明天。黎明还没有出现在画面里，但这场相互支撑已经打破了长夜最坚固的一层：它们不再相信，自己只能等待。",
+      "sources": [
+        "https://www.uffizi.it/en/artworks/judith-beheading-holofernes"
+      ],
+      "art": "assets/art/ART-09-004.jpg",
+      "original": "assets/original/ART-09-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1061,
+        "height": 1400,
+        "bytes": 239494,
+        "sha256": "39208da2362dace7792e51663d044e72bcc79cc7e4587dfda0d61dfac323e7f3"
+      }
+    },
+    {
+      "id": "ART-09-005",
+      "catalog": "NMF-ART-09-005",
+      "creation_title": "镜外有奶",
+      "title_en": "镜外有奶",
+      "original_title": "宫娥",
+      "artist": "委拉斯开兹",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1656年",
+      "original_location": "马德里普拉多博物馆",
+      "background": "宫室里，奶蛙画家把调色盘托在黑衣前，忽然从高大的画布旁望了出来。中央的小伙伴站在银白衣裙里，侍从正把红杯递到它手边；有人半俯身，有人仍在后方交谈，卧犬则把这场忙碌当作一个适合打盹的下午。委拉斯开兹在一六五六年让宫室中的目光彼此交错，奶蛙也因此发现，画里的主角并不只由站在中央决定。后墙的小镜子还留着两位身影，门口的光把远处那位轻轻推到另一层空间，连画外的来客也像被大家同时认了出来。它原本以为自己只是来看看这幅画，站久了，却觉得也该把姿势摆好。画家没有急着落笔，房间也没有宣布表演开始；每一道视线已经悄悄替它，留出了一个位置。",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+        "https://www.museodelprado.es/lectura-facil/las-meninas-diego-velazquez/c43f1c8d-e6c9-a8c2-44dc-0c9be2e10177"
+      ],
+      "art": "assets/art/ART-09-005.jpg",
+      "original": "assets/original/ART-09-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1170,
+        "height": 1344,
+        "bytes": 246453,
+        "sha256": "ca1da359f7b87b32c05f513a01f0f07798bdad186e000ac44f8bed0dd9098800"
+      }
+    },
+    {
+      "id": "ART-09-006",
+      "catalog": "NMF-ART-09-006",
+      "creation_title": "一钥留情",
+      "title_en": "一钥留情",
+      "original_title": "布雷达的投降",
+      "artist": "委拉斯开兹",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1635年",
+      "original_location": "马德里普拉多博物馆，P001172",
+      "background": "奶蛙把城门的钥匙递出去时，原本已经低下了头。对面的统帅却先伸手搭住它的肩，没有让这次相遇变成一场必须弯得更低的表演。身后的长矛仍高高立着，战马与旗帜也还带着战场的分量，远处的烟却慢慢退到蓝灰天空里。委拉斯开兹在布雷达主题中，把胜负的叙述收进两个人最简单的动作，奶蛙也在这里明白，赢得一座城之后，仍可以选择怎样对待城里的人。钥匙很小，足够被一只手握住；留给对方的体面却很大，需要另一只手及时伸出来。它们没有忘记刚刚结束的争斗，只是在交接的这一刻，替往后的日子保留了一点不必继续敌对的可能。",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/the-surrender-of-breda/0cc7577a-51d9-44fd-b4d5-4dba8d9cb13a"
+      ],
+      "art": "assets/art/ART-09-006.jpg",
+      "original": "assets/original/ART-09-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 326206,
+        "sha256": "bac9d99347b6d39c99d43bb4fcbdcc23e38ac464ddf471c6c4dc683ed0d61a35"
+      }
+    },
+    {
+      "id": "ART-09-007",
+      "catalog": "NMF-ART-09-007",
+      "creation_title": "奶巡将启",
+      "title_en": "奶巡将启",
+      "original_title": "夜巡",
+      "artist": "伦勃朗",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1642年",
+      "original_location": "阿姆斯特丹国立博物馆，SK-C-5",
+      "background": "黑衣红绶的奶蛙把手伸向前方，金衣伙伴握稳长柄兵器，队伍便在这一声尚未说出口的指令里，慢慢从各自的忙碌走向同一个方向。有人装填，有人抬旗，鼓手已经举起小棍，浅金衣的小伙伴抱着白鸡，像把整支队伍最亮的标记也带上了路。伦勃朗在一六四二年的市民卫队群像中，让人物真正行动起来，奶蛙也因此明白，站在一起并不自动等于能够一起出发。它们需要听见彼此，看懂那只伸出的手，也给还没准备好的伙伴留一点空间。光穿过深色的门拱，停在领圈、金衣与脚边的小狗上；队伍并不整齐得像一排摆好的玩偶，却已经有了共同的节奏。奶蛙把步子迈出去，相信守护一座城，也可以先从照应身旁的人开始。",
+      "sources": [
+        "https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544"
+      ],
+      "art": "assets/art/ART-09-007.jpg",
+      "original": "assets/original/ART-09-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1390,
+        "height": 1132,
+        "bytes": 278646,
+        "sha256": "8f0bb293ebe8b8ddda8b953d63415067410caa5ef305ef277359a87b52f058da"
+      }
+    },
+    {
+      "id": "ART-09-008",
+      "catalog": "NMF-ART-09-008",
+      "creation_title": "奶手有学问",
+      "title_en": "奶手有学问",
+      "original_title": "杜尔普博士的解剖课",
+      "artist": "伦勃朗",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1632年",
+      "original_location": "海牙莫瑞泰斯皇家美术馆，146",
+      "background": "奶蛙讲师用细钳提起模型里的一根浅色绳线，另一只手同时轻轻收拢，让身旁的伙伴把看见的结构与自己的动作接起来。有人靠得很近，有人仍在比较纸上的图，白领圈从黑衣之间亮起，像一排不肯错过细节的小小窗户。伦勃朗在一六三二年的群像里，让知识成为许多道不同目光共同参与的事情，奶蛙也把课堂安排成一次认真而安静的相遇。桌上的木制伙伴没有催促，厚厚的书也没有急着给出结论；一根绳、一个滑轮、一只缓缓合起的手，就足够让大家重新注意到平时最熟悉的动作。它们发现，学问并不只在复杂的名称里，也在愿意停下来观察、再向旁边的人解释清楚的一点耐心中。",
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/146-the-anatomy-lesson-of-dr-nicolaes-tulp"
+      ],
+      "art": "assets/art/ART-09-008.jpg",
+      "original": "assets/original/ART-09-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1050,
+        "bytes": 253202,
+        "sha256": "2bf6abcfc331f886b7110ce72a46a105cfeb96fcdbb5d9d165224b138a6a0a71"
+      }
+    },
+    {
+      "id": "ART-09-009",
+      "catalog": "NMF-ART-09-009",
+      "creation_title": "奶归怀里",
+      "title_en": "奶归怀里",
+      "original_title": "浪子回头",
+      "artist": "伦勃朗",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1663—1665年（冬宫馆方Google Arts & Culture合作页所标）",
+      "original_location": "圣彼得堡国立冬宫博物馆",
+      "background": "奶蛙跪在门槛前，把一路破损的衣袍与说不出口的歉意，一起靠进父亲的怀里。一只旧鞋留在脚边，另一只脚已经露出来，像这段漫长的远行终于不必再假装体面。父亲没有先问它带回什么，只把两只手放在肩背上，让红色披衣替这一刻围出一点温暖。伦勃朗让归来的故事在深色中慢慢亮起，奶蛙也因此发现，真正难得的接纳，并不是替过去找好所有理由，而是在理由还没说完的时候，仍愿意给人一个可以停下的位置。右边的伙伴安静地看着，后方的身影也没有打断这场相遇。它知道自己不能把走错的路全部抹掉，却可以从这双没有推开的手开始，重新学会怎样回来，又怎样带着被接住的心，走向明天。",
+      "sources": [
+        "https://artsandculture.google.com/asset/return-of-the-prodigal-son/5QFIEhic3owZ-A"
+      ],
+      "art": "assets/art/ART-09-009.jpg",
+      "original": "assets/original/ART-09-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1072,
+        "height": 1400,
+        "bytes": 260459,
+        "sha256": "50580d84880dbd9b4bf144f57c016f60fc14ccac6766d43f8379e5d2a5c26550"
+      }
+    },
+    {
+      "id": "ART-09-010",
+      "catalog": "NMF-ART-09-010",
+      "creation_title": "回眸珍奶",
+      "title_en": "回眸珍奶",
+      "original_title": "戴珍珠耳环的少女",
+      "artist": "维米尔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1665年",
+      "original_location": "海牙莫瑞泰斯皇家美术馆，670",
+      "background": "奶蛙原本已经转过身，听见画外一点动静，又轻轻把目光带了回来。蓝色头巾收住明亮的金黄，淡黄的布尾从后方落下，侧边那颗珍珠便把一小束光留在了将要离开的瞬间。维米尔让服饰与神态相遇，画出一种不必知道名字也能被记住的存在，奶蛙也不急着解释自己是谁。它只把短短的嘴线稍微松开，让绿色眼睛安静地望向来客；深色背景没有给它安排更多故事，反而让这次停顿显得更长。没有宫室，没有道具，也没有需要完成的姿势，只有一件棕衣、一条头巾和一颗温柔发亮的珍珠。奶蛙觉得，留下印象未必要说很多话，有时只是愿意在走开之前，再认真看别人一眼。",
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring"
+      ],
+      "art": "assets/art/ART-09-010.jpg",
+      "original": "assets/original/ART-09-010.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1149,
+        "height": 1368,
+        "bytes": 287712,
+        "sha256": "554a572fd04aeea1cd8a9009701a4f53cd9d437ac9c1fc62d654942e824ed929"
+      }
+    },
+    {
+      "id": "ART-09-011",
+      "catalog": "NMF-ART-09-011",
+      "creation_title": "一线奶光",
+      "title_en": "一线奶光",
+      "original_title": "倒牛奶的女仆",
+      "artist": "维米尔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1660年（国立博物馆现目录口径）",
+      "original_location": "阿姆斯特丹国立博物馆，SK-A-2344",
+      "background": "奶蛙把陶壶轻轻倾斜，一条白色的奶流便从壶口落进碗里。它没有急着倒完，只低头看着手中的分量，让左窗的光慢慢经过袖口、面包与蓝色围裙。墙上的篮子和铜器仍在原处，脚边的小足炉也安静地等着，厨房里仿佛只有这条白线知道时间正在往前走。维米尔把普通劳动画得专注而庄重，奶蛙也因此学会，不必等到发生很大的事情，才认真对待眼前的一刻。面包的碎屑、陶器的边缘、奶落入碗中的位置，都值得它多看一眼。它想把这份从容留给来吃早餐的伙伴，让一顿平常的饭，也带着被好好准备过的温度。于是金黄的身体站得稳稳的，手里的壶也不再催促早晨赶紧结束。",
+      "sources": [
+        "https://www.rijksmuseum.nl/en/collection/object/The-Milkmaid--42dd0e658c2979aec8e144d2357c55c0"
+      ],
+      "art": "assets/art/ART-09-011.jpg",
+      "original": "assets/original/ART-09-011.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 329112,
+        "sha256": "22672d2a1ee1c9a15d16d04c8a560d2f2eb06c685f7618bcdf076aab14c3a849"
+      }
+    },
+    {
+      "id": "ART-09-012",
+      "catalog": "NMF-ART-09-012",
+      "creation_title": "奶绘千秋",
+      "title_en": "奶绘千秋",
+      "original_title": "绘画艺术",
+      "artist": "维米尔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1666—1668年",
+      "original_location": "维也纳艺术史博物馆，绘画馆9128",
+      "background": "奶蛙背对画外坐下，把细笔落向画架上的蓝色叶冠。远处的伙伴捧着书与长号，在侧面的光里静静站着；它不急着奏出声音，只让这次停顿成为能够被画下来的姿势。维米尔让画室里的写生成为绘画与历史相遇的寓言，奶蛙也因此把眼前的人，看成比一张轮廓更长久的记忆。后墙的地图把许多地方铺在同一片纸上，桌边的模型、草稿与织物则提醒它，记录世界需要不止一种手艺。帷幕还半遮着房间，吊灯没有点亮，方砖却把每一步空间安稳地送到远处。奶蛙知道，自己留不住所有日子，但可以认真留住这一刻：一位伙伴愿意站在那里，另一位伙伴愿意看清，然后把所见慢慢交给未来。",
+      "sources": [
+        "https://www.khm.at/en/artworks/the-art-of-painting-2574-1",
+        "https://www.khm.at/en/visit/only-in-vienna"
+      ],
+      "art": "assets/art/ART-09-012.jpg",
+      "original": "assets/original/ART-09-012.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1150,
+        "height": 1367,
+        "bytes": 317379,
+        "sha256": "0630188bb4e928047bcba9c94e046bad2819d0b2f8d54fd52bc9fbe364a0ae4c"
+      }
+    },
+    {
+      "id": "ART-09-013",
+      "catalog": "NMF-ART-09-013",
+      "creation_title": "奶岸静城",
+      "title_en": "奶岸静城",
+      "original_title": "代尔夫特风景",
+      "artist": "维米尔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1660—1661年",
+      "original_location": "海牙莫瑞泰斯皇家美术馆，92",
+      "background": "奶蛙站在沙色的岸边，和伙伴低声说着今天要进城办的事情。左边的小船还停着，水面把红屋顶、城门与远处明亮的尖塔轻轻接了下来，大片云则让天空显得比脚下的路更从容。维米尔用水、城市与天空三条横带，留住代尔夫特几乎没有风的一刻，奶蛙也决定先不急着走。它发现，阳光不必把每一栋房子同时照亮，阴影也不一定意味着什么被遗漏；有些地方正在闪光，有些地方正安静地等着，合在一起才像一座有人生活的城。伙伴还在说话，船边的同行者也各自站稳了脚。奶蛙把目光停在水里的倒影上，觉得出门之前能拥有这样一小段缓慢，已经足够让接下来的忙碌，多带一点平和。",
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft"
+      ],
+      "art": "assets/art/ART-09-013.jpg",
+      "original": "assets/original/ART-09-013.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1374,
+        "height": 1145,
+        "bytes": 300659,
+        "sha256": "f8994c6746266bbd953f03e1223884d7f3b0bbe6d146dab62ecaf6a3d8ad3abc"
+      }
+    },
+    {
+      "id": "ART-09-014",
+      "catalog": "NMF-ART-09-014",
+      "creation_title": "双骑惊风",
+      "title_en": "双骑惊风",
+      "original_title": "劫夺留西帕斯的女儿",
+      "artist": "鲁本斯",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1618年",
+      "original_location": "慕尼黑老绘画陈列馆，巴伐利亚国家绘画收藏，321",
+      "background": "奶蛙刚被托离地面，就把一只手举向翻卷的风。红披衣掠过黑马的鬃毛，白马也昂起前蹄，交叠的衣裙让这一刻像一阵尚未停下的旋涡。地面上的伙伴一手支住石坡，另一手伸向衣褶，努力在纷乱的动作之间找到能够站稳的位置。鲁本斯与扬·维尔登斯合作的画面，把人物、马匹和远景推向同一股张力，奶蛙也在这里意识到，力量一旦开始带人往前走，仍需要有人认真看见被卷进来的人。它举起的手没有急着替故事宣布结局，只想先在风里留下自己的方向。华丽的衣裳与明亮的天空，并没有让这场相遇变得轻松；但只要还有一只手愿意寻找支撑，纷乱中就仍有一点可以重新选择的余地。",
+      "sources": [
+        "https://www.sammlung.pinakothek.de/de/artwork/5RGQJo84z3/peter-paul-rubens/raub-der-toechter-des-leukippos"
+      ],
+      "art": "assets/art/ART-09-014.jpg",
+      "original": "assets/original/ART-09-014.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 334399,
+        "sha256": "49ca9c4cd3e14542a9cdb8e754f92ec9f066a887335cdedccd2fe05846c2752c"
+      }
+    },
+    {
+      "id": "ART-09-015",
+      "catalog": "NMF-ART-09-015",
+      "creation_title": "奶意满园",
+      "title_en": "奶意满园",
+      "original_title": "爱的花园",
+      "artist": "鲁本斯",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1630—1635年",
+      "original_location": "马德里普拉多博物馆，P001690",
+      "background": "奶蛙把一小束花递向坐在台阶上的伙伴，周围的衣裙便随着转身与回望，慢慢铺开了金黄、粉红与深蓝的波纹。左边的同行者靠近说话，右边的两位刚走下浅阶，身后的长廊还留着可以继续交谈的阴影。鲁本斯把园林聚会与爱意织在一起，奶蛙也在这里发现，亲近可以从许多很小的动作开始：把花交到对方手里，把座位留得宽一点，或在音乐响起时认真听一会儿。有翼的伙伴把花束送过树梢，石雕旁的水也一线一线落进池中，小狗则在脚边安稳躺下。谁都不用急着让今天成为一个很大的纪念日，因为愿意相互照应的人，已经把平常的花园，慢慢坐成了一处值得回来相见的地方。",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-love/8c9e39be-c70c-403a-a386-e7609e7af236",
+        "https://www.museodelprado.es/aprende/enciclopedia/voz/jardin-del-amor-el-rubens/ea880f88-ae80-4af5-8103-733219a3fa66"
+      ],
+      "art": "assets/art/ART-09-015.jpg",
+      "original": "assets/original/ART-09-015.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 965,
+        "bytes": 372856,
+        "sha256": "b3f8ddf3d98a64735df1ee7f8be9438d610575d0da46dbb20a81b906810f07a0"
+      }
+    },
+    {
+      "id": "ART-09-016",
+      "catalog": "NMF-ART-09-016",
+      "creation_title": "奶在桃源",
+      "title_en": "奶在桃源",
+      "original_title": "阿卡迪亚的牧人（卢浮宫版本）",
+      "artist": "普桑",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1638—1640年",
+      "original_location": "巴黎卢浮宫，INV 7300",
+      "background": "山色还是温柔的，牧杖也还握在手里，四位奶蛙却在一方石墓前停下了脚步。穿蓝色披布的伙伴跪下来，沿着风化的刻痕慢慢辨读；红衣伙伴俯身指向同一处，仿佛忽然明白，连这样安宁的牧野，也不能把时间留在山外。右边的奶蛙轻扶它的肩，既没有催促，也没有给出容易的答案。普桑笔下的阿卡迪亚让田园与生命的终点相遇，这一刻，奶蛙们也把欢快的行程变成了安静的凝望。金黄的身体、深蓝的衣褶与远山仍被阳光照亮，石头没有开口，却提醒它们：珍惜今日，并不需要等到一切都能解释清楚。读完这几道刻痕，它们会重新走进草木之间，只是下一次相伴时，会愿意把脚步放慢一点。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010062528"
+      ],
+      "art": "assets/art/ART-09-016.jpg",
+      "original": "assets/original/ART-09-016.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 996,
+        "bytes": 272370,
+        "sha256": "a3d5454ccf55f8f2bab2ca0602aa3728e6d59abe6061e9ccdff6191feffeda4b"
+      }
+    },
+    {
+      "id": "ART-09-017",
+      "catalog": "NMF-ART-09-017",
+      "creation_title": "一灯照奶心",
+      "title_en": "一灯照奶心",
+      "original_title": "忏悔的抹大拉（夜灯版本）",
+      "artist": "乔治·德·拉·图尔",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "约1642—1644年",
+      "original_location": "巴黎卢浮宫，RF 1949 11",
+      "background": "夜深了，奶蛙没有再翻开桌上的书。它用一只手托住脸，另一只手轻放在膝上的头骨上，望着那束细长的火苗。拉·图尔把生命的脆弱藏进夜灯，也把沉思藏进一间几乎没有声音的屋子；奶蛙坐在这里，终于愿意让白天那些匆忙的念头慢慢停下。火光照亮白衣的褶皱、旧书的边角和桌上的十字架，赭红长裙却渐渐沉入暗处，像许多无法追回的往事。它没有急着把黑夜照得通明，只守着这一点暖光，想起曾经错过的照应，也想起仍可以认真对待的明天。头骨提醒它时间不会停，灯焰却还在摇曳：有限的日子里，仍有一颗心可以放轻，有一件小事可以重新做好。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010066780"
+      ],
+      "art": "assets/art/ART-09-017.jpg",
+      "original": "assets/original/ART-09-017.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1000,
+        "height": 1400,
+        "bytes": 147193,
+        "sha256": "dcf10d98d5d31d8edda9f75c32b77179c38de69fe42c29b82de55bc0db3e8e18"
+      }
+    },
+    {
+      "id": "ART-09-018",
+      "catalog": "NMF-ART-09-018",
+      "creation_title": "奶爵含笑",
+      "title_en": "奶爵含笑",
+      "original_title": "微笑的骑士",
+      "artist": "弗兰斯·哈尔斯",
+      "category": "巴洛克",
+      "filter": "baroque",
+      "era_label": "巴洛克",
+      "era_label_en": "Baroque",
+      "original_date": "1624年",
+      "original_location": "伦敦华莱士收藏馆，P84",
+      "background": "奶蛙把手往腰间一搭，便觉得这件刺绣外衣忽然有了自己的脾气。宽檐黑帽压住上方的光，白色蕾丝却像一圈轻盈的小浪，把那条将笑未笑的嘴线衬得格外从容。哈尔斯以灵动笔触画出的肖像，既不真的大笑，也未必属于一位骑士；奶蛙于是决定，不急着给自己添上太响亮的头衔，先把眼前这份自在穿好。袖上的金红纹样细细转弯，黑绸肩带则用不同深浅的笔触闪出光泽，华丽与松弛在同一个姿态里相遇。它望着画外的来客，像刚听完一句有趣的话，却把后半句留给了对方。所谓奶爵的风度，也许就是这样：衣服可以繁复，表情只需一点，剩下的让相见的人慢慢体会。",
+      "sources": [
+        "https://www.wallacecollection.org/explore/collection/search-the-collection/laughing-cavalier/",
+        "https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?module=collection&objectId=64959&service=ExternalInterface"
+      ],
+      "art": "assets/art/ART-09-018.jpg",
+      "original": "assets/original/ART-09-018.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1120,
+        "height": 1400,
+        "bytes": 331466,
+        "sha256": "16625c9d1c6848b5ff6f12303398486f17b4ee192888464457177cbdb3bbb921"
+      }
+    },
+    {
+      "id": "ART-10-001",
+      "catalog": "NMF-ART-10-001",
+      "creation_title": "奶荡春风",
+      "title_en": "奶荡春风",
+      "original_title": "秋千",
+      "artist": "弗拉戈纳尔",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "约1767—1768年",
+      "original_location": "伦敦华莱士收藏馆，P430",
+      "background": "奶蛙荡到树影最亮的地方，粉红裙摆便在风里开成了一朵层层叠叠的花。它伸出脚，鞋子却抢先飞了出去；左边的伙伴赶紧举起黑帽，像要接住这场突如其来的春日玩笑。右边拉绳的奶蛙仍藏在阴影里，认真守住秋千来回的节奏，只有石雕把手指放在嘴边，替花园保留一点小秘密。弗拉戈纳尔让繁密的绿叶、轻盈的衣饰和意外的瞬间交织出洛可可的欢愉，奶蛙也在这里懂得，快乐有时候并不需要安排得太周全。粉裙掠过玫瑰与浅青色树隙，飞鞋悬在半空，连底下相依的石雕都像被逗得醒来。它知道下一刻还会荡回去，却仍愿意把眼前这一阵风，认真地当作第一次遇见。",
+      "sources": [
+        "https://www.wallacecollection.org/explore/collection/search-the-collection/les-hazards-heureux-de-lescarpolette-swing/",
+        "https://commons.wikimedia.org/wiki/File:Fragonard,_The_Swing.jpg"
+      ],
+      "art": "assets/art/ART-10-001.jpg",
+      "original": "assets/original/ART-10-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1116,
+        "height": 1400,
+        "bytes": 465638,
+        "sha256": "62321456f7c9d50847c8e88a5306736c0399660a767fa3a5e1f463de5e9e3225"
+      }
+    },
+    {
+      "id": "ART-10-002",
+      "catalog": "NMF-ART-10-002",
+      "creation_title": "奶读闲光",
+      "title_en": "奶读闲光",
+      "original_title": "读书的少女",
+      "artist": "弗拉戈纳尔",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "约1769年（馆方当前目录）",
+      "original_location": "华盛顿美国国家美术馆，1961.16.1",
+      "background": "奶蛙把小书举到刚好读得舒服的位置，另一只手便安安静静留在椅栏上。金黄衣裙与身体几乎融成同一种阳光，只有灰褐的手、白色衣领和紫粉色蝴蝶结，轻轻把轮廓分开。弗拉戈纳尔用迅疾而鲜活的笔触描绘阅读者，让衣褶和靠垫也像在呼吸；奶蛙坐进这幅画里，却没有被周围的华丽分去注意。它正读到一个愿意多停一会儿的地方，连身后玫瑰色与淡紫色的软垫，都仿佛替它把喧闹挡在外面。书页上没有急着要完成的任务，只有一句接着一句展开的世界。奶蛙于是把这一段闲光慢慢读下去：窗外的时间照常走，心里的时间却可以随着一页小小的纸，变得宽一些，再宽一些。",
+      "sources": [
+        "https://www.nga.gov/artworks/46303-young-girl-reading",
+        "https://www.nga.gov/stories/articles/mysterious-fantasy-fragonard-young-girl-reading"
+      ],
+      "art": "assets/art/ART-10-002.jpg",
+      "original": "assets/original/ART-10-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1115,
+        "height": 1400,
+        "bytes": 284762,
+        "sha256": "f98730fe7c975dd58be7bead99448c4d314e012c530427a42df511a567f785b5"
+      }
+    },
+    {
+      "id": "ART-10-003",
+      "catalog": "NMF-ART-10-003",
+      "creation_title": "一枝探奶意",
+      "title_en": "一枝探奶意",
+      "original_title": "爱情的进程·追求",
+      "artist": "弗拉戈纳尔",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "1771—1772年",
+      "original_location": "纽约弗里克收藏馆，1915.1.45",
+      "background": "奶蛙从玫瑰丛旁探出身，把一枝小花递向台阶上的伙伴。花还没有接到手里，对方却先张开了双臂，像被这份心意逗得忘了该如何回答；后面的蓝衣伙伴停下脚步，坐在一旁的橙衣奶蛙也抬头看过来。弗拉戈纳尔为杜巴丽夫人的园林亭阁构思爱情的进程，追求便从这样一个试探而轻快的瞬间开始。在奶蛙的花园里，一枝玫瑰不负责许下全部未来，只替一句尚未说出口的话，先走过两人之间的距离。高树向天空弯成柔软的弧线，喷泉从有翼的雕像脚下落下，衣裙与花枝都被暖光轻轻翻动。奶蛙忽然觉得，勇敢并不总是大步向前；有时候，是认真选好一枝花，再耐心等待另一双手的回应。",
+      "sources": [
+        "https://www.frick.org/blogs/curatorial/mapping_provenance_fragonards_progress_love",
+        "https://www.frick.org/press/new_publication_frick%E2%80%99s_popular_diptych_series_focuses_fragonard%E2%80%99s_progress_love",
+        "https://commons.wikimedia.org/wiki/File:The_Progress_of_Love_-_The_Pursuit_-_Fragonard_1771-72.jpg"
+      ],
+      "art": "assets/art/ART-10-003.jpg",
+      "original": "assets/original/ART-10-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 949,
+        "height": 1400,
+        "bytes": 347869,
+        "sha256": "2b979979df55a70140c760a6c204aa167b0b0b2df33a3b8e28e22c8fd6345931"
+      }
+    },
+    {
+      "id": "ART-10-004",
+      "catalog": "NMF-ART-10-004",
+      "creation_title": "奶别西苔",
+      "title_en": "奶别西苔",
+      "original_title": "舟发西苔岛（卢浮宫版本）",
+      "artist": "华托",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "1717年",
+      "original_location": "巴黎卢浮宫，INV 8525",
+      "background": "船已经在岸边等候，奶蛙们却还舍不得立刻走下山坡。右边的伙伴坐在树下，把扇子握得很轻；中间的一对相互递出手，站起的动作里仍有迟疑；前方持杖的奶蛙回望同行者，像在问，要不要再留一会儿。华托把西苔岛的相聚与离别交织在一片温柔的风景里，让旅程的方向也带着含蓄的心事。奶蛙沿着草坡慢慢排成队，华丽的小船、湖面的远帆与天空中的有翼送花者，都在提醒它们，快乐不会因为启程就被留在原地。树旁的雕像仍守着玫瑰，脚边的小狗仰头等候，淡金色云光把每一件衣裙都照得柔软。它们终于明白，这次带走的不是岛上的花，而是往后想起彼此时，仍会愿意放慢脚步的那一点眷恋。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010061995"
+      ],
+      "art": "assets/art/ART-10-004.jpg",
+      "original": "assets/original/ART-10-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 308420,
+        "sha256": "857f7cb9a73414fa0abecd189cd76369004cfac079d53427a1b922de921c9943"
+      }
+    },
+    {
+      "id": "ART-10-005",
+      "catalog": "NMF-ART-10-005",
+      "creation_title": "奶默登场",
+      "title_en": "奶默登场",
+      "original_title": "皮埃罗",
+      "artist": "华托",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "约1718—1719年",
+      "original_location": "巴黎卢浮宫，MI 1121",
+      "background": "奶蛙穿好白衣，站到最前面，却忽然不知道该说哪一句开场白。双手自然垂下，粉色鞋结整整齐齐，帽檐下的绿眼睛安静望着观众；后面的伙伴已经靠在一起交谈，连驴也把长耳朵伸进了这场热闹。华托笔下的皮埃罗把戏剧人物的明亮衣装与难以解释的沉默并置，奶蛙也在这一刻发现，登场并不总意味着立即逗笑所有人。白衣的褶皱接住云光，身后的树影却仍像幕布一样深，右边的石像静静旁观。它没有为了赶上伙伴的节奏，勉强把嘴线拉成一个大笑。也许今天最好的表演，就是认真站稳，把一小段安静留给愿意看见它的人；等风从帽檐旁经过，台词会慢慢来到，或者不来，也并无不可。",
+      "sources": [
+        "https://collections.louvre.fr/ark:/53355/cl010059617",
+        "https://www.louvre.fr/expositions-et-evenements/expositions/revoir-watteau/le-pierrot-de-watteau"
+      ],
+      "art": "assets/art/ART-10-005.jpg",
+      "original": "assets/original/ART-10-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1156,
+        "height": 1361,
+        "bytes": 305055,
+        "sha256": "38d3ac59de67a568fdb5aa261c69b3486e86a53d31127414d5e3178e8947db75"
+      }
+    },
+    {
+      "id": "ART-10-006",
+      "catalog": "NMF-ART-10-006",
+      "creation_title": "奶阅华庭",
+      "title_en": "奶阅华庭",
+      "original_title": "蓬巴杜夫人像（慕尼黑版本）",
+      "artist": "布歇",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "1756年",
+      "original_location": "慕尼黑老绘画陈列馆，HUW 18，长期借展",
+      "background": "奶蛙暂时合住翻页的念头，把手轻放在膝上的书上，望向房间另一侧。绿绸长裙铺满座椅，粉色玫瑰沿着衣缘细细绕行，身旁的羽毛笔和封好的信却提醒人们，这间华丽的屋子，也是一处认真思考与往来交谈的地方。布歇让蓬巴杜夫人的肖像呈现阅读、书信与艺术修养，奶蛙也愿意把美丽留给衣饰，把清醒留给自己。镜子收下头上的花与金黄轮廓，小狗则仰起脸，等它从书页之外看见一个更近的朋友。钟声还没有响，纸张散在脚边，下一封信也尚未写完；奶蛙知道，装点房间可以用金饰，装点一天却要靠真正留心的阅读与回应。于是它在重拾羽毛笔之前，先把这一会儿的从容，安稳地坐进光里。",
+      "sources": [
+        "https://www.sammlung.pinakothek.de/de/artwork/Dj4mX97G5A/francois-boucher/madame-de-pompadour"
+      ],
+      "art": "assets/art/ART-10-006.jpg",
+      "original": "assets/original/ART-10-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1094,
+        "height": 1400,
+        "bytes": 339027,
+        "sha256": "bb812a72fe1cd539331c1b799b40c3161b80d188eff4cfd2fc0ff3787d92e2fd"
+      }
+    },
+    {
+      "id": "ART-10-007",
+      "catalog": "NMF-ART-10-007",
+      "creation_title": "珍珠理奶妆",
+      "title_en": "珍珠理奶妆",
+      "original_title": "维纳斯的梳妆",
+      "artist": "布歇",
+      "category": "洛可可",
+      "filter": "rococo",
+      "era_label": "洛可可",
+      "era_label_en": "Rococo",
+      "original_date": "1751年",
+      "original_location": "纽约大都会艺术博物馆，20.155.9",
+      "background": "奶蛙还没决定花冠该怎样戴，身后的有翼伙伴已经把珍珠一粒粒理顺。右边的助手托起蓝色缎带，左下的伙伴从银盘里捧起另一串珠子，而奶蛙把手留在脸旁，认真听着这些温柔又热闹的意见。布歇为蓬巴杜夫人的贝尔维尤城堡描绘梳妆中的爱神，把华丽帷幕、家具、花与珍珠织成洛可可的舞台；来到奶蛙世界，这份讲究便成了朋友们一起准备的花饰仪式。怀里的白鸽安稳收拢羽翼，台阶上的两只也不急着离开，金色器皿映着浅蓝与玫瑰红的衣褶。奶蛙发现，最让它显得明亮的，未必是珠子有多圆、花冠有多齐，而是有人愿意绕到身后，把一根小小的缎带，耐心系成恰好的样子。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/435739"
+      ],
+      "art": "assets/art/ART-10-007.jpg",
+      "original": "assets/original/ART-10-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1133,
+        "height": 1388,
+        "bytes": 349641,
+        "sha256": "95a4e697f7069cfb2b3d5f7c07c7f376f07fb970db4fc2faadf0cb32aeea7557"
+      }
+    },
+    {
+      "id": "ART-11-001",
+      "catalog": "NMF-ART-11-001",
+      "creation_title": "三剑同奶誓",
+      "title_en": "三剑同奶誓",
+      "original_title": "荷拉斯兄弟之誓",
+      "artist": "雅克-路易·大卫",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1785年（卢浮宫当前记录；画上日期为1784）",
+      "original_location": "巴黎卢浮宫，INV 3692",
+      "background": "三位奶蛙兄弟向同一束剑伸出手，脚步还没有迈出庭院，誓言却已经把它们连在一起。父亲举起三把长剑，红色披风垂在冷灰石柱之间，像把责任的重量也一并交到眼前。大卫把古罗马传说中的决意与家人的哀伤置于同一空间：左侧手臂坚定伸直，右侧坐着的伙伴却相互倚靠，连被护在身旁的小奶蛙也安静下来。三道拱门没有偏袒任何一边，阳光同时照见挺起的胸膛与低下的头。奶蛙们明白，许诺从来不只是一句响亮的话；它会改变留下的人，也会陪着离开的人走过漫长的路。于是它们将手伸得更稳，却没有忘记回望——真正郑重的奶誓，应当既记得要守护什么，也记得是谁在等待归来。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010062239"
+      ],
+      "art": "assets/art/ART-11-001.jpg",
+      "original": "assets/original/ART-11-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1087,
+        "bytes": 205512,
+        "sha256": "36caf58b6259a9ddd49af2da1093207a5f85ac76fe774a71f87f861d7a1b516f"
+      }
+    },
+    {
+      "id": "ART-11-002",
+      "catalog": "NMF-ART-11-002",
+      "creation_title": "奶笔未竟",
+      "title_en": "奶笔未竟",
+      "original_title": "马拉之死",
+      "artist": "雅克-路易·大卫",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1793年",
+      "original_location": "布鲁塞尔比利时皇家美术博物馆，Inv. 3260",
+      "background": "信还握在手里，羽毛笔却已经从纸页旁垂了下来。奶蛙静静倚着浴盆边的白布，头巾接住最后一线暖光，深色墙壁把一切声音都收得很远。大卫在革命年代为遇刺的马拉留下纪念，把繁复的事件压进少数物件：信纸、墨水、木箱，以及再也没有继续写下去的姿态。来到这幅画里的奶蛙，也把未完的回应留在了绿布之上。奶油色肚皮仍被柔光照亮，朴素的木箱没有华丽装饰，地面的刀只提醒人们，平静的画面之后曾有骤然的断裂。它的沉默不提供轻巧的结论，却让看画的人愿意多停一会儿，想一想那些来不及写完的话。笔尖仍朝向地面，纸页仍微微展开；一段生命已经结束，而记忆还在等待后来的人，认真读下去。",
+      "sources": [
+        "https://fine-arts-museum.be/fr/la-collection/jacques-louis-david-marat-assassine",
+        "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David.jpg"
+      ],
+      "art": "assets/art/ART-11-002.jpg",
+      "original": "assets/original/ART-11-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1087,
+        "height": 1400,
+        "bytes": 197971,
+        "sha256": "494b67a00482824cc1ea2c738114faa9a8ab28b557fdb0aaccf5d50502f438c5"
+      }
+    },
+    {
+      "id": "ART-11-003",
+      "catalog": "NMF-ART-11-003",
+      "creation_title": "奶问天理",
+      "title_en": "奶问天理",
+      "original_title": "苏格拉底之死",
+      "artist": "雅克-路易·大卫",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1787年",
+      "original_location": "纽约大都会艺术博物馆，31.45",
+      "background": "杯子已经递到眼前，奶蛙却还在向上指，仿佛最后一个问题，比眼前的终点更值得认真说清。红衣伙伴侧过身遮住脸，床边的同行者伸手挽留，左侧坐着的奶蛙则低头不语。大卫以古希腊哲人的告别，描绘信念与不公权威之间的抉择，又让保存这段故事的柏拉图进入画面，使记忆与历史相互照应。奶蛙的石室里，恐惧没有消失，悲伤也没有被一句道理轻易抹去；只是中央那只手仍指向更远的地方，提醒伙伴们继续思考。灰墙、白衣、散落的卷轴与松开的锁链，把喧闹留在了门外。奶蛙并不要求每个人都立刻明白，它只愿把最后的清醒留给这场对话：当杯子终于来到手边，问题仍可以交给后来的人，一代一代问下去。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/436105"
+      ],
+      "art": "assets/art/ART-11-003.jpg",
+      "original": "assets/original/ART-11-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 176122,
+        "sha256": "6c9da913217ae5ccd89875d95354414cffb3dcab19bcbddccb17fc2b73dd6be2"
+      }
+    },
+    {
+      "id": "ART-11-004",
+      "catalog": "NMF-ART-11-004",
+      "creation_title": "奶越千峰",
+      "title_en": "奶越千峰",
+      "original_title": "拿破仑越过阿尔卑斯山（马尔梅松版本）",
+      "artist": "雅克-路易·大卫",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1800—1801年（马尔梅松版本）",
+      "original_location": "法国马尔梅松国家博物馆，M.M.49.7.1",
+      "background": "山风卷起赭黄披风，白灰色战马扬起前蹄，奶蛙却把缰绳握得很稳，另一只手指向更高的山路。大卫将越过阿尔卑斯山的行军塑造成冷静统领与奔腾坐骑的对照，奶蛙也在这幅画里学着，让决心先于喧闹抵达。身后的伙伴沿岩坡推着火炮，衣帽被风压低，远处的雪峰还没有为任何人让路。它明白，所谓跨越，并不是披风扬得多高，而是每一双走在队伍里的脚，都能找到下一块可靠的石头。金线军服与黑色马具在光中闪亮，马鬃和尾毛却把艰险写得更直接。奶蛙没有把山当成已经征服的背景；它指向前方，也是在提醒自己：再宏大的姿态，都要由一步一步真实的前进，慢慢兑现。",
+      "sources": [
+        "https://musees-nationaux-malmaison.fr/chateau-malmaison/collection/objet/le-premier-consul-franchissant-les-alpes-au-col-du-grand-saint-bernard",
+        "https://www.louvre.fr/expositions-et-evenements/expositions/jacques-louis-david/oeuvres-en-lumiere/un-chef-charismatique"
+      ],
+      "art": "assets/art/ART-11-004.jpg",
+      "original": "assets/original/ART-11-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1158,
+        "height": 1359,
+        "bytes": 362780,
+        "sha256": "e90e2b42025dd52e8ffb9cfa299c13a04871786beb8dd8f024d044a1dd611317"
+      }
+    },
+    {
+      "id": "ART-11-005",
+      "catalog": "NMF-ART-11-005",
+      "creation_title": "奶冕加身",
+      "title_en": "奶冕加身",
+      "original_title": "拿破仑加冕",
+      "artist": "雅克-路易·大卫",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1805—1807年（1808年另有修饰）；所绘仪式为1804年12月2日",
+      "original_location": "巴黎卢浮宫，INV 3699",
+      "background": "奶蛙将冠冕举在眼前，台阶下的伙伴俯身等候，绣金红袍从两位侍从手中展开，铺成一条缓慢流动的光。大卫把巴黎圣母院的加冕仪式组织为宏大的历史舞台，让服饰、建筑与众人的目光都朝向同一个瞬间。奶蛙来到这里，也感到了那顶小小冠冕之外的重量：它不只会落在一个头上，还会让一屋子人记住此后的承诺。右侧的祝福手势停在半空，金色烛台向高处延伸，远处看台上的伙伴安静注视。白衣与红绒、石柱与深绿帷幕把庄严层层围起，奶蛙却仍认真看向身前的人。仪式越盛大，它越想把动作放稳一些；因为真正让冠冕有意义的，并不是宝石闪了多久，而是戴上以后，是否还能听见台阶下那些期待的声音。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010065720"
+      ],
+      "art": "assets/art/ART-11-005.jpg",
+      "original": "assets/original/ART-11-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 877,
+        "bytes": 270080,
+        "sha256": "2b917eb653bdd8d21ff667d9c15926515afb4f54b1a5fe170c10258d831bd3aa"
+      }
+    },
+    {
+      "id": "ART-11-006",
+      "catalog": "NMF-ART-11-006",
+      "creation_title": "奶卧回眸",
+      "title_en": "奶卧回眸",
+      "original_title": "大宫女",
+      "artist": "安格尔",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1814年",
+      "original_location": "巴黎卢浮宫，RF 1158",
+      "background": "奶蛙原本只是倚在蓝色靠垫上歇一会儿，听见身后轻微的动静，便转过头来。孔雀羽扇还握在手里，白金长袍的褶皱沿着背部与腿边舒展开，像把这一瞬的回望也缓缓铺进丝绸。安格尔以连绵的轮廓和经过安排的空间，营造出脱离日常的静室；奶蛙走进这里，却不急着把安静变成一个谜。蓝帷幕上的金纹、头巾旁的细流苏与床边的小器皿，都各自守着柔光，只有那双绿眼睛轻轻回应来客。它没有立即起身，也没有挥动扇子，只让一条细短的嘴线留在将说未说之间。奶蛙想，舒适不必总是热闹，也不必解释得太多：有人愿意回头看一眼，一间沉默的屋子，便已经多了可以相见的余地。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010065566"
+      ],
+      "art": "assets/art/ART-11-006.jpg",
+      "original": "assets/original/ART-11-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 823,
+        "bytes": 221613,
+        "sha256": "b8d28f372c7243c058f814c5e15f55c3b1b5a0c0715fc589242945ed9d46f377"
+      }
+    },
+    {
+      "id": "ART-11-007",
+      "catalog": "NMF-ART-11-007",
+      "creation_title": "一罐奶清泉",
+      "title_en": "一罐奶清泉",
+      "original_title": "泉",
+      "artist": "安格尔",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1856年完成，约1820年开始",
+      "original_location": "巴黎奥赛博物馆；卢浮宫寄存，RF 219",
+      "background": "奶蛙把陶罐稳稳托在肩边，一只手越过头顶扶住罐身，另一只手守着罐口，让清水顺着岩壁落进脚下的小池。安格尔用狭长的画面和近似雕像的静立姿态，把泉水化为可以凝望的形象；奶蛙站在这里，也把每一个动作放得很慢。白色衣褶接住柔光，深褐岩石与藤叶围成安静的壁龛，只有水线一直向下，把静止的时刻轻轻接回流动的世界。它没有急着把罐子倒空，也不需要让水花飞得更高；两只灰褐的手守住这一份平衡，脚边的叶与倒影便有了持续的回应。奶蛙想，照料一处小小的清泉，也是在照料那些尚未被看见的生命。只要这一线水还愿意走下去，沉默的石头之间，就总会有新的绿意慢慢长出来。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/la-source-525",
+        "https://collections.louvre.fr/ark:/53355/cl010059999"
+      ],
+      "art": "assets/art/ART-11-007.jpg",
+      "original": "assets/original/ART-11-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 700,
+        "height": 1400,
+        "bytes": 171125,
+        "sha256": "2101c425eecacb166776bb1eb84c1ed5879365349a612bfe5f6bf74dadaa03ab"
+      }
+    },
+    {
+      "id": "ART-11-008",
+      "catalog": "NMF-ART-11-008",
+      "creation_title": "桂冠归奶诗",
+      "title_en": "桂冠归奶诗",
+      "original_title": "荷马的颂扬",
+      "artist": "安格尔",
+      "category": "新古典主义",
+      "filter": "neoclassicism",
+      "era_label": "新古典",
+      "era_label_en": "Neoclassicism",
+      "original_date": "1827年",
+      "original_location": "巴黎卢浮宫，INV 5417",
+      "background": "奶蛙诗人坐在高高的石阶中央，把长杖握得从容，身后的有翼伙伴正将桂冠缓缓送到它头顶。左侧的来客带着调色盘、画笔与展开的卷轴，右侧的伙伴举起里拉琴，台阶下两位奶蛙分别守着剑与船桨，像把征战和远行的故事一同留给诗歌。安格尔将跨越时代的艺术家汇聚在荷马面前，以严整的神庙与群像表达对古典传统的敬意；奶蛙的聚会也因此不只是热闹，更是一场愿意认真聆听的相逢。每个人都带来自己的语言，颜色、旋律与文字却在同一片光里互相照应。桂冠还未落下，奶蛙已经明白，诗人的荣誉并非独自站得多高，而是能让不同年代的心意，在一段故事中找到彼此的位置。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010065748",
+        "https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres,_Apotheosis_of_Homer,_1827.jpg"
+      ],
+      "art": "assets/art/ART-11-008.jpg",
+      "original": "assets/original/ART-11-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1050,
+        "bytes": 329990,
+        "sha256": "6fc19d46cde37d17a6993065cdd3b8756851e4a8b5f3f631b002ac74867bdd15"
+      }
+    },
+    {
+      "id": "ART-12-001",
+      "catalog": "NMF-ART-12-001",
+      "creation_title": "奶旗向前",
+      "title_en": "奶旗向前",
+      "original_title": "自由引导人民",
+      "artist": "德拉克洛瓦",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1830年",
+      "original_location": "巴黎卢浮宫，RF 129",
+      "background": "奶蛙举起三色旗，踏过街垒上的碎石，回头望向正在跟上的伙伴。高帽同行者握着长枪，右侧的伙伴抬起手，蓝衣奶蛙则从低处仰望那面旗；倒在前方的两位，把这一步的代价留在了沉默里。德拉克洛瓦描绘的是1830年七月革命，将自由的寓意带回真实的巴黎街头，让不同身份的人朝同一方向前行。奶蛙不把旗子举成轻松的庆典，它知道烟尘之后还有许多尚未安稳的日子。红、白、蓝在风里展开，远处圣母院的塔楼若隐若现，金黄身体也被灰暗与火光反复映照。它仍向前走，却没有忘记脚下的石与身后的目光：自由若要成为共同的生活，就不能只靠一次响亮的举旗，还需要那些彼此照应的人，一起走过街垒之外的明天。",
+      "sources": [
+        "https://www.louvre.fr/decouvrir/les-parcours-de-visite/chefs-d-oeuvre-du-louvre/romantisme-actualite-et-sensualite",
+        "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Liberty_Leading_the_People.jpeg"
+      ],
+      "art": "assets/art/ART-12-001.jpg",
+      "original": "assets/original/ART-12-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1112,
+        "bytes": 355139,
+        "sha256": "59a174b4bda2f42eee6d86b275e0c77ca6c0461d7a04e410b84c1e7ca1f63fa2"
+      }
+    },
+    {
+      "id": "ART-12-002",
+      "catalog": "NMF-ART-12-002",
+      "creation_title": "奶宫将尽",
+      "title_en": "奶宫将尽",
+      "original_title": "萨达纳帕鲁斯之死",
+      "artist": "德拉克洛瓦",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1827年",
+      "original_location": "巴黎卢浮宫，大幅1827年版本",
+      "background": "奶蛙躺在红金床榻的高处，珍珠与宝石仍在胸前发亮，窗外的宫殿却已被烟火染成陌生的颜色。德拉克洛瓦借传说中的末代君王，将奢华与毁灭扭进同一条剧烈的斜线；在奶蛙的宫廷里，盛大的装饰也终于挡不住世界走向终点。床边的伙伴疲惫伏下，有人抬起双手，有人捂住脸，右侧的同行者则把失去力气的朋友扶在身旁。战马被红缰牵住，散落的金器、花与珠串，却再也无法收回从前的秩序。奶蛙望着这一切，第一次觉得拥有得太多，并不等于能够守住什么。那些曾被当作永远的光彩，此刻都需要别人伸出一只手来照应。宫殿的夜色正在落下，故事留下的，不是最后一件宝物，而是崩塌之中仍愿意扶住伙伴的那份心意。",
+      "sources": [
+        "https://musee.louvre.fr/decouvrir/vie-du-musee/sardanapale-revele-un-chef-d-oeuvre-a-la-vivacite-retrouvee",
+        "https://commons.wikimedia.org/wiki/File:Death_of_Sardanapalus_by_Eug%C3%A8ne_Delacroix.jpg"
+      ],
+      "art": "assets/art/ART-12-002.jpg",
+      "original": "assets/original/ART-12-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 307993,
+        "sha256": "9ff396743be8a1e0180c64ccff8a09c4adc1f1613f13cdde83017bef3d47c899"
+      }
+    },
+    {
+      "id": "ART-12-003",
+      "catalog": "NMF-ART-12-003",
+      "creation_title": "奶语深闺",
+      "title_en": "奶语深闺",
+      "original_title": "阿尔及尔的女人（卢浮宫版本）",
+      "artist": "德拉克洛瓦",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1834年",
+      "original_location": "巴黎卢浮宫，INV 3824",
+      "background": "奶蛙们把交谈放得很轻，像是不愿惊动墙上那一片细密的蓝金瓷砖。左边的伙伴倚着软垫，中央两位相向而坐，右侧的奶蛙转身抬起手，仿佛在出门前又想起一句要补上的话。德拉克洛瓦从北非旅行带回光与色的记忆，在1834年的画作中将室内人物、衣饰与静物编织成一种缓慢的气氛。奶蛙进入这间屋子，也不急着把每个沉默都填满。红木柜里的玻璃器皿、地上的绣鞋与弯曲的水烟管，各自留在自己的位置，窗光只照亮愿意被看见的一部分。它们谈的也许只是今日的小事，却在这样专注的相伴里，渐渐变得值得记住。门帘还没有完全合上，奶蛙想，亲近有时就是有人愿意多停一会儿，让一句话慢慢说完。",
+      "sources": [
+        "https://www.louvre.fr/en/explore/life-at-the-museum/the-conservation-treatment-of-women-of-algiers-in-their-apartment",
+        "https://collections.louvre.fr/en/ark:/53355/cl010065869"
+      ],
+      "art": "assets/art/ART-12-003.jpg",
+      "original": "assets/original/ART-12-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1087,
+        "bytes": 338054,
+        "sha256": "63758aefe706d9c1aeeae76debfbc255f6580fd7a4e721f0a15770c04d6a587d"
+      }
+    },
+    {
+      "id": "ART-12-004",
+      "catalog": "NMF-ART-12-004",
+      "creation_title": "奶筏望生",
+      "title_en": "奶筏望生",
+      "original_title": "梅杜萨之筏",
+      "artist": "席里柯",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1818—1819年",
+      "original_location": "巴黎卢浮宫，1819年大幅版本",
+      "background": "奶蛙爬上木桶，把红白布举向海面，其他伙伴顺着它的手势望去，仿佛只要再高一点，远处那艘船就能看见这片摇晃的木筏。籍里柯将真实海难后的绝望与求生，组织为从低处沉落、向高处挣起的群像；奶蛙们也在狂浪之间，把仅有的力气交给一次共同的呼唤。左边的伙伴托住疲惫的同行者，前沿两只闭眼的奶蛙安静伏着，破帆与绳索却仍在风里拉紧。海水一次次撞上木板，天边的金光既像希望，也提醒它们，船还没有真正来到身旁。举布的奶蛙没有许诺一定得救，它只是继续挥手，继续让后面的伙伴知道：只要还能相互扶住，就还有一个动作可以做，还有一线远方，值得共同望下去。",
+      "sources": [
+        "https://www.louvre.fr/decouvrir/les-parcours-de-visite/chefs-d-oeuvre-du-louvre/romantisme-actualite-et-sensualite",
+        "https://www.louvre.fr/decouvrir/le-palais/quand-les-peintres-francais-voient-grand",
+        "https://commons.wikimedia.org/wiki/File:Th%C3%A9odore_g%C3%A9ricault,_la_zattera_della_medusa,_1819.jpg"
+      ],
+      "art": "assets/art/ART-12-004.jpg",
+      "original": "assets/original/ART-12-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 307358,
+        "sha256": "52f13742f19840e19e39e5722321fa7b5ed6d4dbd645057d8a6e702ee1ad5bcc"
+      }
+    },
+    {
+      "id": "ART-12-005",
+      "catalog": "NMF-ART-12-005",
+      "creation_title": "奶望雾海",
+      "title_en": "奶望雾海",
+      "original_title": "雾海上的旅人",
+      "artist": "卡斯帕·大卫·弗里德里希",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "约1817年（汉堡美术馆当前标注）",
+      "original_location": "德国汉堡美术馆，SHK收藏",
+      "background": "奶蛙终于登上这块岩石，却没有急着向更高处迈步。它把手杖抵在脚边，背对来路，望着一层又一层从山谷涌起的雾。弗里德里希让旅人的背影成为观者进入风景的入口，眼前的山既广阔，也无法被一次凝望看清；奶蛙站在这里，也愿意承认自己的渺小。近处石峰清楚得像可以伸手触到，远处山脊却在蓝灰色中慢慢退去，松树只留下细细的轮廓。深绿长衣挡住了山风，金黄的头顶却仍接住一线微光。它想，走到高处未必是为了宣告看得更多，也可以是为了发现，还有许多地方值得耐心等待。雾海不会替奶蛙回答下一步该往哪里去，但它让这一刻的停留，有了足够辽远的意义。",
+      "sources": [
+        "https://www.hamburger-kunsthalle.de/en/news/wanderer-above-sea-fog-caspar-david-friedrich"
+      ],
+      "art": "assets/art/ART-12-005.jpg",
+      "original": "assets/original/ART-12-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1096,
+        "height": 1400,
+        "bytes": 283511,
+        "sha256": "ea77d0c01d4b0dc912c59c43c004a226c0abf5d55c16ecd5f070a473fb1286c9"
+      }
+    },
+    {
+      "id": "ART-12-006",
+      "catalog": "NMF-ART-12-006",
+      "creation_title": "奶听无岸",
+      "title_en": "奶听无岸",
+      "original_title": "海边的修士",
+      "artist": "卡斯帕·大卫·弗里德里希",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1808—1810年",
+      "original_location": "柏林旧国家美术馆，国家美术馆收藏",
+      "background": "奶蛙走到沙岸边，忽然觉得，再多一步也不能让海变得更近。它穿着深褐长袍，站在一条低低的岸线上，金黄头顶只是灰蓝天空下很小的一点。弗里德里希把海、沙与云压成几道几乎没有遮挡的层次，让孤独的人面对无法丈量的辽阔；奶蛙也在这里放下了急于找到路标的念头。海面很暗，浪花只偶尔闪出细白的边，远处的云却把明与暗慢慢混在一起。它没有伸手指向什么，也没有要求风回答，只认真听着一阵接一阵来到岸上的声音。原来安静不一定是世界变小，有时恰恰是因为世界太大。奶蛙站稳脚下这一小块沙，便愿意把剩下的辽远，留给尚未说完的天空与海。",
+      "sources": [
+        "https://www.smb.museum/en/exhibitions/detail/the-monk-has-returned/"
+      ],
+      "art": "assets/art/ART-12-006.jpg",
+      "original": "assets/original/ART-12-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 698,
+        "bytes": 119844,
+        "sha256": "c77361bc1550bf4cd8fc465920ea15b74e22fd9e7b7332131c307a7081871948"
+      }
+    },
+    {
+      "id": "ART-12-007",
+      "catalog": "NMF-ART-12-007",
+      "creation_title": "奶归橡影",
+      "title_en": "奶归橡影",
+      "original_title": "橡树林中的修道院",
+      "artist": "卡斯帕·大卫·弗里德里希",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1809—1810年",
+      "original_location": "柏林旧国家美术馆，国家美术馆收藏",
+      "background": "奶蛙们沿着覆霜的小路走向修道院残门，步伐很慢，抬着的木棺也被守得平稳。枯橡的枝条伸进灰金色天空，残缺的尖拱窗仍透着暮光，仿佛一座失去屋顶的建筑，仍愿意为这场告别留下一处入口。弗里德里希把冬林、墓地与宗教遗迹相连，让时间的流逝不只写在人的离去里，也写在树与石的轮廓上。奶蛙低着头，没有试图用响亮的话驱散寒意；它们只是相互靠近一点，让每一段路都有人同行。右侧的新月薄薄升起，倾斜的十字与低矮石碑沉在地面，光却还没有完全退去。奶蛙知道，有些归程不能重新开始，但陪伴可以一直走到门前，把最后的安静，也认真交到彼此手里。",
+      "sources": [
+        "https://www.smb.museum/en/exhibitions/detail/the-monk-has-returned/"
+      ],
+      "art": "assets/art/ART-12-007.jpg",
+      "original": "assets/original/ART-12-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 700,
+        "bytes": 208295,
+        "sha256": "6509cf27282afc82aa4fbbf5b5a43656d9db2d44a3e8fdeae97b884fd80463ec"
+      }
+    },
+    {
+      "id": "ART-12-008",
+      "catalog": "NMF-ART-12-008",
+      "creation_title": "奶送余晖",
+      "title_en": "奶送余晖",
+      "original_title": "被拖去解体的战舰无畏号",
+      "artist": "透纳",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1839年；主题为1838年最后拖航",
+      "original_location": "伦敦英国国家美术馆，NG524",
+      "background": "奶蛙站在小拖船的栏边，看着身后的白金色战舰缓缓离开旧日的荣光。伙伴守着舵轮，另一位回头照看拖缆，蒸汽烟柱便在高桅之间拉出一条新的时代线。透纳以1839年的画作追望特梅雷尔号的最后航程，让帆船与蒸汽、余晖与新月在同一条河上相遇。奶蛙知道，这不是一场需要欢呼的抵达；曾经庞大的船，如今也要由更小的力量引向终点。右侧夕阳把水面铺成金红的路，左上月牙却悄悄升起，像在提醒人们，告别并不会让世界停止继续。它把手放稳在栏杆上，愿意让这一程走得更温柔些：即使明天只剩木料，今天的桅影，也值得被认真护送到最后一束光里。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-the-fighting-temeraire"
+      ],
+      "art": "assets/art/ART-12-008.jpg",
+      "original": "assets/original/ART-12-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1044,
+        "bytes": 280862,
+        "sha256": "ed04e2631df8f6d1b1e006fc14f15ee2a3127a04d2ee07c62f424c0793386908"
+      }
+    },
+    {
+      "id": "ART-12-009",
+      "catalog": "NMF-ART-12-009",
+      "creation_title": "奶行烟雨",
+      "title_en": "奶行烟雨",
+      "original_title": "雨、蒸汽和速度",
+      "artist": "透纳",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1844年",
+      "original_location": "伦敦英国国家美术馆，NG538",
+      "background": "奶蛙从机车侧边望向雨幕，桥上的轨道一路伸进灰金色雾气，仿佛前方的风景还没来得及成形，车轮便已经赶了过去。透纳把雨、蒸汽与铁路的速度揉进同一片光，让新的交通方式成为可以感受的时代力量。奶蛙守着车身的节奏，也看见左下河面另一位伙伴缓缓划船：同一场天气里，有人正在飞快穿行，有人仍用一只桨量着水的宽度。近处的小野兔向前奔去，远桥只留下几道浅色拱影，明亮与模糊不断交换位置。它没有要求所有风景都清楚才肯出发，却也不想把缓慢看作落后。烟雨中的旅程提醒奶蛙，速度改变了抵达的方式，而真正经过一个地方，仍需要在心里，为那只小船留下一点时间。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-rain-steam-and-speed-the-great-western-railway"
+      ],
+      "art": "assets/art/ART-12-009.jpg",
+      "original": "assets/original/ART-12-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1051,
+        "bytes": 331291,
+        "sha256": "a1fa52ef97953c5f241fb9712cbc1fd0ceae4f1fc4ac71038fac516f84a304ef"
+      }
+    },
+    {
+      "id": "ART-12-010",
+      "catalog": "NMF-ART-12-010",
+      "creation_title": "奶车渡午",
+      "title_en": "奶车渡午",
+      "original_title": "干草车",
+      "artist": "康斯太勃尔",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1821年",
+      "original_location": "伦敦英国国家美术馆，NG1207",
+      "background": "奶蛙让马车慢慢驶进浅水，木轮一转，河面的云影便被轻轻推开。同行者坐在车栏旁，门边的伙伴还拿着一块白布，岸上的小狗则抬头望着这段不慌不忙的渡行。康斯特布尔把记忆中的萨福克乡村画成宽阔而细致的风景，让农居、树荫、劳动与夏日云光共同构成一段日常。奶蛙走进这里，也愿意把午后的时间留得宽一些。马的套具轻响，远处草场有人收拾干草，红瓦屋顶与大树的影子都安稳落在水边。它没有把这次过河当成值得炫耀的远行，只认真握好缰绳，让车与伙伴都走得踏实。原来值得记住的生活，常常就在这样平常的一刻：一条河能慢慢过去，一片云能静静看完，而回家的路，还留着熟悉的树荫。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/john-constable-the-hay-wain"
+      ],
+      "art": "assets/art/ART-12-010.jpg",
+      "original": "assets/original/ART-12-010.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 972,
+        "bytes": 345230,
+        "sha256": "456ac88702a869c386ff316037e41c2902531fb13593ba8ba5e93722479bebe9"
+      }
+    },
+    {
+      "id": "ART-12-011",
+      "catalog": "NMF-ART-12-011",
+      "creation_title": "奶举长夜",
+      "title_en": "奶举长夜",
+      "original_title": "1808年5月3日",
+      "artist": "戈雅",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1814年，描绘1808年事件",
+      "original_location": "马德里普拉多博物馆，P000749",
+      "background": "灯笼把土坡照得发白，远处马德里的屋顶仍沉在夜里。奶蛙穿着白衫，向两侧举起双臂，身后同伴有人掩面，有人紧紧挨在一起；对面的枪管却排成一道冰冷的直线。戈雅在1814年回望1808年的暴力，把历史的重量放在这些没有退路的身影上。到了奶蛙的长夜，金黄的身体并没有让恐惧变轻：白衣越亮，四周的黑暗越深。地上的同伴已经倒下，灯火仍毫无偏心地照着每一个人。它举起双手，也像是在替那些无法再说话的伙伴留下最后一个清楚的姿态。画面没有胜利的喧哗，只让这片暖光留在记忆里，提醒后来者认真看见一个个生命。",
+      "sources": [
+        "https://www.museodelprado.es/en/the-collection/art-work/the-3rd-of-may-1808-in-madrid-or-the-executions/5e177409-2993-4240-97fb-847a02c6496c",
+        "https://content.cdnprado.net/doclinks/pdf/aprende/educacion/elpradoenlascalles/El_Prado_Palencia.pdf"
+      ],
+      "art": "assets/art/ART-12-011.jpg",
+      "original": "assets/original/ART-12-011.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1085,
+        "bytes": 313741,
+        "sha256": "7da64263c8d9f4695e45aaa1b2da6917fa4d5289c60d489192c1aab6228f1f6a"
+      }
+    },
+    {
+      "id": "ART-12-012",
+      "catalog": "NMF-ART-12-012",
+      "creation_title": "奶噬流年",
+      "title_en": "奶噬流年",
+      "original_title": "农神吞噬其子",
+      "artist": "戈雅",
+      "category": "浪漫主义",
+      "filter": "romanticism",
+      "era_label": "浪漫主义",
+      "era_label_en": "Romanticism",
+      "original_date": "1820—1823年",
+      "original_location": "马德里普拉多博物馆；原壁画后转移至画布",
+      "background": "黑暗没有边界，奶蛙蹲在地上，双手死死抱住一只沙漏，嘴抵着木框，仿佛咬住它就能让时间停下。戈雅晚年绘于居所墙上的黑色绘画，把古老神话压进沉重的暗色；这一次，奶蛙握着的恐惧成了仍在流动的细沙。它的翠绿眼睛望向上方，奶油色肚皮被微光照亮，脚边却没有通向外面的道路。沙粒从上半部漏向下半部，既不理会紧握的手，也不理会焦灼的目光。它想把流年吞进自己身体里，结果只听见木框贴着嘴边的沉默。画中最明亮的不是一场胜利，而是那一点仍然看得见的沙：越想占有时间，越能感到它从指间经过。",
+      "sources": [
+        "https://www.museodelprado.es/coleccion/obra-de-arte/saturno/18110a75-b0e7-430c-bc73-2a4d55893bd6"
+      ],
+      "art": "assets/art/ART-12-012.jpg",
+      "original": "assets/original/ART-12-012.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1133,
+        "height": 1388,
+        "bytes": 226155,
+        "sha256": "da398d0a803f240d2f34d43729aa8ebc5d285c1f1071996e908fe26d8873e72d"
+      }
+    },
+    {
+      "id": "ART-13-001",
+      "catalog": "NMF-ART-13-001",
+      "creation_title": "奶别奥尔南",
+      "title_en": "奶别奥尔南",
+      "original_title": "奥尔南的葬礼",
+      "artist": "库尔贝",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1849—1850年",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "奥尔南的灰天压在石灰岩山壁上，奶蛙们沿着新挖的墓穴站成一长排。白衣、黑礼服与两件红色袍服之间，没有谁占据英雄的位置；有人低头读书，有人用手帕遮住脸，掘墓者仍跪在泥土旁。库尔贝把普通乡村葬礼画成巨幅，让日常生活也拥有历史画的重量。奶蛙来到这片土地，告别便落在每一个安静的动作里：提着香炉的同伴守在左侧，右边的猎犬抬起头，像还在等待熟悉的脚步声。远处山脊没有因悲伤改变颜色，眼前的土却已被翻开。它们站在同一条地平线上，把一个伙伴送回土地，也让那些未说出口的关心，留在并肩而立的身影之间。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/un-enterrement-ornans-924",
+        "https://www.musee-orsay.fr/en/magazine/2026-09-07/gustave-courbets-un-enterrement-ornans-burial-ornans-completion-remarkable-restoration"
+      ],
+      "art": "assets/art/ART-13-001.jpg",
+      "original": "assets/original/ART-13-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 649,
+        "bytes": 175020,
+        "sha256": "0524cb50e49ce51f6940b24fd0843e8be1c434bc293e317e7b7d27aac4a6e92e"
+      }
+    },
+    {
+      "id": "ART-13-002",
+      "catalog": "NMF-ART-13-002",
+      "creation_title": "万象入奶画",
+      "title_en": "万象入奶画",
+      "original_title": "画室",
+      "artist": "库尔贝",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1855年",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "画室里挤进了两种不同的生活：左边的奶蛙带着粗布、旧帽和劳动留下的疲惫，右边的朋友穿着礼服，有人交谈，有人安静读书。中央的画家却把笔伸向一片山水，旁边的小观众仰头看着，白猫守在椅脚。库尔贝在1855年把这间画室变成关于自己艺术生活的寓言，也让现实主义有了公开表明立场的空间。奶蛙的画架没有把访客逐一排进画面，窗外般的树木与流水反而把他们的日常悄悄连在一起。披白衣的同伴站在身后，等待下一笔；旧墙上的斑驳，也像多年积累的颜色。这里没有谁只是陪衬：一只猎犬、一张书页、一件旧外套，都可以进入画家的世界，成为值得认真描绘的万象。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/latelier-du-peintre-927",
+        "https://www.musee-orsay.fr/fr/collections/restaurations/la-restauration-de-latelier-du-peintre"
+      ],
+      "art": "assets/art/ART-13-002.jpg",
+      "original": "assets/original/ART-13-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 829,
+        "bytes": 269272,
+        "sha256": "40cccf4891db9660233b99529f3fb3c6216facd6279a006f7586b7d16be8d738"
+      }
+    },
+    {
+      "id": "ART-13-003",
+      "catalog": "NMF-ART-13-003",
+      "creation_title": "奶担石路",
+      "title_en": "奶担石路",
+      "original_title": "打石工（原作已毁）",
+      "artist": "库尔贝",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1849年",
+      "original_location": "原德累斯顿馆藏；原作已毁，依据留存复制图改编",
+      "background": "石路还没有铺完，奶蛙已经把一篮碎石抱到腰前。旁边的伙伴单膝跪地，双手握住锤柄，下一下敲击即将落在坚硬的石块上。库尔贝在1849年把这样的普通劳动带进绘画，旧衣、粗鞋和重复的动作都值得认真看见。奶蛙的金黄身体落在土坡的阴影前，阳光只照亮磨损的白衫和脚边的碎屑。左侧空筐等着装满，铁锹斜靠在两人之间；右边的锅、面包与勺子，是忙碌间隙留下的简单午餐。它们没有停下来摆出漂亮的姿势，只把石头一块块搬开、敲碎。道路通向哪里还看不见，眼前这一小段，却正在被两双手慢慢做出来。",
+      "sources": [
+        "https://www.museothyssen.org/en/collection/artists/courbet-gustave"
+      ],
+      "art": "assets/art/ART-13-003.jpg",
+      "original": "assets/original/ART-13-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 850,
+        "bytes": 307971,
+        "sha256": "52cfbc560dd26eab0388c46d418f862046338231c0c4aa60081f374e2f631434"
+      }
+    },
+    {
+      "id": "ART-13-004",
+      "catalog": "NMF-ART-13-004",
+      "creation_title": "奶拾秋穗",
+      "title_en": "奶拾秋穗",
+      "original_title": "拾穗者",
+      "artist": "米勒",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1857年",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "收割后的田野看似已经空了，三只奶蛙却仍俯身寻找散落的麦穗。蓝头巾的伙伴伸手靠近地面，红头巾的伙伴把拾到的少量麦穗护在身后，右侧同伴抱着一小束，慢慢向前查看。米勒在1857年把这样的乡村劳动画成庄重的形象：远处是高高的草垛、满载的车和忙碌的人群，近处却是一根根弯腰才能找到的收获。奶蛙的金黄与秋田融在一起，灰褐手掌触到干燥的麦茬，衣裙被日光照出粗布的纹理。它们没有因远处的丰盛而停下，也没有把脚边的小小麦穗看轻。天色渐暖，一束不足以装满车的收获，仍可以被认真握住，带回今天的生活里。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/des-glaneuses-342"
+      ],
+      "art": "assets/art/ART-13-004.jpg",
+      "original": "assets/original/ART-13-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1047,
+        "bytes": 336254,
+        "sha256": "3e8d65c1dd1303ff73747d6da56b2d6c1b47274b790cd7d9badac37588fcba44"
+      }
+    },
+    {
+      "id": "ART-13-005",
+      "catalog": "NMF-ART-13-005",
+      "creation_title": "奶祷暮田",
+      "title_en": "奶祷暮田",
+      "original_title": "晚祷",
+      "artist": "米勒",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1857—1859年",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "一天的劳作还留在翻过的泥土里，奶蛙已经放下农具。左边的伙伴摘下帽子，低头握在身前；右边的伙伴双手合拢，站在土豆篮旁。远处钟楼从薄暮中露出尖顶，暖光铺在云层上，却没有催它们继续向前。米勒的《晚祷》把乡村生活中短暂的停顿留在田野，也把劳动与祈祷放在同一片土地上。奶蛙们身后的推车装着袋子，铁叉仍插在脚边，今天的收获不多，却是真实的一篮。它们安静地站着，向土地、向同伴，也向那些已经远去的人留下一点心意。等暮色再深一些，帽子会重新戴上，车轮也会继续转动；此刻，先让忙了一天的双手停下来。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/langelus-345"
+      ],
+      "art": "assets/art/ART-13-005.jpg",
+      "original": "assets/original/ART-13-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1385,
+        "height": 1136,
+        "bytes": 311002,
+        "sha256": "e9e706c8c3b4075131017078a9d51731bdea7ac7eba6da660e2162e987dbbf48"
+      }
+    },
+    {
+      "id": "ART-13-006",
+      "catalog": "NMF-ART-13-006",
+      "creation_title": "奶播明日",
+      "title_en": "奶播明日",
+      "original_title": "播种者",
+      "artist": "米勒",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "约1850年",
+      "original_location": "波士顿美术馆",
+      "background": "新翻的泥土还带着沉重的暗色，奶蛙已经迈开大步，把手中的种子撒向前方。另一只手守着腰间的布袋，旧帽遮住额头，粗布绑腿踏过不平的土块。米勒把播种者画得像一股从土地里生出的力量，普通农人的动作，也足以撑起整幅画的重量。奶蛙的金黄并不比夕阳更耀眼，翠绿的眼睛只看着下一段要走的路。左侧飞鸟掠过，远处的伙伴牵着耕牛沿山坡前行，谁也没有等到收获才开始认真工作。撒出的细粒暂时消失在褐色田垄里，却让每一步都有了去处。今天看见的仍是空田，明日的麦浪，便从这只伸开的手开始。",
+      "sources": [
+        "https://collections.mfa.org/objects/31601",
+        "https://www.mfa.org/exhibitions/visiting-masterpieces-0"
+      ],
+      "art": "assets/art/ART-13-006.jpg",
+      "original": "assets/original/ART-13-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1130,
+        "height": 1392,
+        "bytes": 285124,
+        "sha256": "69291867116fcb8d642c2a2037b4c6297e3c53b54cf3849fe139b9f3975fd819"
+      }
+    },
+    {
+      "id": "ART-13-007",
+      "catalog": "NMF-ART-13-007",
+      "creation_title": "奶坐三等",
+      "title_en": "奶坐三等",
+      "original_title": "三等车厢",
+      "artist": "杜米埃",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "约1862—1864年",
+      "original_location": "纽约大都会艺术博物馆，29.100.129",
+      "background": "车厢的木板在暖光里显出旧纹，两扇小窗照亮了拥挤的人群。前排的奶蛙把睡着的小伙伴裹在怀里，另一位戴着兜帽，双手守着膝上的篮子；右边的旅客低下头，在摇晃中打盹。杜米埃把三等车厢里的普通乘客带进绘画，让一段廉价旅程也拥有值得凝视的尊严。奶蛙们的金黄面孔挤在深色帽檐之间，没有谁占到宽敞的位置，也没有谁急着成为故事的主角。篮子、旧外套和脚边的小木箱，装着各自要带往下一站的生活。窗外的景色只剩淡淡的亮色，车内却留下了相互挨近的温度。路还长，先让怀中的小伙伴睡稳，让疲惫的双手歇一会儿。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/436095"
+      ],
+      "art": "assets/art/ART-13-007.jpg",
+      "original": "assets/original/ART-13-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1011,
+        "bytes": 267377,
+        "sha256": "702542970cebd4ad3cf56137222a307245be76f8687d25a27df4c95148544028"
+      }
+    },
+    {
+      "id": "ART-13-008",
+      "catalog": "NMF-ART-13-008",
+      "creation_title": "奶牵长河",
+      "title_en": "奶牵长河",
+      "original_title": "伏尔加河上的纤夫",
+      "artist": "列宾",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1870—1873年",
+      "original_location": "圣彼得堡俄罗斯博物馆",
+      "background": "伏尔加河的水面很平，岸上的脚步却走得沉重。十一只奶蛙沿沙地排成斜线，肩带压在破旧的衣衫上，身后的木船仍等着它们一点点牵动。列宾把每位纤夫的疲惫与性格放进同一条队伍，让劳动不再只是远处风景中的小小点缀。奶蛙们有的低头，有的望向前方，中央的伙伴稍稍直起身，双手抬着勒紧的带子。金黄的脸映着浅蓝天光，灰褐手掌却已经垂在身旁。河上还有帆，岸边还有旧筐和石块，这段路没有因晴朗而变轻。它们不能替彼此走完每一步，却能把力量连在一起；船的缓慢前行，便藏在这些并不整齐的脚步中。",
+      "sources": [
+        "https://www.rmgallery.rusmuseumvrm.ru/en/651"
+      ],
+      "art": "assets/art/ART-13-008.jpg",
+      "original": "assets/original/ART-13-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 655,
+        "bytes": 202065,
+        "sha256": "71736ff06933329bfdcfe2d12caf65c431792940aad53638c0865b330ff1b135"
+      }
+    },
+    {
+      "id": "ART-13-009",
+      "catalog": "NMF-ART-13-009",
+      "creation_title": "奶笑成书",
+      "title_en": "奶笑成书",
+      "original_title": "查波罗什人给土耳其苏丹写信",
+      "artist": "列宾",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1880—1891年",
+      "original_location": "圣彼得堡俄罗斯博物馆",
+      "background": "一句话还没写完，桌边的奶蛙已经笑成一团。执笔者俯身守着纸，伙伴们从左右探过来，有人举起帽子，有人扶着胸口，还有人倚在桌边等待下一句。列宾把扎波罗热哥萨克回信的传说画成热闹群像，重点落在独立精神与共同的笑声上。奶蛙们穿着蓝袍、红衣和旧白衫，腰间金属饰物与桌上的壶闪着微光；纸面暂时空白，话语却已经在众人之间传开。它们不靠整齐的口号来证明彼此站在一起，只把一份大胆与机智轮流递给执笔的伙伴。远处长矛伸进灰蓝天空，眼前的笑声却把紧绷的气氛松开。等羽毛笔再次落下，这封信里便会有许多颗心共同留下的节奏。",
+      "sources": [
+        "https://virtual.rusmuseumvrm.ru/mikh_palace/collection/russkoe_iskusstvo_vtoroy_polovini_xix_veka/zaporozhci/index.php?lang=ru"
+      ],
+      "art": "assets/art/ART-13-009.jpg",
+      "original": "assets/original/ART-13-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 826,
+        "bytes": 288397,
+        "sha256": "dc128bfca794ce9034625fa88cb913f62c5e33a964f177799d45c4f890b75834"
+      }
+    },
+    {
+      "id": "ART-13-010",
+      "catalog": "NMF-ART-13-010",
+      "creation_title": "奶烛将晓",
+      "title_en": "奶烛将晓",
+      "original_title": "近卫军临刑的早晨",
+      "artist": "苏里科夫",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1881年",
+      "original_location": "莫斯科特列季亚科夫画廊",
+      "background": "天已经亮了，红场上的奶蛙却仍握着蜡烛。木车停在泥泞的石路上，白衣伙伴坐在车里，亲人靠近车边，把最后的话留在彼此之间。苏里科夫将历史的冲突凝在临刑之前，让告别、倔强与悲伤同时出现在广场上。奶蛙们身后的洋葱顶仍有鲜明的色彩，眼前的火苗却显得格外微小。中央坐着的伙伴双手掩面，红头巾的小身影守在旁边；右侧有人抱住将要离去的同伴，骑在马上的身影则静静望着人群。清晨没有把每个人带向同一种命运，只照清了他们各自的站位。烛光还未熄灭，双手还未松开，这一刻，便把所有来不及说完的牵挂留下。",
+      "sources": [
+        "https://artsandculture.google.com/asset/morning-of-the-execution-of-the-streltsy/xAGX5DyRl-AyWw?avm=2&hl=en-GB",
+        "https://www.tretyakovgallerymagazine.ru/img/mag/2006/1/092-099.pdf"
+      ],
+      "art": "assets/art/ART-13-010.jpg",
+      "original": "assets/original/ART-13-010.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 805,
+        "bytes": 295363,
+        "sha256": "1d8b316468a0ff00c2f8eb2f5741e62d25f38b229ba61f14b0ee9b0f5ef42abf"
+      }
+    },
+    {
+      "id": "ART-13-011",
+      "catalog": "NMF-ART-13-011",
+      "creation_title": "奶守一台",
+      "title_en": "奶守一台",
+      "original_title": "格罗斯诊所",
+      "artist": "托马斯·伊金斯",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1875年",
+      "original_location": "费城艺术博物馆与宾夕法尼亚美术学院共有",
+      "background": "阶梯教室里坐满了奶蛙，目光都落向中央的诊疗台。穿黑礼服的医生稍稍转身，手中的细小器械停在半空，像是在把眼前的经验说给学生听。伊金斯在1875年以格罗斯医生和费城的医学教学为题，把专业劳动画成庄重的群像。奶蛙的课堂同样没有轻松的喧哗：助手俯身守着白布下的患者，旁边的伙伴双手靠近脸，后方记录者仍握着笔。暖光照亮金黄的头与洁白的布，其余人影沉入褐色木席之间。每一双手都承担着不同的任务，有人讲解，有人照护，有人记下这一刻。画面里的安静并非冷漠，而是所有人把注意力收拢，认真守住眼前的一个生命。",
+      "sources": [
+        "https://www.philamuseum.org/objects/299524",
+        "https://www.philamuseum.org/exhibitions/gross-clinic-thomas-eakins"
+      ],
+      "art": "assets/art/ART-13-011.jpg",
+      "original": "assets/original/ART-13-011.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1093,
+        "height": 1400,
+        "bytes": 222307,
+        "sha256": "4cd78c1b81c120fb47088fe69dff1ed9cfa2d22c97121772dd36191a07a05813"
+      }
+    },
+    {
+      "id": "ART-13-012",
+      "catalog": "NMF-ART-13-012",
+      "creation_title": "奶守孤舟",
+      "title_en": "奶守孤舟",
+      "original_title": "湾流",
+      "artist": "温斯洛·霍默",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1899年，1906年前重绘",
+      "original_location": "纽约大都会艺术博物馆，06.1234",
+      "background": "桅杆折了，海浪却没有停。奶蛙倚在小船里，双腿伸向船头，望着右侧仍在翻涌的水面。霍默把一个人的处境放在巨大的海洋力量之间：近处有鲨鱼，远处有帆船，天边还有卷起的水柱，任何一处都无法轻易给出答案。奶蛙的奶油色肚皮映着灰天，灰褐手掌守在船沿，身旁的甘蔗、绳索和破木板随着船身起伏。它没有把眼睛闭上，也没有让恐惧代替观察；在一波接一波的深蓝浪里，先守住自己能够依靠的这一小块木头。左侧远船只是一点淡影，仍让视线有了可以抵达的地方。孤舟未必知道何时靠岸，但这份安静的坚持，已与海浪一起留在画里。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/11122"
+      ],
+      "art": "assets/art/ART-13-012.jpg",
+      "original": "assets/original/ART-13-012.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 842,
+        "bytes": 264512,
+        "sha256": "18f4cfe1318dc8723b78ca864f7ad00b329653c1c254a355b8872ec6b01ba49f"
+      }
+    },
+    {
+      "id": "ART-13-013",
+      "catalog": "NMF-ART-13-013",
+      "creation_title": "奶夜未眠",
+      "title_en": "奶夜未眠",
+      "original_title": "夜游者",
+      "artist": "爱德华·霍珀",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1942年",
+      "original_location": "芝加哥艺术博物馆",
+      "background": "街上已经没有行人，转角餐馆却仍把一块淡黄色的光留给夜晚。奶蛙坐在长柜台旁，左边的客人背对玻璃，杯子近在手边；红衣伙伴低头看着一小块点心，白帽店员俯身等待，话语似乎还没有开始。霍珀在1942年画下这间夜间餐馆，让城市的空旷与几个人的安静相遇。奶蛙的金黄面孔在灯下很清楚，隔着弧形玻璃，却仍显得有些遥远。银色咖啡壶守在墙边，空凳沿柜台排开，冷青色的人行道伸向关闭的店铺。它们未必相识，也未必需要马上交谈；在各自未眠的夜里，能坐进同一片亮处，便让漫长的街道有了一个暂时停靠的地方。",
+      "sources": [
+        "https://archive.artic.edu/hopper/nighthawks/",
+        "https://www.artic.edu/assets/f85bee6b-d18b-5577-a9e6-f429421b4654"
+      ],
+      "art": "assets/art/ART-13-013.jpg",
+      "original": "assets/original/ART-13-013.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 763,
+        "bytes": 150612,
+        "sha256": "733bf92dc2ddb554e0a76751000bc7780105f766e8f81b7ccf1d04f64a5b8a7d"
+      }
+    },
+    {
+      "id": "ART-13-014",
+      "catalog": "NMF-ART-13-014",
+      "creation_title": "奶守尖窗",
+      "title_en": "奶守尖窗",
+      "original_title": "美国哥特式",
+      "artist": "格兰特·伍德",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1930年",
+      "original_location": "芝加哥艺术博物馆",
+      "background": "尖拱窗从两只奶蛙之间露出，木屋的竖板与手中的农叉，把画面排成一组沉静的线条。戴圆眼镜的伙伴直视前方，另一位稍稍侧过目光，围裙上的小花纹整齐得像认真过完的一天。伍德在1930年把美国乡村的房屋与人物并置，让普通生活显出鲜明而复杂的性格。奶蛙们站在这里，没有急着露出笑容；黑外套、旧背带裤和白衣领，都像是面对来客时特意整理过的样子。胸针里开着一朵小花，身后的红谷仓仍安安静静。它们守住的也许只是这一座屋子、一把农叉和每天要做的事，却让平凡的日常有了不轻易挪动的位置。窗户很尖，目光很稳，生活便在这份克制里慢慢延续。",
+      "sources": [
+        "https://whitney.org/exhibitions/grant-wood/art?section=3",
+        "https://www.artic.edu/artworks/6565/american-gothic"
+      ],
+      "art": "assets/art/ART-13-014.jpg",
+      "original": "assets/original/ART-13-014.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1142,
+        "height": 1377,
+        "bytes": 290601,
+        "sha256": "aa31cc9a5bd6ca7b80ef43293ab0fb192f69fef6b4e10db585ffe06d79deed6b"
+      }
+    },
+    {
+      "id": "ART-13-015",
+      "catalog": "NMF-ART-13-015",
+      "creation_title": "奶望归途",
+      "title_en": "奶望归途",
+      "original_title": "克里斯蒂娜的世界",
+      "artist": "安德鲁·怀斯",
+      "category": "现实主义",
+      "filter": "realism",
+      "era_label": "现实主义",
+      "era_label_en": "Realism",
+      "original_date": "1948年",
+      "original_location": "纽约现代艺术博物馆，16.1949",
+      "background": "灰色的屋子还在坡顶，奶蛙已经把手伸进干草之间。它背向我们，粉色衣裙贴着地面，双腿留在身后，身体却朝着远处的家撑起一点力量。怀斯在1948年将邻居克里斯蒂娜与缅因州的土地联系起来，让一段真实的生命经验成为辽阔而安静的心理风景。奶蛙望着同样遥远的屋顶，没有人替它缩短这片草坡。风把细草吹向一个方向，旧谷仓与木屋沉默地立在天边，脚下却仍有可以触到的土地。它不需要回头证明自己的表情；伏地的姿态、撑住身体的手，已经说明了向前的意愿。归途有时不是一条清楚的小路，而是目光里一直没有放下的那个地方。",
+      "sources": [
+        "https://www.moma.org/collection/works/78455",
+        "https://mobile-api.moma.org/magazine/articles/895"
+      ],
+      "art": "assets/art/ART-13-015.jpg",
+      "original": "assets/original/ART-13-015.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 934,
+        "bytes": 290802,
+        "sha256": "a154968b736e9628d81309f523fd4b68de1d7184544cfb0300a056a80476b055"
+      }
+    },
+    {
+      "id": "ART-14-001",
+      "catalog": "NMF-ART-14-001",
+      "creation_title": "奶忆湖荫",
+      "title_en": "奶忆湖荫",
+      "original_title": "莫特枫丹的回忆",
+      "artist": "柯罗",
+      "category": "巴比松画派",
+      "filter": "barbizon",
+      "era_label": "巴比松",
+      "era_label_en": "Barbizon",
+      "original_date": "1864年",
+      "original_location": "巴黎卢浮宫，MI 692 bis",
+      "background": "湖面像一段放轻了的回忆，树影从右侧伸过来，把午后的声音遮在叶子后面。奶蛙站在细树旁，抬手靠近低枝；两个小伙伴一个仰头，一个俯身，在湖岸寻找自己的小小发现。柯罗的《莫特枫丹的回忆》让风景离开精确的地点记录，变成柔和的光与记忆重新相遇的空间。奶蛙们的金黄只是林荫里很小的一点暖色，白衣和玫瑰色裙摆安静地落在绿褐草地上。远岸隔着薄雾，水中的倒影也没有急着变清楚。它们不会带走这棵树，更不会把整个湖装进篮子；等离开时，留下的也许只是伸手碰近枝叶的那一刻。多年之后，这一点凉荫与微光，仍会在记忆里慢慢展开。",
+      "sources": [
+        "https://collections.louvre.fr/ark:/53355/cl010066968",
+        "https://mini-site.louvre.fr/trimestriel/2014/editions/files/assets/basic-html/page64.html"
+      ],
+      "art": "assets/art/ART-14-001.jpg",
+      "original": "assets/original/ART-14-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1011,
+        "bytes": 325215,
+        "sha256": "1d499588d6b4583d83dd89eb50248dc98ce04082d010057a69ef16b303b7ec54"
+      }
+    },
+    {
+      "id": "ART-14-002",
+      "catalog": "NMF-ART-14-002",
+      "creation_title": "奶绘断桥",
+      "title_en": "奶绘断桥",
+      "original_title": "纳尔尼桥",
+      "artist": "柯罗",
+      "category": "巴比松画派",
+      "filter": "barbizon",
+      "era_label": "巴比松",
+      "era_label_en": "Barbizon",
+      "original_date": "1826年",
+      "original_location": "巴黎卢浮宫，RF 1613",
+      "background": "河水从断桥之间穿过，奶蛙坐在近岸的石头上，把眼前的明暗慢慢放到小画板里。远山是淡淡的蓝紫，右坡沉在阴影中，左岸却被阳光照成暖赭色。柯罗在1826年的意大利写生里，以直接的色块和光线抓住纳尔尼河谷；奶蛙沿着这份观察，先看见桥墩留下的重量，再看见水面仍在移动的亮处。它没有在画里把断桥重新接好，也没有让废墟变成华丽的传说，只让手中的笔跟着今天的光走。小画架立在土路边，粗布衫映着一点日色，身后的岩石仍很安稳。一座桥可以失去原来的道路，河谷却继续容纳经过的人；此刻，奶蛙留下的便是这段未被补齐的风景。",
+      "sources": [
+        "https://collections.louvre.fr/cartelen/visite?idNotice=8425&srv=car_not_frame"
+      ],
+      "art": "assets/art/ART-14-002.jpg",
+      "original": "assets/original/ART-14-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 944,
+        "bytes": 344191,
+        "sha256": "cf4a02df439bdd0e1f6a63610a80c1935e69ca490c520efc0d088109e2ac0af5"
+      }
+    },
+    {
+      "id": "ART-14-003",
+      "catalog": "NMF-ART-14-003",
+      "creation_title": "奶歇双塔",
+      "title_en": "奶歇双塔",
+      "original_title": "沙特尔大教堂",
+      "artist": "柯罗",
+      "category": "巴比松画派",
+      "filter": "barbizon",
+      "era_label": "巴比松",
+      "era_label_en": "Barbizon",
+      "original_date": "1830年，1872年修整",
+      "original_location": "巴黎卢浮宫，RF 1614",
+      "background": "奶蛙坐在路边的石块上，让目光越过低矮屋顶，慢慢攀向大教堂的双塔。另一位伙伴守在石堆旁，白衣映着午后的光，身后的土坡与树影把近处遮成温暖的褐色。柯罗在1830年描绘沙特尔，后来又回到画面修整，让宏大的建筑与日常道路始终留在同一个视野里。奶蛙没有急着走进门洞，也没有把尖塔当作需要征服的高度；它先看见云在塔顶经过，看见远处车轮与行人仍沿街移动。地上的切石与高处的雕窗，像是同一种材料在不同时间里的模样。休息的一会儿并不耽误旅程，反而让它记住：一座城市的重量，可以从脚边的小石头开始慢慢理解。",
+      "sources": [
+        "https://collections.louvre.fr/ark:/53355/cl010066217"
+      ],
+      "art": "assets/art/ART-14-003.jpg",
+      "original": "assets/original/ART-14-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1112,
+        "height": 1400,
+        "bytes": 371714,
+        "sha256": "2a2c0fb40e5a088c4b099f6786392d99b47aed3808e59da8e32264335ffe8f73"
+      }
+    },
+    {
+      "id": "ART-14-004",
+      "catalog": "NMF-ART-14-004",
+      "creation_title": "奶牧林晖",
+      "title_en": "奶牧林晖",
+      "original_title": "枫丹白露森林的边缘，日落",
+      "artist": "泰奥多尔·卢梭",
+      "category": "巴比松画派",
+      "filter": "barbizon",
+      "era_label": "巴比松",
+      "era_label_en": "Barbizon",
+      "original_date": "1848年获委托，1850—1851年沙龙展出；馆方年代范围1825—1850",
+      "original_location": "卢浮宫馆藏RF 112，馆方记录现展于朗斯卢浮宫",
+      "background": "牛群在浅水边慢慢停下，奶蛙拄着木杖，等最后一点夕光从树冠间落进池塘。卢梭把枫丹白露森林的边缘画成一处深沉的开口：暗色树干守在两侧，远处的低橡树与暖天相接，近处的根、草和石头都留在阴影里。奶蛙没有赶着把牛带走，只安静地站在岸边，听水面随着饮水的动作轻轻改变。它的白衫沾着暮色，金黄面孔也成了林间很小的一点光。树林的重量与晚霞的柔软，并不需要谁来调和；眼前这口浅池，已经把它们映在一起。再过一会儿，牧路会暗下去，牛群会继续前行，而这一片短暂的金红，仍能留在回家的记忆里。",
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010062562",
+        "https://www.musee-orsay.fr/en/artworks/route-dans-la-foret-de-fontainebleau-effet-dorage-37"
+      ],
+      "art": "assets/art/ART-14-004.jpg",
+      "original": "assets/original/ART-14-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 958,
+        "bytes": 376154,
+        "sha256": "95069c71c3ec5ade8af11211a4e4d38432f5e522b3e012eda3647e9516af13d8"
+      }
+    },
+    {
+      "id": "ART-14-005",
+      "catalog": "NMF-ART-14-005",
+      "creation_title": "奶骑春风",
+      "title_en": "奶骑春风",
+      "original_title": "春天",
+      "artist": "杜比尼",
+      "category": "巴比松画派",
+      "filter": "barbizon",
+      "era_label": "巴比松",
+      "era_label_en": "Barbizon",
+      "original_date": "1857",
+      "original_location": "奥赛博物馆馆藏；沙特尔美术馆寄存",
+      "background": "春天先在果树的枝尖落脚，再沿着草间小路，轻轻牵住奶蛙的小毛驴。杜比尼把乡野的苏醒铺成一片低低的绿：白花散在枝头，云层缓慢舒展，远处的人仍弯腰忙着田间的事情。奶蛙戴着旧帽，握住缰绳，故意让驴走得慢些，好把每一树花都看清楚。它没有带着隆重的目的出门，只想趁泥路尚软、花还未落，穿过这一季短暂的明亮。金黄的脸藏在朴素外衣上方，也像春风偶然点亮的一片叶子。道路弯向远处，果园没有许诺终点，却把沿途的香气一一交给了它；原来最丰盛的春游，有时只需要一头慢驴和一颗不着急的心。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/le-printemps-117539",
+        "https://www.chartres.fr/index.php?L=1&cHash=ec54806b029614d8b95331cda3a940c8&id=2000&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1807"
+      ],
+      "art": "assets/art/ART-14-005.jpg",
+      "original": "assets/original/ART-14-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 700,
+        "bytes": 252505,
+        "sha256": "5c86a7779892d58f1bbbb766e07e49da8d4d4e508847a9e866f7fdc2bcb753cb"
+      }
+    },
+    {
+      "id": "ART-14-006",
+      "catalog": "NMF-ART-14-006",
+      "creation_title": "奶行风隙",
+      "title_en": "奶行风隙",
+      "original_title": "枫丹白露森林中的风暴",
+      "artist": "迪亚兹·德·拉·佩尼亚",
+      "category": "巴比松画派",
+      "filter": "barbizon",
+      "era_label": "巴比松",
+      "era_label_en": "Barbizon",
+      "original_date": "1871",
+      "original_location": "菲茨威廉博物馆，馆藏编号1776",
+      "background": "乌云把枫丹白露的树林压得很低，奶蛙拢住斗篷，沿着石块之间的小路继续向前。迪亚兹没有让风暴只剩黑暗：云层裂开的一线光，照见砂土、岩石与灌木，也给这个小小行者留下一点方向。奶蛙的衣角被风拉向身后，金黄面孔却仍朝着林间的开口；它不打算战胜天气，只想在雨落下之前，把脚下这段路走稳。树冠与天空用浓厚的褐绿相互挤压，草丛里零星的暖色像还没有熄灭的火。这里没有宏大的英雄故事，只有一件旧斗篷和一双不肯停住的脚。等风声越过树顶，奶蛙会记得：最阴沉的一天，也曾在云的缝隙里递来一小片亮。",
+      "sources": [
+        "https://data.fitzmuseum.cam.ac.uk/id/object/2646",
+        "https://www.nortonsimon.org/art/detail/F.1983.09.P"
+      ],
+      "art": "assets/art/ART-14-006.jpg",
+      "original": "assets/original/ART-14-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1093,
+        "bytes": 335935,
+        "sha256": "71fa7d1773bd6a5c12e347a9362f893996727f102b91432becbd37694df8ee7e"
+      }
+    },
+    {
+      "id": "ART-15-001",
+      "catalog": "NMF-ART-15-001",
+      "creation_title": "奶浮花溪",
+      "title_en": "奶浮花溪",
+      "original_title": "奥菲莉娅",
+      "artist": "米莱",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1851—1852",
+      "original_location": "Tate Britain，馆藏编号N01506",
+      "background": "溪水托着银色衣裙，奶蛙仰望枝叶之间微亮的天空，掌心的花一朵朵散向水面。米莱把莎士比亚笔下奥菲莉娅的悲伤安放在繁盛的河岸：柳枝、野蔷薇与细小花草都清晰可见，生命越是丰茂，漂流的寂静便越深。奶蛙走进这一幕，没有把忧伤变成笑话；它轻轻摊开双手，像把那些说不出口的话交还给溪流。金黄面孔与深绿倒影相映，精细的衣纹在水下慢慢失去重量，花瓣仍绕着手腕停留。岸上的每一片叶子似乎都在认真听着，却没有谁能替它回答。这个短暂悬浮的瞬间，保留了原作对脆弱生命的凝视，也让奶蛙明白：再美的春色，有时也只能陪伴一颗沉默的心。",
+      "sources": [
+        "https://artsandculture.google.com/asset/wd/-wGU6cT4JixtPA",
+        "https://www.tate.org.uk/art/artworks/millais-ophelia-n01506"
+      ],
+      "art": "assets/art/ART-15-001.jpg",
+      "original": "assets/original/ART-15-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 951,
+        "bytes": 433279,
+        "sha256": "48862ef33ce7e1e248a830847384838143d60fab3954ca8d2420e5ab362ff4cc"
+      }
+    },
+    {
+      "id": "ART-15-002",
+      "catalog": "NMF-ART-15-002",
+      "creation_title": "奶听双虹",
+      "title_en": "奶听双虹",
+      "original_title": "盲女",
+      "artist": "米莱",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1854—1856",
+      "original_location": "伯明翰博物馆与美术馆，1892P3",
+      "background": "雨后的草地亮起来时，奶蛙闭着眼，把脸轻轻抬向阳光。膝上的六角手风琴暂时安静了，一只手探进湿草，仿佛也能摸到天空渐渐放晴的声音。米莱把双虹挂在温切尔西的村庄上方，却让画中主角通过温度、触感与陪伴接近这片风景。身旁的小奶蛙掀起披巾，回头望见彩虹，把身体更紧地依在同伴怀里。褐色布面上的蝴蝶没有飞走，远处的牛群与乌鸦各忙各的；这一刻，世界没有因谁看不见而停止美丽。奶蛙听着草尖的水滴，也听着身边的呼吸。那两道虹或许不能被同样地看见，却能在一次依偎里，成为两颗心共同经历的晴天。",
+      "sources": [
+        "https://artsandculture.google.com/asset/the-blind-girl/kAF2cbM1fB9Hzw",
+        "https://www.birmingham.ac.uk/research/projects/midlands-art-papers/issue-3/john-everett-millais-the-blind-girl-1856"
+      ],
+      "art": "assets/art/ART-15-002.jpg",
+      "original": "assets/original/ART-15-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 962,
+        "height": 1400,
+        "bytes": 355463,
+        "sha256": "85949e077a4b5f3db29e06fcf67b4dad84ac70b455f132b4f08d76fecb09a384"
+      }
+    },
+    {
+      "id": "ART-15-003",
+      "catalog": "NMF-ART-15-003",
+      "creation_title": "奶觉窗光",
+      "title_en": "奶觉窗光",
+      "original_title": "觉醒的良心",
+      "artist": "霍尔曼·亨特",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1853",
+      "original_location": "Tate Britain，T02075",
+      "background": "一段琴声还没有结束，奶蛙忽然从同伴膝前站起，望向画外的光。亨特把十九世纪客厅画得拥挤而华丽：红毯、雕花钢琴、玻璃罩下的钟与细密披巾，都像在挽留眼前这一刻；镜子却把窗外的花园带进了屋里，给心中尚未说出的选择留下出口。奶蛙双手相握，脸上的惊觉很轻，却已经改变了身体的方向。椅中的同伴仍伸着手，似乎还没有听见那道无声的召唤。脚边的小鸟与猫、落下的手套和散乱丝线，让安逸显出一丝不安。金黄面孔不再只属于这间漂亮房屋：它开始明白，真正的清醒，是看见自己仍能走向另一种生活。",
+      "sources": [
+        "https://artsandculture.google.com/asset/the-awakening-conscience/eAEe8oI1HIMufA",
+        "https://www.tate.org.uk/art/artworks/hunt-the-awakening-conscience-t02075"
+      ],
+      "art": "assets/art/ART-15-003.jpg",
+      "original": "assets/original/ART-15-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1020,
+        "height": 1400,
+        "bytes": 357232,
+        "sha256": "9778cf0a86d03693f95c10e3160c486b8ade7035cb705cba5b247ca5993664a0"
+      }
+    },
+    {
+      "id": "ART-15-004",
+      "catalog": "NMF-ART-15-004",
+      "creation_title": "奶灯叩心",
+      "title_en": "奶灯叩心",
+      "original_title": "世界之光",
+      "artist": "霍尔曼·亨特",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1853（基布尔学院馆方记录）",
+      "original_location": "牛津大学基布尔学院小礼拜堂原版",
+      "background": "天还没有亮，奶蛙提着一盏灯，来到藤蔓遮住的旧门前。亨特让门成为心灵的隐喻：它没有外侧把手，锈迹与攀枝说明这里已经很久无人开启。奶蛙轻轻叩门，没有替屋里的人作决定；灯火只照亮木纹、白袍与脚边落果，把等待变成一种温柔的邀请。头后的光环回应着手中的暖灯，一道指向希望，一道照见尚可醒来的良心。远处的晨星仍悬在暗树之间，秋草与果实把漫长岁月留在门槛外。奶蛙不催促，也不转身，它相信每一扇沉默的门后，都可能有人正在辨认这微小的声音。真正打开门的那只手，终究要从里面伸出来。",
+      "sources": [
+        "https://www.keble.ox.ac.uk/about/chapel/light-of-the-world/"
+      ],
+      "art": "assets/art/ART-15-004.jpg",
+      "original": "assets/original/ART-15-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 700,
+        "height": 1400,
+        "bytes": 263092,
+        "sha256": "f09d36a9a88fa8239ae58ad4ea7cf05056618198717e371b3ede575ebfd15f23"
+      }
+    },
+    {
+      "id": "ART-15-005",
+      "catalog": "NMF-ART-15-005",
+      "creation_title": "奶籽留春",
+      "title_en": "奶籽留春",
+      "original_title": "普罗塞庇娜",
+      "artist": "罗塞蒂",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1874",
+      "original_location": "Tate Britain，N05064",
+      "background": "奶蛙握着一枚裂开的石榴，回头望向石墙上那一小块光。罗塞蒂把普罗塞庇娜困在幽暗的通道里：吃下的果籽将她留在冥界，而门外的春天只能按季节归来。青绿色衣袍层层垂落，像把漫长等待折进了丝绸；常春藤沿墙攀升，却还没有替谁找到出口。奶蛙的另一只手轻轻护住手腕，既舍不得果实的甜，也明白甜味有时会成为牵绊。金黄面孔与红籽在阴影中相映，旁边的铜碗静静停在石台上。它没有把这枚石榴扔掉，只把目光交给微亮的墙面：总有一段时间属于地下，也总有一段时间可以重返花开。等待春天，原来也是保存自己的方式。",
+      "sources": [
+        "https://artsandculture.google.com/asset/proserpine/EAH009jkJzYVMw",
+        "https://rossettiarchive.iath.virginia.edu/docs/s233.r-2.rap.html"
+      ],
+      "art": "assets/art/ART-15-005.jpg",
+      "original": "assets/original/ART-15-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 700,
+        "height": 1400,
+        "bytes": 170156,
+        "sha256": "e0993cf1e084326c97f9d59e1ee77cc3fd9a8dc5a78211e7085fd6332e64987f"
+      }
+    },
+    {
+      "id": "ART-15-006",
+      "catalog": "NMF-ART-15-006",
+      "creation_title": "奶梦白花",
+      "title_en": "奶梦白花",
+      "original_title": "受祝福的比阿特丽切",
+      "artist": "罗塞蒂",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "约1864—1870（泰特原版）",
+      "original_location": "Tate Britain，N01279",
+      "background": "奶蛙闭着眼，微微仰起脸，像在听一个只有心里才响起的名字。红鸟衔着白色罂粟飞向它摊开的双手，身后的日晷却把时间留在沉默的石台上。罗塞蒂从但丁《新生》中提取爱与离别，又把对亡妻的追忆融入这场朦胧的凝视：景物不再只是风景，而像记忆缓慢穿过的光。奶蛙没有伸手追赶飞来的信使，只安静地等待花落下。远处红袍与暗袍的同伴隔着庭院相望，桥与天空都被暖褐色轻轻柔化。金黄的身体藏在绿衣间，仿佛也将成为光的一部分。它相信有些告别不会立刻消失，而会换成一朵白花，在最安静的时候，重新来到掌心。",
+      "sources": [
+        "https://artsandculture.google.com/asset/beata-beatrix-dante-gabriel-rossetti/GgHmtzXziFIlnQ",
+        "https://www.nationalgalleries.org/art-and-artists/5380",
+        "https://shop.tate.org.uk/dante-gabriel-rossetti-beata-beatrix/danros005.html"
+      ],
+      "art": "assets/art/ART-15-006.jpg",
+      "original": "assets/original/ART-15-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1084,
+        "height": 1400,
+        "bytes": 211228,
+        "sha256": "7b719e02cffe85dd6e1fc71daceb2e857b89fa19b4cb5940d7689b36801f7533"
+      }
+    },
+    {
+      "id": "ART-15-007",
+      "catalog": "NMF-ART-15-007",
+      "creation_title": "奶奏金阶",
+      "title_en": "奶奏金阶",
+      "original_title": "黄金阶梯",
+      "artist": "伯恩-琼斯",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1880",
+      "original_location": "Tate Britain，N04005",
+      "background": "一列奶蛙沿着金色弯梯缓缓下来，银白衣褶把脚步连成了无声的旋律。伯恩-琼斯没有为《黄金阶梯》安排明确的故事，而让姿态、色调与乐器共同制造一种梦中的节奏。奶蛙们有的握着细长管乐，有的托住竖琴或小提琴，还有的把铃鼓安静地垂在身侧；它们互相回望，却没有急着开始演奏。屋顶的开口留出一小片蓝天，白鸽停在瓦沿，像也在等第一声响起。金黄的面孔从轻软长袍间露出来，让这支队伍添了一点温暖的幽默。阶梯并不急着说明要通往哪里：每一步下降、每一次侧身相让，已经使整幅画成为一段可以用眼睛聆听的音乐。",
+      "sources": [
+        "https://artsandculture.google.com/asset/the-golden-stairs/wwF-3DqGLFNo_Q",
+        "https://www.tate.org.uk/art/artworks/burne-jones-the-golden-stairs-n04005"
+      ],
+      "art": "assets/art/ART-15-007.jpg",
+      "original": "assets/original/ART-15-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 583,
+        "height": 1400,
+        "bytes": 195240,
+        "sha256": "721e30c7e8a79197f8efff02267a1d37ab5ae74d99485335490c916202706138"
+      }
+    },
+    {
+      "id": "ART-15-008",
+      "catalog": "NMF-ART-15-008",
+      "creation_title": "奶舟辞影",
+      "title_en": "奶舟辞影",
+      "original_title": "夏洛特夫人",
+      "artist": "沃特豪斯",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1888",
+      "original_location": "Tate Britain，N01543",
+      "background": "奶蛙坐进黑色小舟，指间的系船链渐渐松开，秋日河流便把岸边的影子推远了一点。沃特豪斯从丁尼生的《夏洛特夫人》中选出离开高塔的瞬间：她曾只能在镜中观看世界，如今却带着自己织出的图景，驶向真实而未知的远方。奶蛙的白裙落在红金织毯上，船头三支蜡烛只剩一支亮着，旁边的十字架静静承接最后的凝望。它轻启短短的嘴线，像把长久的孤独唱给水面。芦苇与暗树没有阻止出发，落叶只是随舟慢慢漂行。这趟旅程带着原作的悲伤，也藏着一点决心：哪怕不能知道终点，奶蛙仍愿意告别借来的影子，亲自看一眼世界。",
+      "sources": [
+        "https://artsandculture.google.com/asset/the-lady-of-shalott/RQHFwa4u2LTw0g",
+        "https://www.tate.org.uk/art/artworks/waterhouse-the-lady-of-shalott-n01543"
+      ],
+      "art": "assets/art/ART-15-008.jpg",
+      "original": "assets/original/ART-15-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1075,
+        "bytes": 349692,
+        "sha256": "879338f2b31c1f5470dc43024c858b8f35342ff082ebc2c83a3ee105c608ff3b"
+      }
+    },
+    {
+      "id": "ART-15-009",
+      "catalog": "NMF-ART-15-009",
+      "creation_title": "奶陷莲间",
+      "title_en": "奶陷莲间",
+      "original_title": "许拉斯与水仙女",
+      "artist": "沃特豪斯",
+      "category": "前拉斐尔派",
+      "filter": "preraphaelite",
+      "era_label": "前拉斐尔",
+      "era_label_en": "Pre-Raphaelite",
+      "original_date": "1896",
+      "original_location": "曼彻斯特美术馆，1896.15",
+      "background": "奶蛙原本只是带着铜壶来取水，却在睡莲之间听见了轻轻的招呼。沃特豪斯把许拉斯的神话停在岸边的一次俯身：旅者尚未离开土地，池中的水仙女已经握住了他的手腕。七只戴花的奶蛙从暗绿水面围拢过来，金黄轮廓与白色睡莲相映，柔和目光让这一刻既亲近又难以判断。蓝衣的旅者低下头，想看清水里究竟藏着怎样的世界，铜壶却暂时忘在了身旁。前景背向我们的同伴抬起一只手，像在邀请，也像把归路悄悄遮住。林间没有惊呼，只有水纹一圈圈扩散：最深的迷失，有时并不从危险的面貌开始，而从一次不舍得收回的凝望开始。",
+      "sources": [
+        "https://artuk.org/discover/artworks/hylas-and-the-nymphs-206346",
+        "https://shop.manchesterartgallery.org/products/still-life-flowers-and-fruit-print-copy",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0104%3Aentry%3Dhylas-bio-1"
+      ],
+      "art": "assets/art/ART-15-009.jpg",
+      "original": "assets/original/ART-15-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 849,
+        "bytes": 282214,
+        "sha256": "04484f046e16fa700f42a8c4eb10d527e3fc80a537c7f1d3460a31d4325e4311"
+      }
+    },
+    {
+      "id": "ART-16-002",
+      "catalog": "NMF-ART-16-002",
+      "creation_title": "奶拥春归",
+      "title_en": "奶拥春归",
+      "original_title": "春天的归来",
+      "artist": "布格罗",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "1886",
+      "original_location": "乔斯林美术馆，1951.889",
+      "background": "春天没有敲门，而是带着一群长翅膀的奶蛙，直接飞进了开满小花的山坡。中央的奶蛙穿着浅色长袍，把双臂轻轻交在胸前，仿佛刚从冬日的安静里醒来，还来不及回答这场热闹的欢迎。布格罗把季节写成可相拥的寓言：环绕的身体与轻盈飞行，让春归成为一次温柔的包围。如今，同伴们捧来白花与黄花，有的靠近耳边低声报信，有的在石旁抬头等待，它们并不催促，只把明亮一点点送到眼前。远山与水面被柔光拉开，衣褶沿着金黄身体落进草间。奶蛙终于明白，重新开始不一定需要盛大的宣言；当熟悉的风、花和朋友一起回来，心也会慢慢松开。",
+      "sources": [
+        "https://joslyn.org/art/collection/william-adolphe-bouguereau/42/return-of-spring/"
+      ],
+      "art": "assets/art/ART-16-002.jpg",
+      "original": "assets/original/ART-16-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 811,
+        "height": 1400,
+        "bytes": 265143,
+        "sha256": "cd52b3623185be8e0a3afa1376d361784d8f05555a2e793e863b1ec15f1ddde3"
+      }
+    },
+    {
+      "id": "ART-16-003",
+      "catalog": "NMF-ART-16-003",
+      "creation_title": "奶赴清凉",
+      "title_en": "奶赴清凉",
+      "original_title": "宁芙与萨提尔",
+      "artist": "布格罗",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "1873",
+      "original_location": "克拉克艺术学院，1955.658",
+      "background": "奶蛙本想在林间逞一回勇，走到池边却忽然担心起水凉。布格罗把宁芙与萨提尔的相遇画成一组交错的力量：有人后仰，有人伸手，还有人向远处招呼，动作连成了一场带着戏谑的拉锯。如今，戴小角的奶蛙披着深褐衣袍，一只脚还守在苔岸，另一只已经探进浅水；四位浅袍同伴握住它的手臂，耐心把犹豫拉向清凉。树叶间的光落在金黄肩头，池面的细纹让每一步都显得格外郑重。远处的伙伴安静围观，黄花与芦苇也像在忍着笑。奶蛙终于发现，最难跨过的未必是河流，而是那一点自以为很勇敢、其实很怕凉的心思。",
+      "sources": [
+        "https://www.clarkart.edu/ArtPiece/Detail/Nymphs-and-Satyr-(1)",
+        "https://www.clarkart.edu/getmedia/0d7ca0a7-5f6a-49fa-92cb-955947ee1a80/What-We-May-Be-Art-Museums-and-the-Implications-of-Special-Programs_PrinterFriendly.pdf"
+      ],
+      "art": "assets/art/ART-16-003.jpg",
+      "original": "assets/original/ART-16-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 979,
+        "height": 1400,
+        "bytes": 316682,
+        "sha256": "7114157a6800e46e9ff6a1a4553117b79f2ad14c1fcdec993812497632741c66"
+      }
+    },
+    {
+      "id": "ART-16-004",
+      "catalog": "NMF-ART-16-004",
+      "creation_title": "奶生海沫",
+      "title_en": "奶生海沫",
+      "original_title": "维纳斯的诞生",
+      "artist": "卡巴内尔",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "1863",
+      "original_location": "奥赛博物馆，RF273",
+      "background": "海沫还没有散开，奶蛙已经把双臂枕在头顶，像刚从一场悠长的蓝色梦里醒来。卡巴内尔在1863年把维纳斯的诞生铺成一片柔亮的海：天空与波浪没有急剧的边界，卧姿让神话像呼吸一样轻。如今，浅色衣袍随水纹起伏，金黄身体与奶油色圆肚从褶间透出，五位长翅膀的同伴在上方吹响海螺，替这次苏醒奏出最小的庆典。奶蛙没有立刻回应，只望着靠近的浪尖，确认自己已经来到世界。它不需要王冠，也不需要宏大的宣告；每一次白沫被阳光照亮，都像海在悄悄说：欢迎。所谓诞生，也许就是终于愿意睁开眼睛，接受这一整片明亮。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/naissance-de-venus-98"
+      ],
+      "art": "assets/art/ART-16-004.jpg",
+      "original": "assets/original/ART-16-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 800,
+        "bytes": 215398,
+        "sha256": "f6d7cfb7a8a2f06395c0800fadd53ee58bc455fa6d57d29da5486568007719e5"
+      }
+    },
+    {
+      "id": "ART-16-005",
+      "catalog": "NMF-ART-16-005",
+      "creation_title": "奶命一指",
+      "title_en": "奶命一指",
+      "original_title": "拇指朝下",
+      "artist": "热罗姆",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "约1872",
+      "original_location": "菲尼克斯美术馆，1968.52",
+      "background": "竞技场忽然安静了一瞬。奶蛙握着低垂的短剑，抬头望向高处的看台，脚边倒地的对手仍举着一只手，等待一个可能改变命运的回答。热罗姆把角斗的胜负停在裁决之前：盔甲的金光、华丽织毯与层层观众，都围着沙地上这点微小的犹豫旋转。白袍奶蛙把拇指转向下方，画中的姿态因此成为强烈的戏剧符号；它并不能替复杂的古代史给出唯一答案，却能让人看见围观的力量。胜者似乎已经赢了战斗，却还没有决定自己要成为怎样的胜者。奶蛙望着那只伸向天空的手，第一次觉得，放下剑也许比举起剑更需要勇气。",
+      "sources": [
+        "https://phxart.org/blog/pollice-verso/",
+        "https://phxartdocent.org/wp-content/uploads/2017/04/GEROME-Pollice-Verso-Davis-031412.pdf"
+      ],
+      "art": "assets/art/ART-16-005.jpg",
+      "original": "assets/original/ART-16-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 344981,
+        "sha256": "d04c87861c99c0a133e5dbf6f7188c8de03dd7064993efc29608d3f48844a447"
+      }
+    },
+    {
+      "id": "ART-16-006",
+      "catalog": "NMF-ART-16-006",
+      "creation_title": "奶引蛇舞",
+      "title_en": "奶引蛇舞",
+      "original_title": "蛇的诱惑者",
+      "artist": "热罗姆",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "约1879",
+      "original_location": "克拉克艺术学院，1955.51",
+      "background": "蓝色瓷砖把屋里的声音收得很轻，奶蛙背对观众，托起蛇身，让那一道缓慢的弧线在肩头延伸。热罗姆用细密的瓷纹、衣料与地砖，构成十九世纪欧洲画家想象中的异域舞台；这片空间并非生活的全部，却把观看与表演的距离画得格外清楚。如今，奶蛙穿着浅衫与宽裤，身旁乐师吹起木笛，靠墙的同伴们安静等候。藤篮的盖子已经打开，小黑罐停在地上，蛇的尾端随着支撑慢慢垂下。它并没有施展神秘魔法，只认真照顾每一次移动的重量。金黄身影与冷蓝墙面相映，奶蛙渐渐明白：所谓吸引目光，有时只是把一件寻常的事，做得足够耐心。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/907897",
+        "https://media.clarkart.edu/1955.51_EuroCat.pdf"
+      ],
+      "art": "assets/art/ART-16-006.jpg",
+      "original": "assets/original/ART-16-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 945,
+        "bytes": 365666,
+        "sha256": "5bc684cd0c6a6bb27b8313257e083c2fcd8ae0d677f8a967dce3a0bcf3a64fad"
+      }
+    },
+    {
+      "id": "ART-16-007",
+      "catalog": "NMF-ART-16-007",
+      "creation_title": "奶困花宴",
+      "title_en": "奶困花宴",
+      "original_title": "赫利奥加巴卢斯的玫瑰",
+      "artist": "阿尔玛-塔德玛",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "1888",
+      "original_location": "佩雷斯·西蒙私人收藏；2014年蒂森博物馆展览记录",
+      "background": "玫瑰起初像一场惊喜，后来却越落越多。奶蛙们陷在粉白花瓣里，有的抬起双臂护住脸，有的从花堆间探头，想确认宴会究竟什么时候才肯停下。阿尔玛-塔德玛借罗马皇帝的奢宴传说，把精美与压迫放在同一片光中：高台上的宾客仍举杯旁观，绿纹大理石与满桌果实安稳得近乎冷漠，低处的人却已经被美丽包围。金黄面孔从玫瑰间露出，让这场盛宴有了柔软而不安的幽默。乐师的笛声还在继续，花瓣也还在旋转。奶蛙忽然懂得，礼物一旦不肯听见接受者的声音，就可能成为负担；再香的玫瑰，也需要给人留下一点呼吸与离席的空隙。",
+      "sources": [
+        "https://www.museothyssen.org/exposiciones/alma-tadema-pintura-victoriana-coleccion-perez-simon",
+        "https://commons.wikimedia.org/wiki/File:Alma-Tadema_-_The_Roses_of_Heliogabalus.jpg"
+      ],
+      "art": "assets/art/ART-16-007.jpg",
+      "original": "assets/original/ART-16-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 861,
+        "bytes": 391436,
+        "sha256": "800023c212b0e5ab2932c6d78a07c4c1e4d5f01cfe98beb06ae29fdc34cfe404"
+      }
+    },
+    {
+      "id": "ART-16-008",
+      "catalog": "NMF-ART-16-008",
+      "creation_title": "六月眠奶",
+      "title_en": "六月眠奶",
+      "original_title": "炽热的六月",
+      "artist": "莱顿",
+      "category": "学院派",
+      "filter": "academic",
+      "era_label": "学院派",
+      "era_label_en": "Academic",
+      "original_date": "1895",
+      "original_location": "波多黎各庞塞艺术博物馆",
+      "background": "六月把海面照得发亮，奶蛙却已经在石凳上睡熟了。莱顿把身体蜷成一圈，让橙色衣褶在方形画面里缓缓旋转；这里没有需要完成的故事，只有光、颜色与一段安静的呼吸。奶蛙把脸枕在弯起的手臂间，另一只手轻轻收在身前，脚从裙边露出一点，仿佛连醒来都可以再等一会儿。深红与橄榄色的织物托住金黄身影，墙外的水光仍不断闪动，右上的夹竹桃开得正好。它没有错过夏天，只是用另一种方式把夏天留住：让炎热停在衣料上，让海风穿过梦里。当眼睛再次睁开，世界大概仍会明亮，而这一小圈午睡，已经足够让心慢下来。",
+      "sources": [
+        "https://www.metmuseum.org/perspectives/flaming-june",
+        "https://emuseum.museoarteponce.org/objects/3669/flaming-june"
+      ],
+      "art": "assets/art/ART-16-008.jpg",
+      "original": "assets/original/ART-16-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 258837,
+        "sha256": "a97871fecb167a5b1f8197096d3eae95f28930d3fc97bd158cc072ddc99be7af"
+      }
+    },
+    {
+      "id": "ART-17-001",
+      "catalog": "NMF-ART-17-001",
+      "creation_title": "奶渡晨光",
+      "title_en": "奶渡晨光",
+      "original_title": "印象·日出",
+      "artist": "莫奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1872",
+      "original_location": "巴黎玛摩丹莫奈博物馆",
+      "background": "勒阿弗尔的港口还没有完全醒来，吊臂、烟囱与桅杆在蓝灰色晨雾里只剩轻轻的轮廓。莫奈在1872年捕捉的这束日光，后来随着1874年的展览，为印象派留下了名字。如今，奶蛙把小船划进同一片薄雾：一位侧身撑桨，一位静坐看向水面，金黄的身影被潮湿空气揉成柔软的色块。远处的船影渐渐淡去，橙红太阳却像刚点燃的炭火，把断续的光铺到船旁。它们并不急着抵岸，只让桨声与短促的蓝色笔触一起，慢慢推开清晨。港口的繁忙尚未开始，一次平常的渡行已经拥有了自己的光。",
+      "sources": [
+        "https://www.marmottan.fr/notice/4014/"
+      ],
+      "art": "assets/art/ART-17-001.jpg",
+      "original": "assets/original/ART-17-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1076,
+        "bytes": 295448,
+        "sha256": "f858cf36db92db2498f2063d3fdb60fef4d23dd88b9c672220acbe9589d6680b"
+      }
+    },
+    {
+      "id": "ART-17-002",
+      "catalog": "NMF-ART-17-002",
+      "creation_title": "奶伞迎风",
+      "title_en": "奶伞迎风",
+      "original_title": "撑阳伞的女人——莫奈夫人与儿子",
+      "artist": "莫奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1875",
+      "original_location": "美国国家美术馆",
+      "background": "草坡上的风先吹动面纱，又把白裙推向一侧。奶蛙握住绿色阳伞，略略回望，仿佛听见坡下的小伙伴叫它等一等。莫奈在1875年画下卡米耶与儿子的户外身影，低处的视线让人物与大片天空相遇，也让一次散步充满转瞬即逝的光。这里，戴草帽的小奶蛙停在黄色野花之间，半身藏进草坡；较高的伙伴替它留住一片绿荫。蓝紫色衣褶、金黄面颊与白云都由跳动的笔触连接，影子斜落在草地上。它们没有摆好姿势，只在风里短暂停步，而一个明亮的午后便悄悄留在伞下。",
+      "sources": [
+        "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son"
+      ],
+      "art": "assets/art/ART-17-002.jpg",
+      "original": "assets/original/ART-17-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1126,
+        "height": 1397,
+        "bytes": 371593,
+        "sha256": "2c0e94dc77573378ff927adc65924fe83d9cb40011ae7ea3715bccdb45e256b5"
+      }
+    },
+    {
+      "id": "ART-17-003",
+      "catalog": "NMF-ART-17-003",
+      "creation_title": "奶步花坡",
+      "title_en": "奶步花坡",
+      "original_title": "罂粟花田",
+      "artist": "莫奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1873",
+      "original_location": "巴黎奥赛博物馆，RF 1676",
+      "background": "阿让特伊的夏日草坡上，红色罂粟像一阵轻快的笑声，从远处树影一直滚到脚边。莫奈在1873年把这样的田野散步画进短促的色点，次年又将作品带到第一届印象派展览。如今，两组奶蛙沿着同一条斜坡慢慢走来：远处的伙伴还停在树旁，近处戴草帽的小奶蛙已经钻进花间，只露出明亮的脸。蓝裙奶蛙把阳伞斜握在身侧，似乎正等它跟上。左边的红花跳得热闹，右边的蓝绿草地却安静舒展，白云轻轻越过红屋顶。它们没有采走花朵，只把一段不赶时间的午后，留在金黄身影与草色相遇的地方。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/coquelicots-1010"
+      ],
+      "art": "assets/art/ART-17-003.jpg",
+      "original": "assets/original/ART-17-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1072,
+        "bytes": 356808,
+        "sha256": "bc378f029bb6fa3d4e21515a4aef9c49ef301f4b623b5e9491dbd671489a2d61"
+      }
+    },
+    {
+      "id": "ART-17-004",
+      "catalog": "NMF-ART-17-004",
+      "creation_title": "奶望莲影",
+      "title_en": "奶望莲影",
+      "original_title": "睡莲池（伦敦国家美术馆版本）",
+      "artist": "莫奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1899",
+      "original_location": "伦敦国家美术馆，NG4240",
+      "background": "吉维尼的水园把城市的声响留在了树外。莫奈在1893年购入邻地、营造池塘，又让受日本版画启发的拱桥横过水面；到了1899年，桥、垂柳与睡莲已成为一片可以反复凝望的世界。奶蛙走到桥中央，双手轻扶栏杆，低头看那些粉白小花在绿影间漂浮。它金黄的身影并不打破安静，只像一束穿过叶隙的暖光。竖直的柳影落进池中，横向的莲叶把水面轻轻分开，桥的弧线又在深处留下一道回声。它原本只是来过桥，却因一朵花、一片倒影忘了继续走；午后的时间，也随这一停步慢慢变得柔软。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/claude-monet-the-water-lily-pond",
+        "https://commons.wikimedia.org/wiki/File:Claude_Monet,_The_Water-Lily_Pond_(National_Gallery,_London).jpg"
+      ],
+      "art": "assets/art/ART-17-004.jpg",
+      "original": "assets/original/ART-17-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1285,
+        "height": 1224,
+        "bytes": 410643,
+        "sha256": "cfca3e505d7a61268f30d0d08bdaaa5da78a31bedaabf0cc87f5e147d65a363b"
+      }
+    },
+    {
+      "id": "ART-17-005",
+      "catalog": "NMF-ART-17-005",
+      "creation_title": "奶赴烟途",
+      "title_en": "奶赴烟途",
+      "original_title": "圣拉扎尔车站（奥赛版本）",
+      "artist": "莫奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1877",
+      "original_location": "巴黎奥赛博物馆，RF 2775",
+      "background": "铁架棚顶把天空切成许多透光的小格，列车呼出的蓝紫蒸汽又将它们轻轻连在一起。1877年，莫奈获准进入圣拉扎尔车站作画，把现代城市里不断变化的光、机器与人流变成新的风景。奶蛙也加入了这段繁忙的旅途：戴帽子的旅客提着小箱站在右侧，远处的伙伴在暖黄光里渐渐化成色点。黑色机车从蒸汽中显出轮廓，铁轨向深处收拢，金黄身影则在灰蓝阴影里留下细小的温度。它们还不知道下一站会遇到怎样的天气，只听见车轮、脚步与呼气声汇成一片。出发尚未发生，旅程却已经在这座明亮而朦胧的大厅里开始了。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/la-gare-saint-lazare-10897"
+      ],
+      "art": "assets/art/ART-17-005.jpg",
+      "original": "assets/original/ART-17-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1000,
+        "bytes": 365211,
+        "sha256": "0b7cb5a8a7f09d120b1a21826f65db3abbce6a163ce5ce256755c2eb0e2aff05"
+      }
+    },
+    {
+      "id": "ART-17-006",
+      "catalog": "NMF-ART-17-006",
+      "creation_title": "奶仰金光",
+      "title_en": "奶仰金光",
+      "original_title": "鲁昂大教堂（系列，创作前选定版本）",
+      "artist": "莫奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1893（馆方年代；原作署款94）",
+      "original_location": "巴黎奥赛博物馆，RF 2002",
+      "background": "鲁昂大教堂的石墙在阳光里慢慢变轻：尖拱和雕饰化成奶油色、金色与蓝紫色的碎笔触，阴影深处仍保留着岁月的重量。莫奈反复描绘这座门户，追逐同一建筑在不同光线中的变化；这次，奶蛙走进了蓝与金的和谐。它停在门前的铺石地上，背向观者仰起头，双臂自然垂下，金黄身体几乎与受光的墙面融成一片。巨大的门洞并未催它进去，繁复的石刻也无需逐一辨认。它只是看着光从高处落下，把沉静的建筑变成一阵闪动的颜色。小小的来访者没有改变教堂，却在这次仰望中，找到了一种安静而明亮的尺度。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/la-cathedrale-de-rouen-le-portail-et-la-tour-saint-romain-plein-soleil-1285"
+      ],
+      "art": "assets/art/ART-17-006.jpg",
+      "original": "assets/original/ART-17-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 966,
+        "height": 1400,
+        "bytes": 399168,
+        "sha256": "a79dcc5bf87362aae082ff597611b9c7a7e07b02e2bb651468ce07ca24acc145"
+      }
+    },
+    {
+      "id": "ART-17-007",
+      "catalog": "NMF-ART-17-007",
+      "creation_title": "奶舞树光",
+      "title_en": "奶舞树光",
+      "original_title": "煎饼磨坊的舞会",
+      "artist": "雷诺阿",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1876",
+      "original_location": "巴黎奥赛博物馆，RF 2739",
+      "background": "蒙马特的树荫把阳光剪成小片，落在草帽、裙褶与杯沿上。雷诺阿在1876年描绘煎饼磨坊的舞会，让朋友与热闹的人群一起，成为巴黎日常生活里明亮的节奏。奶蛙们也来到了这片露天舞场：左边的舞伴扶着彼此缓缓转身，前景穿条纹裙的伙伴坐在绿长凳上回头交谈，桌边的朋友则在玻璃杯间接住一句笑话。金黄面颊被蓝紫阴影和暖光轻轻打散，远处的人群越过树干，化成仍在跳动的色点。谁也不急着离开，舞步与谈话各有自己的拍子；偶尔停下来喝一口，也仍旧是在参加这场树光中的舞会。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/bal-du-moulin-de-la-galette-497"
+      ],
+      "art": "assets/art/ART-17-007.jpg",
+      "original": "assets/original/ART-17-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1044,
+        "bytes": 393319,
+        "sha256": "6e6cd3c5884ccf0a50e65f69b2294abe0a0c3caa7631c9d3ee1741cac0152874"
+      }
+    },
+    {
+      "id": "ART-17-008",
+      "catalog": "NMF-ART-17-008",
+      "creation_title": "奶聚河风",
+      "title_en": "奶聚河风",
+      "original_title": "船上的午宴",
+      "artist": "雷诺阿",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1880—1881",
+      "original_location": "华盛顿菲利普斯收藏馆，1637",
+      "background": "红白条纹遮棚下，午宴已经接近尾声，河上的风却还没有离开。雷诺阿在1880至1881年把朋友们聚到同一张画布上，让人物、静物与河岸风景彼此照应。奶蛙们接过了这段闲暇：左侧戴花帽的伙伴抱着小狗，栏边的朋友托着脸倾听，中央有人举杯，右侧的交谈又从椅背上方绕过来。葡萄、瓶子与透明杯沿在白桌布上闪动，金黄面颊也被暖光与蓝色阴影轻轻揉开。远处帆船仍在水上，近处谁都没有催促谁。划船之后最好的休息，也许就是留在朋友身边，让一顿已经吃完的午饭，继续盛着没有说完的话。",
+      "sources": [
+        "https://www.phillipscollection.org/collection/luncheon-boating-party"
+      ],
+      "art": "assets/art/ART-17-008.jpg",
+      "original": "assets/original/ART-17-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1040,
+        "bytes": 360429,
+        "sha256": "cd021ee0f9574134c8303576bdd9ff0e0bf55acea6694e2974c688542d959ba5"
+      }
+    },
+    {
+      "id": "ART-17-009",
+      "catalog": "NMF-ART-17-009",
+      "creation_title": "奶歇舞课",
+      "title_en": "奶歇舞课",
+      "original_title": "舞蹈课（奥赛版本）",
+      "artist": "德加",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1873—1876",
+      "original_location": "巴黎奥赛博物馆，RF 1976",
+      "background": "练习室里，木地板比舞台更懂得脚步的重量。德加在这幅舞蹈课中关注的并非谢幕，而是严格训练之后稍稍松弛的片刻：教师仍握着手杖，舞者已经整理衣裙、伸展身体，或把目光转向同伴。奶蛙们也留在这段课末时光里。前景的伙伴背向观者，双手叉腰，绿色缎带垂在白色纱裙上；后排有人扶住腰带，有人抬手整理头边的装饰。灰衣教师守着节拍，地板的斜线把这些零散动作连接起来。墙边的小狗与洒水壶静静等待，金黄身影不再急着踮脚。真正学会一支舞，也许就藏在这些疲倦、停顿与重新站稳之间。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/la-classe-de-danse-1151"
+      ],
+      "art": "assets/art/ART-17-009.jpg",
+      "original": "assets/original/ART-17-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1175,
+        "height": 1338,
+        "bytes": 333647,
+        "sha256": "68d71f6ee05f0f7606d08d1fd7d86b6be5cadacc139155f80b52626276fb51be"
+      }
+    },
+    {
+      "id": "ART-17-010",
+      "catalog": "NMF-ART-17-010",
+      "creation_title": "奶默一杯",
+      "title_en": "奶默一杯",
+      "original_title": "苦艾酒",
+      "artist": "德加",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1875—1876",
+      "original_location": "巴黎奥赛博物馆，RF 1984",
+      "background": "咖啡馆里，两只奶蛙坐得很近，目光却各自停在不同的地方。德加以巴黎新雅典咖啡馆为背景，在画室中精心安排这幅看似偶然的片刻：斜切的桌面、大片空处与镜里的暗影，让热闹的公共空间也容得下孤独。戴浅色帽子的奶蛙垂下眼睛，双手静放，面前的淡绿色酒液没有带来轻快；黑帽同伴转向画外，也没有开口。玻璃壶在托盘上接住灰白光线，褐色裙褶和长凳把身体留在原地。金黄面颊只剩一点疲惫的温度。它们仿佛都在等待一句话，而桌与桌之间的距离，已经替沉默延长了这个下午。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/dans-un-cafe-1147"
+      ],
+      "art": "assets/art/ART-17-010.jpg",
+      "original": "assets/original/ART-17-010.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1043,
+        "height": 1400,
+        "bytes": 284007,
+        "sha256": "d05672e8c82dfe66613d8ec8cabcf224a4b2f1a7df15380da8b17643db3cc7a3"
+      }
+    },
+    {
+      "id": "ART-17-011",
+      "catalog": "NMF-ART-17-011",
+      "creation_title": "奶守轻梦",
+      "title_en": "奶守轻梦",
+      "original_title": "摇篮",
+      "artist": "贝尔特·莫里索",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1872",
+      "original_location": "巴黎奥赛博物馆，RF 2849",
+      "background": "一层薄纱，把摇篮里的呼吸与房间的光轻轻隔开。莫里索在1872年描绘姐姐埃德玛守望女儿布朗什，让母亲弯起的手臂、孩子的睡姿和纱帘的斜线相互呼应。奶蛙也在这片安静中坐下：一只手托住脸颊，另一只手留在纱边，目光越过白色褶皱，落到小奶蛙闭着的眼睛上。深蓝衣袖衬着金黄面颊，灰蓝窗帘又把午后的亮度放轻；粉色缎带没有晃动，睡梦中的小手仍贴在脸旁。守望不需要说话，也不必伸手惊动它。只要有人在摇篮边耐心坐着，这个小小的梦，就拥有了一整间房的温柔。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/le-berceau-1132"
+      ],
+      "art": "assets/art/ART-17-011.jpg",
+      "original": "assets/original/ART-17-011.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1142,
+        "height": 1377,
+        "bytes": 281506,
+        "sha256": "c0e3b4df7f3d922e5cfcf5c2a1970d6107b8e448b24407229194e680202d2a6d"
+      }
+    },
+    {
+      "id": "ART-17-012",
+      "catalog": "NMF-ART-17-012",
+      "creation_title": "奶懒蓝椅",
+      "title_en": "奶懒蓝椅",
+      "original_title": "蓝色扶手椅上的小女孩",
+      "artist": "卡萨特",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1878",
+      "original_location": "美国国家美术馆，1983.1.18",
+      "background": "一屋子的蓝色扶手椅都很讲究，坐在其中的小奶蛙却暂时不想讲究姿势。卡萨特在1878年描绘孩子独处休息的片刻，没有把它变成缩小的大人，而是让疲倦、无聊与自己的主意一起留在脸上。奶蛙把一只手绕到头后，另一只手随意搭着，白色蕾丝裙和格纹腰带仍然整齐，目光却已经飘到椅边。对面的棕黑小狗睡成柔软的一团，窗光越过后排空椅，把花纹照得像碎碎的池水。谁也没有开始表演，谁也不需要立刻回答。这个午后，蓝椅负责华丽，小狗负责睡觉，小奶蛙只负责把自己舒舒服服地放下来。",
+      "sources": [
+        "https://www.nga.gov/artworks/61368-little-girl-blue-armchair"
+      ],
+      "art": "assets/art/ART-17-012.jpg",
+      "original": "assets/original/ART-17-012.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 965,
+        "bytes": 342120,
+        "sha256": "e2dd96339b08187bfb08ca28e66201d68841f934a6bd8b648ff43a076facb6d6"
+      }
+    },
+    {
+      "id": "ART-17-013",
+      "catalog": "NMF-ART-17-013",
+      "creation_title": "奶濯暖水",
+      "title_en": "奶濯暖水",
+      "original_title": "孩子的沐浴",
+      "artist": "卡萨特",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1893",
+      "original_location": "芝加哥艺术博物馆，1910.2",
+      "background": "一盆清水，把日常照护变成两只奶蛙共同凝望的小世界。卡萨特在1893年以陡峭的俯视角描绘洗脚的亲密片刻，条纹衣裙、花纹地毯与浅浅的空间，也回应着她对日本艺术的兴趣。大奶蛙穿着绿紫相间的长裙，俯身轻扶小伙伴，把它的一只脚稳稳托在水中；小奶蛙裹着白毛巾，安静看着盆里的微光。花朵装饰的白水壶留在一旁，金黄面颊在细碎的笔触里靠得很近。这里没有隆重的仪式，只有不急不忙的一次洗净。温柔也不必被说出来，它正藏在托住脚的手、落下的目光，以及让小小身体安心坐稳的怀抱里。",
+      "sources": [
+        "https://www.artic.edu/artworks/111442/the-child-s-bath",
+        "https://api.artic.edu/api/v1/artworks/111442"
+      ],
+      "art": "assets/art/ART-17-013.jpg",
+      "original": "assets/original/ART-17-013.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 922,
+        "height": 1400,
+        "bytes": 226607,
+        "sha256": "375bde1f72e88becc8f2459ba5b2c57d82e8921e83036f1fa4af19b68b41260f"
+      }
+    },
+    {
+      "id": "ART-17-014",
+      "catalog": "NMF-ART-17-014",
+      "creation_title": "满街奶意",
+      "title_en": "满街奶意",
+      "original_title": "蒙马特大道（系列，创作前选定版本）",
+      "artist": "毕沙罗",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1897",
+      "original_location": "纽约大都会艺术博物馆，60.174",
+      "background": "冬晨的蒙马特大道还裹着银灰色薄雾，奶蛙们已经穿好大衣、戴上礼帽，汇入马车与公共马车之间的城市节奏。1897年，毕沙罗从巴黎俄罗斯大旅馆的高处观察这条大道，把树枝、屋顶、车轮和行人织成流动的光。如今，金黄的小身影接过这份忙碌：有的沿店铺慢行，有的坐在车上望向远方，还有的在路灯旁停下脚步。奶油色肚皮从敞开的衣襟里露出一点暖意，与赭红屋顶遥相呼应。它们没有占据城市的中心，却让每一段灰冷街面都多了温度。道路通往雾里，日子则在一声声车轮轻响中，缓缓向前。",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/437310",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/437310"
+      ],
+      "art": "assets/art/ART-17-014.jpg",
+      "original": "assets/original/ART-17-014.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1396,
+        "height": 1127,
+        "bytes": 467967,
+        "sha256": "07d447453f4f1d1d458360793458764ab03c297b3e5a30856d0fd3d97a831d1f"
+      }
+    },
+    {
+      "id": "ART-17-015",
+      "catalog": "NMF-ART-17-015",
+      "creation_title": "奶渡水巷",
+      "title_en": "奶渡水巷",
+      "original_title": "马尔利港的洪水",
+      "artist": "西斯莱",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1876",
+      "original_location": "巴黎奥赛博物馆，RF 2020",
+      "background": "塞纳河漫过街道，熟悉的路忽然成了水巷。1876年的马尔利港洪水，给西斯莱留下了灰蓝天空、浸水树干与屋墙倒影交织的景象。两只奶蛙把日常脚步换成一叶小舟：一只安静坐在船头，另一只握住木桨，沿着奶油色与浅赭色的屋墙慢慢划过。高处窗户仍望着天空，低处门洞却已经贴近水面；树木与电线杆的影子，在细碎波纹里一遍遍被拆开，又重新拼合。金黄身体成为冷色水乡中小小的暖点。它们不急着与洪水较量，只小心保持船身平稳，让这段临时改变的归途，也能载住彼此的安心。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/linondation-port-marly-581",
+        "https://www.musee-orsay.fr/en/artworks/la-barque-pendant-linondation-port-marly-1107"
+      ],
+      "art": "assets/art/ART-17-015.jpg",
+      "original": "assets/original/ART-17-015.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1038,
+        "bytes": 390794,
+        "sha256": "b668038cacca886bdfbba417f05152ffee28e6abf181093e3fb6889724f6f607"
+      }
+    },
+    {
+      "id": "ART-17-016",
+      "catalog": "NMF-ART-17-016",
+      "creation_title": "镜里奶外",
+      "title_en": "镜里奶外",
+      "original_title": "女神游乐厅的吧台",
+      "artist": "马奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1882",
+      "original_location": "伦敦考陶尔德美术馆，P.1934.SC.234",
+      "background": "香槟瓶、橘子与花束排满大理石吧台，镜中音乐厅挤着戴礼帽的奶蛙，灯光把喧闹照得发亮。吧台前的奶蛙却把双手稳稳撑在台沿，绿眼睛越过热闹，像在等待一句尚未说出口的话。马奈于1882年画下这处巴黎娱乐场所，把繁华与片刻的疏离放在同一幅画里。如今，深蓝衣襟上的花朵仍然鲜艳，蕾丝边衬着金黄的身体；镜中的背影偏向右侧，与一位高帽顾客相对，让观看者无法轻易确定自己站在哪里。镜里是人群的夜晚，镜外是它短暂的安静。奶蛙并不解释这份错位，只把热闹留给倒影，把一瞬的出神留给我们。",
+      "sources": [
+        "https://courtauld.ac.uk/highlights/a-bar-at-the-folies-bergere/",
+        "https://gallerycollections.courtauld.ac.uk/object-p-1934-sc-234"
+      ],
+      "art": "assets/art/ART-17-016.jpg",
+      "original": "assets/original/ART-17-016.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1038,
+        "bytes": 308593,
+        "sha256": "1664b6425386df403a0ab42901736f7ab31ff96767c977f42bb0348c46635706"
+      }
+    },
+    {
+      "id": "ART-17-017",
+      "catalog": "NMF-ART-17-017",
+      "creation_title": "草间奶叙",
+      "title_en": "草间奶叙",
+      "original_title": "草地上的午餐",
+      "artist": "马奈",
+      "category": "印象派",
+      "filter": "impressionism",
+      "era_label": "印象派",
+      "era_label_en": "Impressionism",
+      "original_date": "1863",
+      "original_location": "巴黎奥赛博物馆，RF1668",
+      "background": "树林把午后的光切成明暗分明的几块，三只奶蛙围坐在草地上，篮中的水果与面包散落在蓝布旁。穿浅色衣裙的奶蛙托着下巴，把目光转向画外；同伴安静坐在身后，戴黑帽的一只则舒展双腿，伸出手掌继续它的谈话。更远处，白衣奶蛙正俯身触水，把溪流的凉意接进掌心。马奈1863年的《草地上的午餐》曾以打破惯例的题材与强烈色块引起争议，而这片林间也保留着那种不肯按规矩排列的自在。奶蛙们无意给午餐安排隆重理由：树荫足够深，面包尚未分完，一段闲谈便可以慢慢长成整个下午。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/le-dejeuner-sur-lherbe-904"
+      ],
+      "art": "assets/art/ART-17-017.jpg",
+      "original": "assets/original/ART-17-017.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1090,
+        "bytes": 379203,
+        "sha256": "a9926072b9b771d5ad990e39f485c221ed4e424f9510c2e4befbf950ac0bbbbc"
+      }
+    },
+    {
+      "id": "ART-18-001",
+      "catalog": "NMF-ART-18-001",
+      "creation_title": "星期天慢慢奶",
+      "title_en": "星期天慢慢奶",
+      "original_title": "大碗岛的星期天下午",
+      "artist": "修拉",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "1884—1886；彩点边缘加于1888—1889",
+      "original_location": "芝加哥艺术博物馆，1926.224",
+      "background": "星期天下午，大碗岛上的奶蛙都学会了把时间放慢。有人倚在草坡上望船，有人握着手杖坐进阴影，也有人撑起阳伞，把一小片凉意带在身边。修拉在1884至1886年间，将塞纳河畔的休闲生活安排得如同古典浮雕：人物各守其位，光线却在无数并置的色点中轻轻流动。金黄身体、奶油肚皮与紫蓝衣裙也被拆成细密的点，远看安静，近看热闹。黑狗低头嗅着草地，小猴守在裙边，白衣小奶蛙朝我们站着，仿佛在提醒大家：今天不必赶路。河上的帆缓缓经过，树影拉得很长，一整个下午，足够什么也不急着完成。",
+      "sources": [
+        "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+        "https://api.artic.edu/api/v1/artworks/27992"
+      ],
+      "art": "assets/art/ART-18-001.jpg",
+      "original": "assets/original/ART-18-001.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 933,
+        "bytes": 531962,
+        "sha256": "6b03fa5d6d3a547460f1a704d3da6a6887adb0aff27111fc5eec79bf6cd701bd"
+      }
+    },
+    {
+      "id": "ART-18-002",
+      "catalog": "NMF-ART-18-002",
+      "creation_title": "奶歇塞纳河",
+      "title_en": "奶歇塞纳河",
+      "original_title": "阿尼埃尔的浴者",
+      "artist": "修拉",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "1884；局部后期重绘",
+      "original_location": "伦敦国家美术馆，NG3908",
+      "background": "塞纳河边，忙碌终于有了停顿。戴草帽的奶蛙抱着膝盖坐在岸上，白衣同伴侧卧在草坡，棕色小狗安静陪在身后；中央穿红短裤的奶蛙把脚伸向水边，目光越过帆船，落到桥梁与烟囱之间。修拉在1884年描绘巴黎近郊劳动者的休息时刻，让平凡身体拥有如雕塑般凝定的分量。奶蛙们也各自守着一小段沉默，只有红帽伙伴把双手拢在嘴边，向河的另一头呼喊。远处工厂仍在，河水仍亮着，休息并没有使世界停转，却让金黄的身体重新感觉到阳光。今天不必成为谁的英雄，只要在水边坐稳，便足以把一段属于自己的时间留住。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+      ],
+      "art": "assets/art/ART-18-002.jpg",
+      "original": "assets/original/ART-18-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 939,
+        "bytes": 319854,
+        "sha256": "11e158c9c3778017062e68d3737d4f757f3fa387ea577c3071ceaea781a03ce5"
+      }
+    },
+    {
+      "id": "ART-18-003",
+      "catalog": "NMF-ART-18-003",
+      "creation_title": "奶跃满堂",
+      "title_en": "奶跃满堂",
+      "original_title": "马戏团",
+      "artist": "修拉",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "1891",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "白马沿着环形跑道腾起，马背上的奶蛙张开双臂，把一瞬的平衡送到满场观众眼前；另一只同伴翻身跃过半空，金黄身体像把弯曲的线条也点亮了。修拉1891年的《马戏团》以橙黄灯光、上扬曲线和细密色点组织欢乐，而这场奶蛙演出同样让每个动作接住下一个动作。前景红衣小丑背对我们，举起双手，仿佛正在替观众托住那口惊叹；右侧领班挥出细细的鞭线，层层看台的绿眼睛一起望向跑道。热闹没有打乱秩序，反而被一颗颗彩点安稳装进画面。马蹄尚未落地，掌声也还没有结束，奶蛙便在这一刻，把勇气变成了大家共同的快乐。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/le-cirque-542"
+      ],
+      "art": "assets/art/ART-18-003.jpg",
+      "original": "assets/original/ART-18-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1133,
+        "height": 1388,
+        "bytes": 478971,
+        "sha256": "31094fd6647455610ce2c08cb0ce4ee89ba283282533ebe686713f8fa63664b3"
+      }
+    },
+    {
+      "id": "ART-18-004",
+      "catalog": "NMF-ART-18-004",
+      "creation_title": "奶步高升",
+      "title_en": "奶步高升",
+      "original_title": "康康舞",
+      "artist": "修拉",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "1889—1890",
+      "original_location": "荷兰克勒勒—米勒博物馆，KM107.757",
+      "background": "灯光落下，奶蛙舞者把裙摆和脚步一起扬向空中。粉橘褶边像一层层翻起的小浪，黑礼帽与花饰沿着斜线排开，连舞台侧面的花叶也仿佛跟着往上长。修拉在1889至1890年的《康康舞》中，把巴黎夜生活的热烈编排成严密的色点与重复节奏；奶蛙们则用圆肚、短嘴和坚定的踢腿，让这份秩序添上轻巧的幽默。前景乐手背对观众，托住低音提琴的长颈，音符虽不可见，却从弓弦与高抬的手臂之间传遍舞台。这里的欢乐不是匆忙掠过的一瞬，而是大家共同练熟的一步：朝上，再朝上，把平常的夜晚跳得亮一点。",
+      "sources": [
+        "https://www.krollermuller.nl/en/collection/georges-seurat-chahut-km-107-757"
+      ],
+      "art": "assets/art/ART-18-004.jpg",
+      "original": "assets/original/ART-18-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1142,
+        "height": 1378,
+        "bytes": 485537,
+        "sha256": "cf93b1498c2dcbb835e2474fdca69f7fc27736b0e66bc192f88fe8d7317acc57"
+      }
+    },
+    {
+      "id": "ART-18-005",
+      "catalog": "NMF-ART-18-005",
+      "creation_title": "奶泊霞宫",
+      "title_en": "奶泊霞宫",
+      "original_title": "阿维尼翁教皇宫",
+      "artist": "西涅克",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "1909",
+      "original_location": "巴黎奥赛博物馆，RF1977 323",
+      "background": "罗纳河把傍晚的阿维尼翁轻轻托起，粉红塔楼、蓝紫城墙与断桥拱洞，都在水面碎成一块块发亮的颜色。西涅克1909年的这幅晚景，让教皇宫的厚重石墙也像被霞光融化；两只奶蛙便乘着木舟，慢慢驶进这片柔软的光里。一只握住船桨，另一只扶着船沿仰望宫殿，金黄身体和奶油肚皮也染上粉紫与薄荷绿。它们没有急着上岸，只让小船在倒影旁停一停：远处是凝固了许多年的城，近处是每一刻都在改变的水。原来旅途最值得收藏的，有时不是抵达，而是正好赶上一座古老宫殿，愿意把自己的颜色借给两位晚来的客人。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/avignon-soir-le-chateau-des-papes-7995"
+      ],
+      "art": "assets/art/ART-18-005.jpg",
+      "original": "assets/original/ART-18-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1116,
+        "bytes": 424801,
+        "sha256": "19bef5ebe2aa0028ea593c64ff8a64235e32bd614873875d2c0189534f59d14e"
+      }
+    },
+    {
+      "id": "ART-18-006",
+      "catalog": "NMF-ART-18-006",
+      "creation_title": "一标奶晴",
+      "title_en": "一标奶晴",
+      "original_title": "红色浮标",
+      "artist": "西涅克",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "1895",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "圣特罗佩的港水亮得像撒满了碎金，一枚橙红浮标稳稳停在前景，把蓝色波纹映出一小片热烈的回声。西涅克1895年以分离的色彩笔触记录南方港口，让船帆、楼墙与倒影在互补色之间闪烁。两只奶蛙就在橙帆下忙着自己的小航程：一只坐守船尾，另一只扶住索具，顺着明亮的水路慢慢前行。它们的金黄身体并不抢过浮标的光彩，而是把自己也交给港湾的颜色。远处桅杆高高伸向天空，近处红点替来往船只标出安稳的位置。晴天原来不必靠大声宣布，有一面好帆、一段好水，再有一位愿意同行的伙伴，就已经足够鲜亮。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/saint-tropez-la-bouee-rouge-3016"
+      ],
+      "art": "assets/art/ART-18-006.jpg",
+      "original": "assets/original/ART-18-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1120,
+        "height": 1400,
+        "bytes": 498258,
+        "sha256": "d10eb7b950c7c96c9a9692a79c113cf67a25f3be3f4f18d58027fcf0bc93a5b6"
+      }
+    },
+    {
+      "id": "ART-18-007",
+      "catalog": "NMF-ART-18-007",
+      "creation_title": "松风奶语",
+      "title_en": "松风奶语",
+      "original_title": "晚风",
+      "artist": "亨利-埃德蒙·克罗斯",
+      "category": "新印象主义_点彩派",
+      "filter": "neoimpressionism",
+      "era_label": "新印象",
+      "era_label_en": "Neo-Impressionism",
+      "original_date": "约1893",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "晚风穿过松林，把海上的帆影送进树干之间。两只奶蛙在蓝紫披布上斜卧，一只捻着小小花枝，另一只用手撑住草地，静看远处的金色海湾；身旁的同伴举起花布，让风从头顶轻轻掠过。克罗斯约1893年的《晚风》把南方风景化成装饰性的色点与节奏，松树像一道道竖立的乐句，长裙与阴影则在地面缓慢回旋。奶蛙们沿林间小径散步，或停在树旁，把每一寸明亮都留给不急不忙的相聚。这里没有需要赶上的钟点，只有绿眼睛映着帆、金黄面颊沾着光。等风再吹一下，连沉默也像温柔的交谈。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/lair-du-soir-3024"
+      ],
+      "art": "assets/art/ART-18-007.jpg",
+      "original": "assets/original/ART-18-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 977,
+        "bytes": 492913,
+        "sha256": "efbcc18cb596cf48a91b9584f58a98d356df5902842bb9edc7081054fb0d09ce"
+      }
+    },
+    {
       "id": "ART-19-001",
       "catalog": "NMF-ART-19-001",
       "creation_title": "星月奶",
@@ -1194,6 +4770,497 @@
         "height": 933,
         "bytes": 470422,
         "sha256": "4a00cb0cfcc26d9744a4e2561bebd9d9275cd4533d3bec0835497f995bc8e39d"
+      }
+    },
+    {
+      "id": "ART-19-002",
+      "catalog": "NMF-ART-19-002",
+      "creation_title": "星河伴奶",
+      "title_en": "星河伴奶",
+      "original_title": "罗纳河上的星夜",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1888",
+      "original_location": "巴黎奥赛博物馆，RF1975 19",
+      "background": "阿尔勒的夜没有收走颜色，只把蓝色压得更深，把灯火拉得更长。罗纳河对岸的煤气灯在水中一段段颤动，星光则像细小花朵，开在厚重的天空里。梵高1888年把这样的夜景画成宁静而鲜明的蓝金相遇，两只奶蛙便披着深色外套，沿河岸并肩慢行。一只戴着帽子，另一只轻轻靠近，金黄面颊与奶油肚皮接住了星与灯共同送来的光。停泊的小船留在身后，脚下短促的笔触仿佛还记得白天的风。它们不需要说出夜有多大，只要知道，河的那边有灯，身边有同行者，再远的星河也不会显得孤单。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/la-nuit-etoilee-78696"
+      ],
+      "art": "assets/art/ART-19-002.jpg",
+      "original": "assets/original/ART-19-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1109,
+        "bytes": 549500,
+        "sha256": "0cfa8717f8759feb2af9879082e157fcef3585f9f599cc9a699efc60ea518f8c"
+      }
+    },
+    {
+      "id": "ART-19-003",
+      "catalog": "NMF-ART-19-003",
+      "creation_title": "葵光暖奶",
+      "title_en": "葵光暖奶",
+      "original_title": "向日葵（伦敦版本）",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1888",
+      "original_location": "伦敦国家美术馆，NG3863",
+      "background": "一屋子的黄色并不单调：墙面像浅浅的阳光，陶瓶像温热的土地，盛放与垂首的向日葵，则把金黄、赭褐和绿色一层层展开。梵高在1888年的阿尔勒画下这束花，也把对友谊与相聚的期待放进了明亮的静物。小奶蛙安坐瓶旁，双手搭在圆肚上，抬眼看那些比自己高得多的花盘。它没有伸手摘花，只像一位安静来访的朋友，愿意陪着花朵从盛开坐到结籽。厚厚的笔触使花瓣、瓶身和金黄身体都有了可触摸的温度。原来留住阳光，并不一定要把花永远画在最鲜艳的时候；愿意看见它每一种姿态，本身就是温柔的陪伴。",
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers",
+        "https://www.nationalgallery.org.uk/paintings/learn-about-art/paintings-in-depth/the-sunflowers"
+      ],
+      "art": "assets/art/ART-19-003.jpg",
+      "original": "assets/original/ART-19-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1110,
+        "height": 1400,
+        "bytes": 459545,
+        "sha256": "05729c9c794b6054e355c8d214d320e775d97a1186e96aeeba0c195b813462d9"
+      }
+    },
+    {
+      "id": "ART-19-004",
+      "catalog": "NMF-ART-19-004",
+      "creation_title": "奶安一隅",
+      "title_en": "奶安一隅",
+      "original_title": "阿尔勒的卧室（阿姆斯特丹版本）",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1888",
+      "original_location": "阿姆斯特丹梵高博物馆，s0047V1962",
+      "background": "黄木床、红被子、蓝墙和绿窗，把小小卧室收拢成一个可以歇脚的地方。奶蛙坐在床沿，双手安放在奶油色圆肚上，灰褐脚掌轻轻垂下，像终于允许自己把一天的忙碌放在门外。梵高1888年描绘阿尔勒的房间时，希望色彩传达安静与休息；这份心愿也留在略微倾斜的椅子、粗实的床板和朴素洗漱台之间。墙上小画像换成了熟悉的奶蛙面孔，房间因此多了一点属于自己的安心。这里没有华丽布置，只有一张床、两把椅子，以及愿意接纳疲倦的空间。等窗外的光慢慢暗下去，它便不必再证明什么，只需好好坐着，准备睡一个踏实的觉。",
+      "sources": [
+        "https://www.vangoghmuseum.nl/en/collection/s0047V1962",
+        "https://www.vangoghmuseum.nl/en/art-and-stories/unravel-van-gogh-app"
+      ],
+      "art": "assets/art/ART-19-004.jpg",
+      "original": "assets/original/ART-19-004.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1120,
+        "bytes": 369112,
+        "sha256": "0455c465abb6983c90e11a359cf429159495ce842d01f6194ca8b31402140917"
+      }
+    },
+    {
+      "id": "ART-19-005",
+      "catalog": "NMF-ART-19-005",
+      "creation_title": "奶啡未眠",
+      "title_en": "奶啡未眠",
+      "original_title": "夜间露天咖啡座",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "约1888年9月16日",
+      "original_location": "荷兰克勒勒—米勒博物馆，KM108.565",
+      "background": "夜色落在阿尔勒的石板路上，咖啡座却把一角街道照得金黄。奶蛙顾客围着小圆桌慢慢喝着饮品，白围裙侍者端稳托盘，街上的同伴则背向灯光，走进更深的蓝。梵高1888年在夜里描绘这处露台，以黄、橙与绿的灯下暖色，衬出星空和房屋的深蓝；奶蛙们也在同一片光里，拥有不同的夜晚。有人还想多坐一会儿，有人已经准备归家，空椅子仍替下一位来客留着位置。星星没有催促，石缝里的笔触也像放慢了脚步。奶啡未必能让谁永远清醒，但在回去之前，一张小桌与几句闲谈，足够把夜晚变得亲近。",
+      "sources": [
+        "https://www.krollermuller.nl/en/collection/vincent-van-gogh-terrace-of-a-caf-at-night-place-du-forum-km-108-565"
+      ],
+      "art": "assets/art/ART-19-005.jpg",
+      "original": "assets/original/ART-19-005.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1120,
+        "height": 1400,
+        "bytes": 423577,
+        "sha256": "ff0478bb4d1517fcde48eec6fff6971acfe29b634a564727fa8c423ea1d17c47"
+      }
+    },
+    {
+      "id": "ART-19-006",
+      "catalog": "NMF-ART-19-006",
+      "creation_title": "夜深奶静",
+      "title_en": "夜深奶静",
+      "original_title": "夜间咖啡馆",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1888",
+      "original_location": "耶鲁大学美术馆，1961.18.34",
+      "background": "红墙和绿天花把夜色关在门外，几盏灯却仍把光一圈圈推向室内。中央台球桌无人挥杆，长长的影子斜落在黄木地板上；奶蛙顾客有的托着脸，有的与同伴低声相对，白衣店主静静站在桌旁。梵高1888年的《夜间咖啡馆》以强烈红绿对比与压迫的空间传达深夜情绪，这份不安也藏在奶蛙们迟迟没有离开的姿态里。杯子还在，钟仍走着，可热闹已经退到灯晕之外。金黄身体并没有把房间变成欢宴，只让疲惫显得更可亲：谁都有不想立刻归去的时刻。于是它们继续坐着，让沉默陪一会儿，等夜再深一点，也许就能重新找到回家的心情。",
+      "sources": [
+        "https://news.yale.edu/2025/07/14/vincent-van-goghs-luminous-late-night-haunt",
+        "https://artgallery.yale.edu/sites/default/files/publication/pdfs/ag-doc-2134-0001-doc.pdf"
+      ],
+      "art": "assets/art/ART-19-006.jpg",
+      "original": "assets/original/ART-19-006.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1100,
+        "bytes": 448537,
+        "sha256": "6a4befb18ca5f13e81214e1357f27da8221e3a07dc9d349f22c6e6e90f9b489f"
+      }
+    },
+    {
+      "id": "ART-19-007",
+      "catalog": "NMF-ART-19-007",
+      "creation_title": "麦浪奶行",
+      "title_en": "麦浪奶行",
+      "original_title": "麦田群鸦",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1890",
+      "original_location": "阿姆斯特丹梵高博物馆，s0149V1962",
+      "background": "蓝色天空沉沉压下，金黄麦浪却仍向两边翻涌。几条红褐小路在田中分开，奶蛙沿着中间的一条往前走，略微回头，看黑鸦从风里掠过。梵高1890年的《麦田群鸦》以强烈的蓝黄对比和急促笔触承载孤独，也保留乡野给予人的力量；这片田野并不只通向悲伤。奶蛙把圆圆的金黄背影交给麦色，灰褐脚掌一步接着一步，既没有追赶群鸦，也没有等待天空先放晴。路的尽头暂时看不清，并不妨碍脚下仍有路。等风吹开下一层麦浪，它也许会发现，自己早已在这片广阔而不安的风景里，走出了属于自己的方向。",
+      "sources": [
+        "https://www.vangoghmuseum.nl/en/collection/s0149V1962"
+      ],
+      "art": "assets/art/ART-19-007.jpg",
+      "original": "assets/original/ART-19-007.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 672,
+        "bytes": 310835,
+        "sha256": "1fc9da4cf1ee83bcb2ff165648a34979c8369e60afa7a6e289ed5f0e0d27052b"
+      }
+    },
+    {
+      "id": "ART-19-008",
+      "catalog": "NMF-ART-19-008",
+      "creation_title": "鸢尾藏奶",
+      "title_en": "鸢尾藏奶",
+      "original_title": "鸢尾花（盖蒂版本）",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1889",
+      "original_location": "洛杉矶盖蒂博物馆，90.PA.20",
+      "background": "蓝紫鸢尾挤在花床里，弯曲花瓣与长长绿叶各自舒展，没有哪一朵完全相同。奶蛙蹲在红褐泥土上，把双手搭在膝头，仰望那朵从深色花群中探出的白鸢尾，像在听一个比自己高得多的世界轻声说话。梵高1889年初到圣雷米时，便在院中从这些植物开始观察与作画，让鲜明色块、波动轮廓和贴近花床的视角充满生机。金黄的小访客没有采走任何一朵花，只把自己也安放进叶片之间。它渐渐明白，安静并不等于一动不动：花瓣正在卷，叶尖正在伸，而一双愿意认真看的绿眼睛，也正在慢慢长出新的耐心。",
+      "sources": [
+        "https://www.getty.edu/art/collection/object/103JNH"
+      ],
+      "art": "assets/art/ART-19-008.jpg",
+      "original": "assets/original/ART-19-008.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1069,
+        "bytes": 528274,
+        "sha256": "a3df0bc7e9204d249fc65843dc7614b9443c374634e8e3776518070e2ffc20fa"
+      }
+    },
+    {
+      "id": "ART-19-009",
+      "catalog": "NMF-ART-19-009",
+      "creation_title": "一桌薯奶",
+      "title_en": "一桌薯奶",
+      "original_title": "吃土豆的人",
+      "artist": "梵高",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1885",
+      "original_location": "阿姆斯特丹梵高博物馆，s0005V1962",
+      "background": "一盏油灯把五只奶蛙聚到粗木桌旁，热土豆冒着细细白汽，深色壶里的饮品正落进小杯。它们没有穿鲜亮衣服，金黄面颊也被夜色压成土黄与赭褐；伸向盘子的手，仿佛还留着白天翻土的力气。梵高1885年的《吃土豆的人》希望让劳动者用自己的双手，说明食物从何而来、又怎样被诚实地挣得。奶蛙们接过这份朴素：一只递出叉子，一只托杯等待，背向我们的同伴把桌边空隙坐得满满。饭菜并不丰盛，灯光却刚好照见彼此。一天的辛苦没有被忘掉，只在这顿晚饭里，暂时化成可以一起咽下的温暖与安稳。",
+      "sources": [
+        "https://www.vangoghmuseum.nl/en/collection/s0005V1962"
+      ],
+      "art": "assets/art/ART-19-009.jpg",
+      "original": "assets/original/ART-19-009.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 973,
+        "bytes": 304454,
+        "sha256": "0c3997352da88f895b7ad5bbec68418569db01cd470b0fe1fd573b0b05fbbd56"
+      }
+    },
+    {
+      "id": "ART-19-010",
+      "catalog": "NMF-ART-19-010",
+      "creation_title": "奶局未定",
+      "title_en": "奶局未定",
+      "original_title": "玩纸牌的人（奥赛版本）",
+      "artist": "塞尚",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1893—1896",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "两顶褐帽，一张小木桌，中间立着一只深色瓶子。奶蛙牌手各自低头，把几张纸牌握得很稳；左边的同伴衔着细小烟斗，右边微微前倾，谁也没有急着打破这份沉默。塞尚在十九世纪九十年代反复描绘玩纸牌的人，将乡间日常凝成厚实、均衡的色块关系。金黄面颊、奶油肚皮与蓝褐外套，也在同样的笔触中慢慢建立起分量。这里没有夸张的输赢表情，只有一场尚未结束的专注：瓶子像安静的界线，桌面则把两份心思连在一起。奶蛙们也许算不清每一种可能，却都懂得，轮到自己之前，耐心看好手里的牌，便是对这场相聚最认真的回应。",
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/les-joueurs-de-cartes-1312"
+      ],
+      "art": "assets/art/ART-19-010.jpg",
+      "original": "assets/original/ART-19-010.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1361,
+        "height": 1156,
+        "bytes": 361407,
+        "sha256": "1534a93aac6cd2ac607686fb91a6d737e2ff9f6d228c2e7068cc7148aff220fb"
+      }
+    },
+    {
+      "id": "ART-19-011",
+      "catalog": "NMF-ART-19-011",
+      "creation_title": "果然有奶",
+      "title_en": "果然有奶",
+      "original_title": "苹果与橘子",
+      "artist": "塞尚",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "约1899",
+      "original_location": "巴黎奥赛博物馆",
+      "background": "白布在桌上堆起小小山岭，苹果与橘子沿着褶皱聚散，花饰陶壶和高脚果盘各自撑起一份稳重。小奶蛙坐在布边，把一颗红苹果抱到奶油肚皮前，抬眼打量这场没有声音的相聚。塞尚约1899年的《苹果与橘子》用复杂的空间与色块，让普通静物拥有近乎建筑的分量；金黄的小访客也学着在其中找到平衡。它不急着吃掉手里的果子，只认真感受圆形怎样被双手托住，冷白怎样衬出暖红，柔软布料又如何接住所有重量。原来一张桌子也能装下许多风景，而奶蛙一坐进来，静物便多了一点会等待、会好奇的心思。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/pommes-et-oranges-1470"
+      ],
+      "art": "assets/art/ART-19-011.jpg",
+      "original": "assets/original/ART-19-011.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1115,
+        "bytes": 377682,
+        "sha256": "bdedfd42304426e1668706db3a6308d6fb5a52d1f795d525439fe80fb83c1098"
+      }
+    },
+    {
+      "id": "ART-19-012",
+      "catalog": "NMF-ART-19-012",
+      "creation_title": "松下奶望",
+      "title_en": "松下奶望",
+      "original_title": "圣维克多山（系列，创作前选定版本）",
+      "artist": "塞尚",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "约1887",
+      "original_location": "伦敦考陶尔德美术馆，P.1934.SC.55",
+      "background": "奶蛙坐在大松树下，把脚伸到岩边，静静望着普罗旺斯的山。松枝横过天空，像替远处浅蓝与粉白的山脊描了一道宽阔边框；田地、农舍与铁路高架桥，则在山脚铺开细小而踏实的生活。塞尚反复从不同地点描绘故乡附近的圣维克多山，每次都用色彩寻找新的空间与分量，这幅约1887年的大松树版本尤其让近与远彼此呼应。金黄的小身影没有爬向顶峰，只愿在这里多看一会儿。山并没有因为它的凝望而改变，眼前的绿、黄和蓝，却一点点连成了完整世界。原来有些旅程，坐稳以后才真正开始。",
+      "sources": [
+        "https://courtauld.ac.uk/highlights/montagne-sainte-victoire-with-large-pine/",
+        "https://gallerycollections.courtauld.ac.uk/object-p-1934-sc-55"
+      ],
+      "art": "assets/art/ART-19-012.jpg",
+      "original": "assets/original/ART-19-012.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 992,
+        "bytes": 365173,
+        "sha256": "4a30ddd51bad710d9eac3650a9ca939ac7b1ddd592f410e68cdba86534ae231f"
+      }
+    },
+    {
+      "id": "ART-19-013",
+      "catalog": "NMF-ART-19-013",
+      "creation_title": "林泉奶聚",
+      "title_en": "林泉奶聚",
+      "original_title": "大浴女（费城版本）",
+      "artist": "塞尚",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1900—1906",
+      "original_location": "费城艺术博物馆，W1937-1-1",
+      "background": "两侧树干向上倾合，把蓝天与水面围成一座没有屋顶的大厅。奶蛙们穿着浅色浴衣，在林泉边站立、斜卧或蹲坐；前景两位同伴俯身整理一方白布，动作安静得像在把这次相聚铺平。塞尚于1900至1906年间完成的费城版《大浴女》，将群像与树木组织成庄严而稳固的结构，让身体、风景与空间彼此支撑。金黄的奶蛙也不再只是点缀，它们的圆润体量与衣褶、岸线共同搭起画面的分量。远处还有同伴从对岸望来，近处的人则各自享受风与水的凉意。没有谁需要成为中心，大家坐在一起，林间便自然有了可以安身的秩序。",
+      "sources": [
+        "https://www.philamuseum.org/objects/104464"
+      ],
+      "art": "assets/art/ART-19-013.jpg",
+      "original": "assets/original/ART-19-013.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1374,
+        "height": 1145,
+        "bytes": 368271,
+        "sha256": "8a7abdf62e51b14bf53dfd69e1238307afc5829c62a3824a8efd87186882d724"
+      }
+    },
+    {
+      "id": "ART-19-014",
+      "catalog": "NMF-ART-19-014",
+      "creation_title": "奶生三问",
+      "title_en": "奶生三问",
+      "original_title": "我们从哪里来？我们是谁？我们到哪里去？",
+      "artist": "高更",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1897—1898",
+      "original_location": "波士顿美术博物馆，36.270",
+      "background": "热带林间没有一条笔直的路，奶蛙们却都在用自己的姿态回答生活。中央同伴伸手摘下果实，旁边有人侧坐沉思；右侧两只靠近交谈，小小身影裹着浅布安歇，左端蜷坐者则把双手贴在脸旁。高更在1897至1898年的大型画作中，将来处、身份与归途的提问铺成一整幅象征性长卷。蓝绿色雕像静立树下，猫与白鸟停在人物之间，仿佛也在听那些没有定论的问题。奶蛙没有急着把答案写在角落，而是继续摘果、相伴、休息与等待。也许我们是谁，并不是被一句话说清的事；而是在与世界相处的每个动作里，慢慢成为的模样。",
+      "sources": [
+        "https://collections.mfa.org/objects/32558/where-do-we-come-from-what-are-we-where-are-we-going"
+      ],
+      "art": "assets/art/ART-19-014.jpg",
+      "original": "assets/original/ART-19-014.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 520,
+        "bytes": 166078,
+        "sha256": "14d8f576e9a20b82e806f0a230377bb9cbd38efab05f662591f57d74c04e81ec"
+      }
+    },
+    {
+      "id": "ART-19-015",
+      "catalog": "NMF-ART-19-015",
+      "creation_title": "奶见心象",
+      "title_en": "奶见心象",
+      "original_title": "布道后的幻象",
+      "artist": "高更",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1888",
+      "original_location": "苏格兰国家美术馆，NG1643",
+      "background": "白色布帽在前景连成起伏的波浪，奶蛙们合起双手，听过的故事渐渐变成眼前的红色世界。一根斜树干把安静的祈祷与远处的角力分开：蓝衣天使张开金翅，绿衣同伴俯身迎向它，两道小小身影仿佛正在替心里的疑问较量。高更1888年在布列塔尼画下《布道后的幻象》，让大胆的平涂色域与清晰轮廓承载想象，而非照搬日常所见。奶蛙的绿眼睛也不只看向地面，它们看见信念怎样把普通树林变成内心舞台。红色不是一片真实田野的颜色，却让那一刻的专注变得可见；当双手合拢，故事便有了属于自己的形状。",
+      "sources": [
+        "https://www.nationalgalleries.org/art-and-artists/4940/vision-sermon-jacob-wrestling-"
+      ],
+      "art": "assets/art/ART-19-015.jpg",
+      "original": "assets/original/ART-19-015.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1400,
+        "height": 1109,
+        "bytes": 313032,
+        "sha256": "23a41cc653a0f0fe24c2d1518bf3854630c0a2e6168e04528f1bf58cb9783b9a"
+      }
+    },
+    {
+      "id": "ART-19-016",
+      "catalog": "NMF-ART-19-016",
+      "creation_title": "金秋默祷",
+      "title_en": "金秋默祷",
+      "original_title": "黄色基督",
+      "artist": "高更",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1889",
+      "original_location": "布法罗AKG艺术博物馆，1946:4",
+      "background": "秋色铺满布列塔尼的田野，橙红树冠、低矮石墙与远村屋顶，都安静围绕着画面中央的十字形身影。奶蛙闭上眼睛，双臂伸向横木，浅色衣袍在金黄身体前垂落；白帽同伴低头坐在近处，双手收拢，把无法言说的心情留在沉默里。高更1889年的《黄色基督》将宗教形象与日常乡野并置，用非自然的色彩和简化轮廓凝聚精神感受。奶蛙进入这片秋景，也没有把庄严变成热闹，只让圆润的身影承接一种温柔而克制的凝望。远处生活仍沿小路继续，近处的人则暂时停下；这一刻，风景与祈祷拥有了同样缓慢的呼吸。",
+      "sources": [
+        "https://buffaloakg.org/artworks/19464-le-christ-jaune-yellow-christ"
+      ],
+      "art": "assets/art/ART-19-016.jpg",
+      "original": "assets/original/ART-19-016.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1114,
+        "height": 1400,
+        "bytes": 284297,
+        "sha256": "3a35ce29b0ae28c066290e1008294148df4807bd858641892452b1738861c517"
+      }
+    },
+    {
+      "id": "ART-19-017",
+      "catalog": "NMF-ART-19-017",
+      "creation_title": "红磨奶影",
+      "title_en": "红磨奶影",
+      "original_title": "红磨坊",
+      "artist": "图卢兹-劳特累克",
+      "category": "后印象派",
+      "filter": "postimpressionism",
+      "era_label": "后印象",
+      "era_label_en": "Post-Impressionism",
+      "original_date": "1892—1895",
+      "original_location": "芝加哥艺术博物馆，1928.610",
+      "background": "斜向木栏把观看者留在桌外，奶蛙们则坐进巴黎夜场的灯光里。高帽、羽饰、玻璃杯与暗紫衣裙围成一圈，交谈似乎还在继续，眼神却各自飘向不同地方。劳特累克在十九世纪九十年代的《红磨坊》中，用大胆裁切与人工灯色描绘蒙马特的社交生活；右前景那张突然靠近的面孔，更让热闹带上一点疏离。如今，金黄奶蛙的额头也掠过冷青色光影，近处绿眼睛像在问我们是否也愿意加入。有人整理帽饰，有人侧身听话，镜面把身影推得更远。夜并没有因人多而变得简单，它只是让每一位来客，都暂时拥有一种不同于白天的颜色。",
+      "sources": [
+        "https://www.artic.edu/artworks/61128/at-the-moulin-rouge",
+        "https://api.artic.edu/api/v1/artworks/61128"
+      ],
+      "art": "assets/art/ART-19-017.jpg",
+      "original": "assets/original/ART-19-017.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1343,
+        "height": 1171,
+        "bytes": 353510,
+        "sha256": "96f00f485ae3b62dbc733c79777089203dde195412ef288d2befdfb6a92351cd"
+      }
+    },
+    {
+      "id": "ART-20-002",
+      "catalog": "NMF-ART-20-002",
+      "creation_title": "奶光照见",
+      "title_en": "奶光照见",
+      "original_title": "显灵（水彩版本）",
+      "artist": "古斯塔夫·莫罗",
+      "category": "象征主义",
+      "filter": "symbolism",
+      "era_label": "象征主义",
+      "era_label_en": "Symbolism",
+      "original_date": "1876",
+      "original_location": "卢浮宫版画素描部，奥赛管理；RF2130",
+      "background": "金线与宝石铺满幽暗宫殿，奶蛙身着象牙色长袍，手捧白花，另一只手却坚定指向半空。那里浮起一枚金色面容徽像，光晕穿过柱间，把华服、权杖与静坐者都照得无处躲藏。莫罗1876年的《显灵》水彩版，将奢丽装饰和突如其来的精神震动交织；奶蛙的这一刻，也从表面的荣耀转向心里尚未说出的追问。身旁红衣侍者握稳长杖，阶下乐手的弦音仿佛停住，只有绿眼睛仍迎着光。它并不向那份光索取答案，只愿先看清自己指向的究竟是什么。宫殿可以容纳许多珍宝，却未必比一次诚实的凝望更加明亮。",
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/lapparition-203510"
+      ],
+      "art": "assets/art/ART-20-002.jpg",
+      "original": "assets/original/ART-20-002.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 957,
+        "height": 1400,
+        "bytes": 388828,
+        "sha256": "c47738c8e5c1abfee8aa48fbe7fedc8f2e36e5165c0a934c8b5390413b64b6fc"
+      }
+    },
+    {
+      "id": "ART-20-003",
+      "catalog": "NMF-ART-20-003",
+      "creation_title": "一眼入奶梦",
+      "title_en": "一眼入奶梦",
+      "original_title": "独眼巨人",
+      "artist": "奥迪隆·雷东",
+      "category": "象征主义",
+      "filter": "symbolism",
+      "era_label": "象征主义",
+      "era_label_en": "Symbolism",
+      "original_date": "约1914",
+      "original_location": "荷兰克勒勒—米勒博物馆，KM103.098",
+      "background": "花坡上的小奶蛙裹着浅色衣袍睡去，手掌垫在脸旁，周围的红、紫与青绿像尚未醒来的花。山脊后，一只巨大的金黄身影悄悄探出，那颗翠绿独眼越过岩石，把目光停在无法靠近的梦里。雷东约1914年的《独眼巨人》借波吕斐摩斯与伽拉忒亚的神话，将凝望、渴望和距离融进奇异色彩；在这里，奶蛙也拥有一份没有说出口的心事。巨大并不代表无所不能，一只眼睛看得再专注，也不能替另一个人决定梦的方向。于是它仍留在山后，安静望着，让粉灰天空和繁密花色，替这份迟疑保存一点温柔，也保存一点未知。",
+      "sources": [
+        "https://www.krollermuller.nl/nl/collectie/odilon-redon-de-cycloop-km-103-098"
+      ],
+      "art": "assets/art/ART-20-003.jpg",
+      "original": "assets/original/ART-20-003.jpg",
+      "original_note": null,
+      "art_meta": {
+        "width": 1120,
+        "height": 1400,
+        "bytes": 278656,
+        "sha256": "0a0662e898d97c98fb0693fe591732ea62709c14778875849fd71fdeb2f2fe5b"
       }
     }
   ]

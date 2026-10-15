@@ -85,43 +85,64 @@
     return btn;
   }
 
+  function pageWindow(totalPages) {
+    if (totalPages <= 9) {
+      return Array.from({ length: totalPages }, (_, i) => i + 1);
+    }
+    const pages = new Set([1, totalPages, page]);
+    for (let i = page - 1; i <= page + 1; i += 1) {
+      if (i >= 1 && i <= totalPages) pages.add(i);
+    }
+    if (page <= 3) [2, 3, 4, 5].forEach((n) => pages.add(n));
+    if (page >= totalPages - 2) {
+      [totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1].forEach((n) => {
+        if (n >= 1) pages.add(n);
+      });
+    }
+    return [...pages].sort((a, b) => a - b);
+  }
+
   function renderPager(totalPages) {
     pagerEl.innerHTML = "";
     if (totalPages <= 1) return;
+
+    const go = (nextPage) => {
+      page = nextPage;
+      renderGrid();
+      document.getElementById("collection")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
 
     const prev = document.createElement("button");
     prev.type = "button";
     prev.textContent = "上一页";
     prev.disabled = page <= 1;
-    prev.addEventListener("click", () => {
-      page -= 1;
-      renderGrid();
-      document.getElementById("collection")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
+    prev.addEventListener("click", () => go(page - 1));
     pagerEl.appendChild(prev);
 
-    for (let i = 1; i <= totalPages; i += 1) {
+    const nums = pageWindow(totalPages);
+    let cursor = 0;
+    nums.forEach((n) => {
+      if (cursor && n - cursor > 1) {
+        const gap = document.createElement("span");
+        gap.className = "pager-gap";
+        gap.textContent = "…";
+        gap.setAttribute("aria-hidden", "true");
+        pagerEl.appendChild(gap);
+      }
       const b = document.createElement("button");
       b.type = "button";
-      b.textContent = String(i);
-      if (i === page) b.setAttribute("aria-current", "page");
-      b.addEventListener("click", () => {
-        page = i;
-        renderGrid();
-        document.getElementById("collection")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
+      b.textContent = String(n);
+      if (n === page) b.setAttribute("aria-current", "page");
+      b.addEventListener("click", () => go(n));
       pagerEl.appendChild(b);
-    }
+      cursor = n;
+    });
 
     const next = document.createElement("button");
     next.type = "button";
     next.textContent = "下一页";
     next.disabled = page >= totalPages;
-    next.addEventListener("click", () => {
-      page += 1;
-      renderGrid();
-      document.getElementById("collection")?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
+    next.addEventListener("click", () => go(page + 1));
     pagerEl.appendChild(next);
   }
 

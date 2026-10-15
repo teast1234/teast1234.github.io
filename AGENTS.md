@@ -60,30 +60,77 @@
 ## 奶蛙博物馆（`museum/`）
 
 - 唯一上架源：`generated_image/04_名画创作清单/已完成档案.json`（`status=已完成`）。
-- 构建脚本：`py -3.12 museum/build_collection.py`
+- 构建脚本：`py -3.12 museum/build_collection.py`（在仓库根目录执行）
   - 压缩奶蛙成图 → `museum/assets/art/`
   - 压缩原作参考 → `museum/assets/original/`（本地 `01_参考资料`；缺图时用脚本内公版 fallback）
   - 写出 `museum/data/collection.json`
-- **登记完成 ≠ 自动上线**。新增已完成作品后，必须重跑构建脚本，再提交 `museum/assets`、`museum/data` 与页面改动。
+- **登记完成 ≠ 自动上线**。新增已完成作品后，必须重跑构建脚本，再提交构建产物并推送。
 - 不要把 `generated_image/03_艺术方向库` 整目录推上 Pages；只提交构建产物。
 - 首页博物馆入口要有视觉（作品拼贴或代表作）和 `ab` / abbuibuibui 署名，不要只丢一行枯燥简介。
 - 展厅顶栏/页脚保留 abbuibuibui 品牌；灯箱保留切图，不堆资料外链。
 - 页面能力（本期）：序言、年代筛选、分页网格、深色灯箱、奶蛙改编/原作参考切换、夜间模式。不包含鉴定所、BGM、意见箱、完整双语站。
+- 快速手册：`museum/README.md`。
+
+## 例行馆藏更新（名画持续上架）
+
+用户会持续往博物馆加新奶蛙名画。**默认只做数据/资源刷新，不动共享站点壳。**
+
+### 标准流程（只上架新完成作品时）
+
+1. 确认目标作品已在 `generated_image/04_名画创作清单/已完成档案.json` 且 `status=已完成`（由生图侧 `管理创作清单.py complete` 登记）。
+2. 尽量备好对应方向 `01_参考资料` 原作图；没有也不要手写外链，交给构建脚本 fallback。
+3. 在仓库根目录执行：`py -3.12 museum/build_collection.py`。
+4. 检查脚本输出与 `museum/data/collection.json`：件数增加；每件有 `art`；每件有可切换的 `original` 路径。
+5. **只提交**这些产物（及确有必要的博物馆页微调）：
+   - `museum/assets/art/`（新增/更新 JPEG）
+   - `museum/assets/original/`（新增/更新 JPEG）
+   - `museum/data/collection.json`
+6. 用户要求推送时再 `git push`；Pages 构建完成后强刷 `/museum/` 验收。
+
+### 例行上架时允许改
+
+- `museum/build_collection.py`（仅当构建逻辑缺图/路径/压缩有 bug）
+- `museum/assets/**`、`museum/data/collection.json`
+- `museum/index.html` / `museum/css/*` / `museum/js/*`（仅博物馆独有 UI，且改后只测博物馆）
+
+### 例行上架时禁止改（除非用户点名要改站点）
+
+- `js/site.js`、`css/site.css`（共享；一改就要做全站回归）
+- `index.html` / `en/index.html` 导航结构、模型区、像素海滩（除非要换首页入口拼贴图）
+- 整棵 `generated_image/03_艺术方向库` 进 git / Pages
+- 灯箱改成外链「来源」、删掉详情灯箱、关掉原作切换
+- 为上架去「顺手重构」分页、筛选、夜间模式
+
+### 例行上架后的最小验收
+
+不必重测整站所有历史功能，但至少：
+
+1. `/museum/` 打开，网格里能看到新作品（或总数对得上）。
+2. 点开至少 1 件新作：大图加载；「奶蛙改编 / 原作参考」可切换且原作是图不是链接。
+3. 年代筛选与分页仍可用。
+4. **若本次改动了** `site.js` / `site.css` / 首页 HTML：必须额外跑上文「改完必做回归」全表（尤其角色模型分页与竖图露脸）。若只动了 `museum/assets` + `collection.json`，可跳过模型区全测，但仍建议点一下首页「博物馆」入口能跳进展厅。
+
+### 首页入口拼贴（可选）
+
+- 馆藏大变或用户要求换门面时，可更新首页 `.museum-teaser` 用图；选择器必须落在博物馆入口模块，禁止裸 `img` 规则。
+- 改首页后仍要确认模型分页与封面比例未坏。
 
 ## 角色模型区（首页）
 
 - 分页由 `js/site.js` 的 `[data-pager]` 驱动；壳层结构是 `.shelf` > `.model-card` + `.pager`。
 - 预览图素材约为竖版 2:3；展示保持竖版露脸，桌面三列、平板两列、窄屏一列。
 - 动模型区 HTML/CSS/JS 后，按上文「改完必做回归」第 2 条验收。
+- 新增 LoRA 卡片：只加卡片与 `assets/` 预览图，不要改分页脚本逻辑；加完确认每页张数与「上一页 / 下一页」仍正常。
 
 ## 发布约定
 
 - 静态站，推 `main` 即 GitHub Pages；大资源推送后 Pages 可能需一两分钟，验收以构建完成且强刷后为准。
-- 改 CSS/JS 时同步 bump HTML 上的 `?v=` 缓存参数。
-- 提交信息用中文简述「为什么」；除非用户要求，不把 `.env`、密钥、同步凭证提交进库。
-- 用户未明确要求时不要 `git push --force`，不要改 git config。
+- 改 CSS/JS 时同步 bump 对应 HTML 上的 `?v=`（博物馆页 bump `museum/index.html`；全站 bump 根/`en` 的 HTML）。
+- 提交信息用中文简述「为什么」（例：上架新完成奶蛙名画至博物馆）；除非用户要求，不把 `.env`、密钥、同步凭证提交进库。
+- 用户未明确要求时不要 `git push --force`，不要改 git config；也**不要**在用户未要求时主动 commit。
 
 ## 相关文档
 
+- 博物馆快速手册：`museum/README.md`
 - 生图与验收：`generated_image/AGENTS.md`、`generated_image/奶蛙艺术生图Agent手册.md`
 - 角色设定：`docs/奶蛙AI视频生成手册.md`

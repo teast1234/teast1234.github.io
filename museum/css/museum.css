@@ -409,6 +409,13 @@ img {
   cursor: not-allowed;
 }
 
+.pager-gap {
+  min-width: 1.2rem;
+  text-align: center;
+  color: var(--muted);
+  user-select: none;
+}
+
 .site-foot {
   max-width: var(--page);
   margin: 0 auto;

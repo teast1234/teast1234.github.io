@@ -56,8 +56,14 @@
 
 ## 馆藏上架（博客奶蛙博物馆）
 
-- `管理创作清单.py complete` 登记完成，**不会**自动出现在博客博物馆。
-- 上架步骤：确认作品已在 `04_名画创作清单/已完成档案.json`，本地 `01_参考资料` 尽量备好原作图，然后于仓库根目录执行 `py -3.12 museum/build_collection.py`，再提交 `museum/assets`、`museum/data`（及如有的页面改动）并推送 Pages。
-- 博物馆灯箱需要可切换的原作图（构建进 `museum/assets/original/`）；缺参考图时由构建脚本 fallback，禁止用外链代替切图。
+- `管理创作清单.py complete` 登记完成，**不会**自动出现在博客博物馆。后续名画会持续上架，必须按固定流程刷新构建产物，避免顺手改共享站点文件。
+- **标准上架步骤**（详细「允许改 / 禁止改」与最小验收见根目录 `AGENTS.md`「例行馆藏更新」与 `museum/README.md`）：
+  1. 确认作品已在 `04_名画创作清单/已完成档案.json` 且 `status=已完成`。
+  2. 尽量备好对应方向 `01_参考资料` 原作图（缺图由构建脚本 fallback，禁止手写外链顶替切图）。
+  3. 仓库根目录执行：`py -3.12 museum/build_collection.py`。
+  4. 只提交 `museum/assets/art/`、`museum/assets/original/`、`museum/data/collection.json`（除非用户要求改展厅 UI）。
+  5. 用户要求后再 push；强刷 `/museum/`，点开新作确认改编/原作可切换。
+- 博物馆灯箱需要可切换的原作图（构建进 `museum/assets/original/`）；禁止用外链代替切图。
 - 不要把本目录整棵 `03_艺术方向库` 推上站点；博物馆只使用构建脚本输出的压缩 JPEG。
+- **例行上架不要改** `js/site.js`、`css/site.css`、首页模型区；那些一动就要跑根 `AGENTS.md` 全站回归（模型分页、竖图露脸等曾因此挂过）。
 - 站点侧防回归规则（导航/分页/样式隔离等）见仓库根目录 `AGENTS.md`。
